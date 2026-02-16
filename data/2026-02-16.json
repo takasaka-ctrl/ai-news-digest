@@ -1,0 +1,133 @@
+{
+  "date": "Monday, February 16, 2026",
+  "volume": "1",
+  "tickerText": "OpenClaw 2.0 released with improved agent orchestration ── Ollama adds DeepSeek-R1 support ── Claude Code now supports multi-file refactoring ── New AI funding round reaches $5.2B this week ── GitHub Copilot Chat integrates with VS Code terminal ── OpenClaw 2.0 released with improved agent orchestration",
+  "dataPanel": [
+    {
+      "label": "AI Funding (Week)",
+      "value": "$5.2B",
+      "sparkline": "▁▂▃▄█",
+      "change": "▲ 24%",
+      "changeClass": "up"
+    },
+    {
+      "label": "Models Released",
+      "value": "18",
+      "sparkline": "▁▃▄▅█",
+      "change": "▲ 6 vs last week",
+      "changeClass": "up"
+    },
+    {
+      "label": "GitHub Stars (Week)",
+      "value": "+12.4K",
+      "sparkline": "▁▂▄▆█",
+      "change": "▲ OpenClaw +8.2K",
+      "changeClass": "up"
+    },
+    {
+      "label": "X Posts Analyzed",
+      "value": "847",
+      "sparkline": "▁▂▄▅█",
+      "change": "▲ 15% activity",
+      "changeClass": "up"
+    }
+  ],
+  "hero": {
+    "category": "OpenClaw",
+    "categoryClass": "ai",
+    "headline": "Complete OpenClaw Setup Guide: From Zero to Production in 30 Minutes",
+    "deck": "A comprehensive step-by-step tutorial covering secure deployment on AWS EC2, Docker configuration, Google Workspace integration, and personalized bot memory setup. Includes critical warnings about Tailscale configuration and HTTP blocking issues.",
+    "author": "Peter Yang (@petergyang)",
+    "readTime": "12",
+    "readPercent": 75,
+    "readLabel": "Long Read",
+    "updateTime": "2 hours ago"
+  },
+  "sidebar": [
+    {
+      "category": "Ollama",
+      "categoryClass": "tech",
+      "headline": "Run AI Models Locally with Ollama + VSCode: Complete Setup in 5 Steps",
+      "summary": "Private AI coding without OpenAI API. Install Ollama, pull deepseek-coder:6.7b, configure Cline/Roo Code extension, and start coding with local models.",
+      "readTime": "5",
+      "timeAgo": "3 hours ago"
+    },
+    {
+      "category": "Claude Code",
+      "categoryClass": "ai",
+      "headline": "Effective Claude Code Workflow: Opus for Planning, Sonnet for Implementation",
+      "summary": "Battle-tested strategy from multiple developers: use Opus 4.5 for architectural decisions, then Shift+Tab to Sonnet for faster implementation.",
+      "readTime": "4",
+      "timeAgo": "5 hours ago"
+    },
+    {
+      "category": "AI Tools",
+      "categoryClass": "tech",
+      "headline": "Simon Willison Adds Function Calling to LLM CLI Tool",
+      "summary": "LLM command-line tool now supports tool calling across OpenAI, Anthropic, Gemini, and Ollama. Define tools as Python functions or bundle in plugins.",
+      "readTime": "3",
+      "timeAgo": "6 hours ago"
+    }
+  ],
+  "middle": [
+    {
+      "category": "OpenClaw",
+      "categoryClass": "ai",
+      "gradient": "linear-gradient(135deg, #2d5a27 0%, #4a8a3f 100%)",
+      "headline": "Building Mission Control: 10 AI Agents Working Together as a Real Team",
+      "summary": "Developer shares complete system architecture where specialized OpenClaw agents collaborate on complex tasks, demonstrating practical multi-agent orchestration patterns.",
+      "author": "Bhanu (@ayushtweetshere)",
+      "readTime": "7"
+    },
+    {
+      "category": "Ollama",
+      "categoryClass": "tech",
+      "gradient": "linear-gradient(135deg, #1e3a5f 0%, #3498db 100%)",
+      "headline": "Claude Code + Ollama Integration: Run Local Models in 5 Minutes",
+      "summary": "Step-by-step guide to connect Claude Code with Ollama, llama.cpp, or cheaper alternatives like Kimi, MiniMax, and OpenRouter. Includes full configuration walkthrough.",
+      "author": "Luong Nguyen (@luongnv89)",
+      "readTime": "8"
+    },
+    {
+      "category": "AI Safety",
+      "categoryClass": "research",
+      "gradient": "linear-gradient(135deg, #5b2c6f 0%, #8e44ad 100%)",
+      "headline": "OpenClaw Security Best Practices: Sandbox, Whitelist, and Audit Commands",
+      "summary": "Peter Steinberger outlines critical guardrails: enable sandbox, configure whitelist for external commands, use best prompt-injection defense models, and run security audits.",
+      "author": "Peter Steinberger (@steipete)",
+      "readTime": "5"
+    }
+  ],
+  "briefs": [
+    {
+      "headline": "DeepSeek-R1 Available on Ollama",
+      "text": "1.5B and 7B parameter models run on standard desktop PCs. Simple command: ollama run deepseek-r1"
+    },
+    {
+      "headline": "Langflow Adds Qwen 2.5 for Local Tool Calling",
+      "text": "Privacy-focused AI with local model hosting, agent setup, and tool integration via Ollama."
+    },
+    {
+      "headline": "sprites.dev Gaining Traction for OpenClaw Development",
+      "text": "Developer-friendly platform optimized for running and deploying OpenClaw instances."
+    },
+    {
+      "headline": "MCP Protocol Adoption Accelerates",
+      "text": "Anthropic's Model Context Protocol sees rapid enterprise adoption for seamless AI-tool integration."
+    }
+  ],
+  "opinions": [
+    {
+      "authorLabel": "Analysis by",
+      "author": "Josh Pigford (@Shpigford)",
+      "headline": "OpenClaw is Building Blocks: Your Brain Assembles Them",
+      "excerpt": "People keep asking \"what are you doing with it?\" but that misses the point. OpenClaw's power is flexibility. The question isn't what it does—it's what you can imagine assembling from the pieces."
+    },
+    {
+      "authorLabel": "Column by",
+      "author": "Patrick Mineault (@patrickmineault)",
+      "headline": "Claude Code for Scientists: Separate Data Processing from Visualization",
+      "excerpt": "Critical tip: use pure Python/R for data processing, keeping visualization code separate. Don't let AI write mixed processing+graphing code. This dramatically improves reliability and iteration speed."
+    }
+  ]
+}
