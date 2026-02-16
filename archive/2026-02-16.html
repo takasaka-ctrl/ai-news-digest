@@ -963,14 +963,32 @@ body {
 function toggleDarkMode() {
   document.body.classList.toggle('dark-mode');
   const isDark = document.body.classList.contains('dark-mode');
-  document.getElementById('mode-icon').textContent = isDark ? '☀️' : '🌙';
-  document.getElementById('mode-text').textContent = isDark ? 'Light' : 'Dark';
+  const iconEl = document.getElementById('mode-icon');
+  const textEl = document.getElementById('mode-text');
+  
+  if (iconEl) iconEl.textContent = isDark ? '☀️' : '🌙';
+  if (textEl) textEl.textContent = isDark ? 'Light' : 'Dark';
+  
   localStorage.setItem('darkMode', isDark);
 }
 
-// Load saved preference
-if (localStorage.getItem('darkMode') === 'true') {
-  toggleDarkMode();
+// Load saved preference on page load
+document.addEventListener('DOMContentLoaded', function() {
+  const savedMode = localStorage.getItem('darkMode');
+  if (savedMode === 'true') {
+    document.body.classList.add('dark-mode');
+    const iconEl = document.getElementById('mode-icon');
+    const textEl = document.getElementById('mode-text');
+    if (iconEl) iconEl.textContent = '☀️';
+    if (textEl) textEl.textContent = 'Light';
+  }
+});
+
+// Also check system preference
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches && !localStorage.getItem('darkMode')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    toggleDarkMode();
+  });
 }
 </script>
 </body>
