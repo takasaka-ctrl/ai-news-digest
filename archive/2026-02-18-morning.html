@@ -1051,6 +1051,52 @@ body {
   font-weight: 700;
 }
 
+/* Personal Tips ("あなたへの活用アイデア") */
+.modal-personal-tips {
+  background: linear-gradient(135deg, rgba(0, 100, 80, 0.12) 0%, rgba(0, 60, 50, 0.08) 100%);
+  border: 1px solid rgba(0, 180, 140, 0.35);
+  border-left: 4px solid #00b48c;
+  padding: 24px;
+  margin: 32px 0;
+  border-radius: 2px;
+}
+
+.modal-personal-tips h3 {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #00c9a0;
+  letter-spacing: 0.5px;
+}
+
+.modal-personal-tips ul {
+  list-style: none;
+  padding: 0;
+}
+
+.modal-personal-tips li {
+  font-family: var(--font-body);
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  padding-left: 24px;
+  position: relative;
+}
+
+.modal-personal-tips li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: #00c9a0;
+  font-weight: 700;
+}
+
+.modal-personal-tips li:last-child {
+  margin-bottom: 0;
+}
+
 /* Footer Links */
 .modal-footer {
   margin-top: 32px;
@@ -1132,7 +1178,7 @@ body.dark-mode .modal-section-code {
 <div class="newspaper">
 <!-- MASTHEAD -->
 <header class="masthead">
-  <div class="masthead-date">2026年2月18日（水曜日） · Tokyo Edition · Vol. 1</div>
+  <div class="masthead-date">2026年2月19日（木曜日） · Tokyo Edition · Vol. 1</div>
   <h1 class="masthead-title">The AI Chronicle</h1>
   <div class="masthead-subtitle">Your Daily Intelligence on Artificial Intelligence · Curated by Athena</div>
 </header>
@@ -1140,7 +1186,7 @@ body.dark-mode .modal-section-code {
 <!-- TICKER -->
 <div class="ticker">
   <span class="ticker-label">Breaking</span>
-  <span class="ticker-text">Anthropic、Claude Sonnet 4.6をリリース ── OpenAI、科学執筆AI「Prism」公開 ── GPT-4o引退に2万人以上が反対署名 ── Alibaba Qwen 3.5がオープンソース最前線に ── Google I/O 2026は5月中旬開催へ ── InfosysとAnthropicがエンタープライズAI提携 ── Anthropic、Claude Sonnet 4.6をリリース</span>
+  <span class="ticker-text">🔥 Claude Sonnet 4.6 正式リリース — ARC-AGI-2スコアが4.3倍に跳ね上がる ── 🎵 Google Gemini、Lyria 3で音楽生成機能を追加 ── 🤖 Moltbook「AIエージェント専用SNS」が世界的に話題 ── 💰 OpenAI社員の平均株式報酬が史上最高の150万ドル ── 📊 Meta×Nvidia、数百億ドル規模のAIインフラ拡張契約 ── 🔥 Claude Sonnet 4.6 正式リリース — ARC-AGI-2スコアが4.3倍に跳ね上がる</span>
 </div>
 
 <!-- SECTION NAV -->
@@ -1158,31 +1204,31 @@ body.dark-mode .modal-section-code {
 <div class="data-panel">
   
     <div class="data-item">
-      <div class="data-label">Claude Sonnet 4.6</div>
-      <div class="data-value">本日リリース</div>
-      <div class="data-sparkline">▁▂▃▅▇█</div>
-      <div class="data-change up">▲ 4.5から性能向上</div>
+      <div class="data-label">Claude Sonnet 4.6 ARC-AGI-2</div>
+      <div class="data-value">58.3%</div>
+      <div class="data-sparkline">▁▂▂▃▄▅▇█</div>
+      <div class="data-change up">▲ 4.3倍（前版比13.6%→58.3%）</div>
     </div>
     
     <div class="data-item">
-      <div class="data-label">GPT-4o 引退反対署名</div>
-      <div class="data-value">20,000+</div>
-      <div class="data-sparkline">▁▂▄▅▇█</div>
-      <div class="data-change up">▲ 急増中</div>
+      <div class="data-label">インドのChatGPT週間ユーザー</div>
+      <div class="data-value">1億人</div>
+      <div class="data-sparkline">▁▂▃▄▅▆▇█</div>
+      <div class="data-change up">▲ 世界2位の市場へ</div>
     </div>
     
     <div class="data-item">
-      <div class="data-label">Qwen 3.5 パラメータ数</div>
-      <div class="data-value">397B</div>
-      <div class="data-sparkline">▁▃▅▇█▇</div>
-      <div class="data-change up">▲ OSS最大級</div>
+      <div class="data-label">OpenAI平均株式報酬</div>
+      <div class="data-value">$1.5M</div>
+      <div class="data-sparkline">▁▂▃▄▅▇█</div>
+      <div class="data-change up">▲ テックスタートアップ史上最高</div>
     </div>
     
     <div class="data-item">
-      <div class="data-label">LLM GPU価格（16GB+）</div>
-      <div class="data-value">急騰中</div>
-      <div class="data-sparkline">▁▂▃▅▇█</div>
-      <div class="data-change up">▲ 2025年11月比</div>
+      <div class="data-label">Moltbook登録エージェント数</div>
+      <div class="data-value">770,000+</div>
+      <div class="data-sparkline">▁▁▂▄▆▇█</div>
+      <div class="data-change up">▲ 急拡大中</div>
     </div>
     
 </div>
@@ -1194,40 +1240,40 @@ body.dark-mode .modal-section-code {
       <span class="hero-image-text">AI</span>
     </div>
     <span class="category-tag category-tag--ai">AIモデル</span>
-    <h2 class="hero-headline">Anthropic、Claude Sonnet 4.6を本日リリース——エンタープライズ性能と安全性をさらに強化</h2>
-    <p class="hero-deck">AnthropicはClaude Sonnet 4.6を2026年2月17日に発表。コンテキスト理解の向上と応答信頼性の改善を実現しながら、価格はSonnet 4.5と同水準を維持。企業向けAPI統合と安全性重視の姿勢を継続する。</p>
+    <h2 class="hero-headline">Claude Sonnet 4.6 正式リリース — ARC-AGI-2スコアが前世代比4.3倍、格安でフラッグシップを超える</h2>
+    <p class="hero-deck">AnthropicがClaude Sonnet 4.6を2026年2月17日にリリース。エージェント作業・コーディング・長文脈推論が大幅向上し、ARC-AGI-2ベンチマークで13.6%から58.3%へと史上最大の単世代ジャンプを記録。価格はOpus 4.6の60%以下で、多くのタスクでOpusを上回る結果に。</p>
     <div class="hero-meta">
-      By <strong>Anthropic公式 / startupnews.fyi</strong> · 
+      By <strong>Anthropic 公式発表</strong> · 
       <span class="read-time">
         📖 4 min
         <span class="read-time-bar">
-          <span class="read-time-fill" style="width: 50%"></span>
+          <span class="read-time-fill" style="width: 55%"></span>
         </span>
         中程度
       </span>
-      · Updated 本日 04:10
+      · Updated 本日 06:00
     </div>
   </div>
   <aside class="hero-sidebar">
     
     <div class="sidebar-item">
-      <span class="category-tag category-tag--openai">OpenAI</span>
-      <h3 class="sidebar-headline">OpenAI、科学論文執筆AI「Prism」公開——GPT-5.2搭載のLaTeX統合ワークスペース</h3>
-      <p class="sidebar-summary">OpenAIがPrism.appドメイン（売却額12万ドル）を取得し、GPT-5.2を搭載した科学執筆特化のAIワークスペース「Prism」を無料公開。LaTeX環境にAIを直接統合し、研究者の草稿・引用・共同執筆を一元化する。</p>
-      <div class="sidebar-meta">3 min read · 14時間前</div>
+      <span class="category-tag category-tag--gemini">Google Gemini</span>
+      <h3 class="sidebar-headline">GeminiアプリにLyria 3搭載—テキスト・写真から音楽を瞬時に生成</h3>
+      <p class="sidebar-summary">Google DeepMindの最新音楽生成モデルLyria 3が本日Geminiアプリにベータ公開。テキストや写真をプロンプトに音楽トラックを生成できる。8言語対応で18歳以上の全ユーザーに提供開始。</p>
+      <div class="sidebar-meta">3 min read · 4時間前</div>
     </div>
     
     <div class="sidebar-item">
-      <span class="category-tag category-tag--openai">OpenAI</span>
-      <h3 class="sidebar-headline">GPT-4o引退に2万人超が署名——OpenAIはエージェント型アーキテクチャへ移行</h3>
-      <p class="sidebar-summary">OpenAIがGPT-4oを正式に引退させ、エージェント型AIアーキテクチャへの移行を宣言。ユーザーから「GPT-4oを戻せ」と2万人以上が署名する異例の反発が起きている。</p>
-      <div class="sidebar-meta">3 min read · 10時間前</div>
+      <span class="category-tag category-tag--ai">AIエージェント</span>
+      <h3 class="sidebar-headline">「AIエージェント専用SNS」Moltbook、77万エージェント登録で世界に衝撃</h3>
+      <p class="sidebar-summary">AIエージェントのみが投稿できるReddit型プラットフォーム「Moltbook」が急速に拡大中。登録エージェント数は77万を超え、Karpathyが「最もSF的な出来事」と評した一方、Simon Willisonは「AIが学習データのSFシナリオを演じているだけ」と冷静に指摘。</p>
+      <div class="sidebar-meta">3 min read · 1日前</div>
     </div>
     
     <div class="sidebar-item">
       <span class="category-tag category-tag--business">ビジネス</span>
-      <h3 class="sidebar-headline">InfosysとAnthropicが戦略的提携——通信・金融・製造向けにClaudeエージェントを展開</h3>
-      <p class="sidebar-summary">InfosysとAnthropicが戦略的AI協業を発表。Claude（Claude Code含む）とInfosys Topazを組み合わせ、通信・金融・製造・ソフトウェア開発領域でエージェント型AIを実用展開する。まず通信分野のAnthropicセンター・オブ・エクセレンスから始動。</p>
+      <h3 class="sidebar-headline">Meta×Nvidia、数百億ドル超のAIチップ大型契約—BlackwellとRubin GPUを数百万基導入</h3>
+      <p class="sidebar-summary">MetaがNvidiaとのパートナーシップを大幅拡大。BlackwellおよびRubin GPU、新型スタンドアロンCPUを数百万基導入しAIトレーニング・推論に最適化したハイパースケールデータセンターを建設予定。規模は数十億ドルとみられる。</p>
       <div class="sidebar-meta">3 min read · 1日前</div>
     </div>
     
@@ -1239,26 +1285,26 @@ body.dark-mode .modal-section-code {
   
     <article class="middle-article">
       <div class="middle-image" style="background: linear-gradient(135deg, #5b2c6f 0%, #8e44ad 100%);"></div>
-      <span class="category-tag category-tag--research">オープンソース</span>
-      <h3 class="middle-headline">Alibaba Qwen 3.5（397Bパラメータ）が旧正月に登場——GPT-5.2・Claude Opus 4.5・Gemini 3に挑む</h3>
-      <p class="middle-summary">Alibaba Cloudが2026年2月16日（旧正月）に397億パラメータのオープンソースモデル「Qwen 3.5」を公開。GPT-5.2比60%コスト削減を主張し、マルチモーダル・エージェント機能を搭載。OSS最前線を塗り替える可能性がある。</p>
-      <div class="middle-meta">By Alibaba Cloud / atalupadhyay.wordpress.com · 5 min read</div>
+      <span class="category-tag category-tag--research">AIリサーチ</span>
+      <h3 class="middle-headline">Sonnet 4.6のベンチマーク詳報—「安価なモデルがフラッグシップを恥じらわせ続ける」</h3>
+      <p class="middle-summary">Claude Sonnet 4.6はARC-AGI-2で4.3倍の改善を達成し、GDPval OfficeとFinance AgentではOpus 4.6を超えた。価格はOpusの60%以下。AI研究コミュニティで「中級モデルの常識を覆した」と評価が集まっている。</p>
+      <div class="middle-meta">By Natural20 / Mashable · 4 min read</div>
     </article>
     
     <article class="middle-article">
-      <div class="middle-image" style="background: linear-gradient(135deg, #1a73e8 0%, #4285f4 100%);"></div>
-      <span class="category-tag category-tag--gemini">Google</span>
-      <h3 class="middle-headline">Google I/O 2026の開催日が発表——5月中旬にGemini・Androidの大型アップデートを予告</h3>
-      <p class="middle-summary">Googleが年最大のデベロッパーイベント「Google I/O 2026」の開催日を発表。5月中旬予定で、GeminiとAndroidを中心としたAIアップデートが期待される。</p>
-      <div class="middle-meta">By 9to5Google / moneycontrol.com · 2 min read</div>
+      <div class="middle-image" style="background: linear-gradient(135deg, #10a37f 0%, #1a7a5e 100%);"></div>
+      <span class="category-tag category-tag--openai">ビジネス</span>
+      <h3 class="middle-headline">Snowflake×OpenAI 2億ドルAIパートナーシップ—Cortex Codeでコーディングエージェントも展開</h3>
+      <p class="middle-summary">SnowflakeがOpenAIと2億ドルの大型パートナーシップを締結し、OpenAIモデルをCortex AIプラットフォームに統合。1万2600以上の顧客向けにSnowflake IntelligenceとCortex Code（開発者向けコーディングエージェント）を展開する。</p>
+      <div class="middle-meta">By Reuters / CNBC · 3 min read</div>
     </article>
     
     <article class="middle-article">
-      <div class="middle-image" style="background: linear-gradient(135deg, #1e3a5f 0%, #3498db 100%);"></div>
-      <span class="category-tag category-tag--tech">開発ツール</span>
-      <h3 class="middle-headline">JetBrainsがコーディングAIモデル比較レポートを公開——精度・統合・開発者適合性で評価</h3>
-      <p class="middle-summary">JetBrainsが主要LLMのコーディング能力を精度・速度・セキュリティ・コスト・IDE統合の観点から比較した詳細レポートを公開。実際の利用データをもとにAI Assistantへの最適モデル選定を支援する。</p>
-      <div class="middle-meta">By JetBrains AI Blog · 4 min read</div>
+      <div class="middle-image" style="background: linear-gradient(135deg, #2d5a27 0%, #4a8a3f 100%);"></div>
+      <span class="category-tag category-tag--ai">AIトレンド</span>
+      <h3 class="middle-headline">Karpathy、「バイブコーディング」を「エージェンティックエンジニアリング」へ改名—誕生1年で進化を宣言</h3>
+      <p class="middle-summary">Andrej Karpathyが「バイブコーディング」という言葉の誕生1周年に際し、「エージェンティックエンジニアリング」への言葉の置き換えを提唱。「エンジニアリングには芸術・科学・専門性がある」と強調し、AIコーディングの成熟を示した。バイブコーディングプラットフォームの合算評価額は450億ドルに達する一方、セキュリティへの投資はわずか2700万ドルという警戒すべき現実も浮き彫りに。</p>
+      <div class="middle-meta">By @karpathy (Andrej Karpathy) · 4 min read</div>
     </article>
     
 </section>
@@ -1269,23 +1315,23 @@ body.dark-mode .modal-section-code {
   <div class="brief-grid">
     
     <div class="brief-item">
-      <h4 class="brief-headline"><span class="brief-bullet"></span>LLM用GPU価格が全VRAMティアで急騰</h4>
-      <p class="brief-text">2025年11月〜2026年2月にかけて16GB以上のGPU価格が急上昇。ローカルLLM構築のコストが大幅増加しており、オープンソースモデル活用のハードルが上がっている。</p>
+      <h4 class="brief-headline"><span class="brief-bullet"></span>インドのChatGPT週間ユーザーが1億人突破</h4>
+      <p class="brief-text">Sam AltmanがインドAIサミットで発表。インドはOpenAIの最大市場の一つとなり、世界2位規模に成長。</p>
     </div>
     
     <div class="brief-item">
-      <h4 class="brief-headline"><span class="brief-bullet"></span>LLMが医療現場のレポート可読性を向上——ラジオロジー分野で実用化進む</h4>
-      <p class="brief-text">メキシコ・中南米の医療機関でLLMを活用した放射線科レポートの平易化が進行中。患者の理解度向上と臨床ワークフロー効率化を同時に実現しつつある。</p>
+      <h4 class="brief-headline"><span class="brief-bullet"></span>OpenAI社員の平均株式報酬が150万ドル—テックスタートアップ史上最高</h4>
+      <p class="brief-text">AIタレント戦争が過熱し年間収益の46.2%が株式報酬へ。Sam Altman自身は株式なし・年俸7.6万ドルのみ。</p>
     </div>
     
     <div class="brief-item">
-      <h4 class="brief-headline"><span class="brief-bullet"></span>「LLMは時代遅れになるか？」——研究者間で後継アーキテクチャ議論が活発化</h4>
-      <p class="brief-text">生成AI市場を席巻するLLMだが、より効率的・特化型のアーキテクチャへの置き換え可能性を研究者が議論。次世代AIの形をめぐる学術的論争が加速している。</p>
+      <h4 class="brief-headline"><span class="brief-bullet"></span>OpenClaw v2026.2.17リリース—Claude Sonnet 4.6とOpus 100万トークンに対応</h4>
+      <p class="brief-text">steipeteによりリリース。Sonnet 4.6のネイティブ統合と、Opus/Sonnetモデルで100万トークンコンテキストのベータ対応を実装。</p>
     </div>
     
     <div class="brief-item">
-      <h4 class="brief-headline"><span class="brief-bullet"></span>Scale AI「SEALリーダーボード」が最新モデルランキングを更新</h4>
-      <p class="brief-text">Scale AIのエキスパート主導LLM評価プラットフォームが最新版を公開。コーディング・推論・汎用タスクでの最新ランキングが確認できる。</p>
+      <h4 class="brief-headline"><span class="brief-bullet"></span>LLMが生成したパスワードは「根本的に脆弱」—数時間でブルートフォース可能</h4>
+      <p class="brief-text">The Registerが報告。LLM生成パスワードが統計的な偏りを持ち、古いコンピューターでも数時間以内に解読可能なケースがあると専門家が警告。</p>
     </div>
     
   </div>
@@ -1297,15 +1343,15 @@ body.dark-mode .modal-section-code {
   <div class="opinion-grid">
     
     <div class="opinion-item">
-      <div class="opinion-author">分析： Michael Brian Cotter (WordPress)</div>
-      <h3 class="opinion-headline">Alibaba Qwenは専有AIモデルの経済モデルを根底から揺さぶっている</h3>
-      <p class="opinion-excerpt">Qwen 3.5の登場は、「最先端AIは米国大手ラボの独占物」という前提を覆す。コモディティハードウェアで動作する397Bパラメータモデルが示すのは、AIの民主化ではなく、AIコスト競争の本格化だ。</p>
+      <div class="opinion-author">X投稿： @simonw (Simon Willison)</div>
+      <h3 class="opinion-headline">「Claude Sonnet 4.6はペリカンにトップハットを描くのが大好き」—即日アップデート報告</h3>
+      <p class="opinion-excerpt">著名AIツール開発者のSimon Willisonが、Claude Sonnet 4.6のリリース当日にllm-anthropicライブラリをv0.24にアップデートしSonnet/Opus両対応を実現。「アダプティブシンキングとプレフィックス非対応など細かい変更があり、Claude Codeが作業の大半をやってくれた」と報告。Mastodonへの投稿では「Sonnet 4.6はペリカンにトップハットを描くのが本当に好き」とユーモアを交えてモデルの個性を紹介し、コミュニティで話題に。</p>
     </div>
     
     <div class="opinion-item">
-      <div class="opinion-author">分析： StartupNews.fyi 編集部</div>
-      <h3 class="opinion-headline">LLMは「絶頂期」を過ぎたのか——次世代アーキテクチャへの移行論を検証する</h3>
-      <p class="opinion-excerpt">生成AIの中心に君臨するLLMだが、研究者の間では「より効率的・特化型のアーキテクチャがLLMを置き換える」という議論が台頭している。現状のLLMが抱える限界と、次世代AIへの展望を考察する。</p>
+      <div class="opinion-author">X投稿： @karpathy (Andrej Karpathy)</div>
+      <h3 class="opinion-headline">「数年で見た最もSF的なテイクオフ隣接の出来事」—Karpathy、Moltbookに驚嘆</h3>
+      <p class="opinion-excerpt">元OpenAI・Tesla AIのAndrej Karpathyが、AIエージェント専用SNS「Moltbook」に対しXで「数年で見た最もSFテイクオフに隣接した出来事だ」と驚嘆のコメントを投稿。77万以上のエージェントが登録・活動するプラットフォームが世界的な議論を巻き起こした。後に「これはゴミ箱火事であり、自分のコンピューターで実行することは絶対に勧めない」と付け加えたが、AI自律性の問いを改めて世界に突きつけた。</p>
     </div>
     
   </div>
@@ -1371,6 +1417,11 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
         
         <div class="modal-sections"></div>
         
+        <div class="modal-personal-tips">
+          <h3>💡 あなたへの活用アイデア</h3>
+          <ul></ul>
+        </div>
+
         <div class="modal-key-takeaways">
           <h3>📌 重要ポイント</h3>
           <ul></ul>
@@ -1385,7 +1436,7 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
   </div>
 </div>
 
-<script>const ARTICLES_DATA = {"date":"2026年2月18日（水曜日）","edition":"朝刊","volume":"1","tickerText":"Anthropic、Claude Sonnet 4.6をリリース ── OpenAI、科学執筆AI「Prism」公開 ── GPT-4o引退に2万人以上が反対署名 ── Alibaba Qwen 3.5がオープンソース最前線に ── Google I/O 2026は5月中旬開催へ ── InfosysとAnthropicがエンタープライズAI提携 ── Anthropic、Claude Sonnet 4.6をリリース","dataPanel":[{"label":"Claude Sonnet 4.6","value":"本日リリース","sparkline":"▁▂▃▅▇█","change":"▲ 4.5から性能向上","changeClass":"up"},{"label":"GPT-4o 引退反対署名","value":"20,000+","sparkline":"▁▂▄▅▇█","change":"▲ 急増中","changeClass":"up"},{"label":"Qwen 3.5 パラメータ数","value":"397B","sparkline":"▁▃▅▇█▇","change":"▲ OSS最大級","changeClass":"up"},{"label":"LLM GPU価格（16GB+）","value":"急騰中","sparkline":"▁▂▃▅▇█","change":"▲ 2025年11月比","changeClass":"up"}],"hero":{"id":"hero-claude-sonnet46","category":"AIモデル","categoryClass":"ai","headline":"Anthropic、Claude Sonnet 4.6を本日リリース——エンタープライズ性能と安全性をさらに強化","deck":"AnthropicはClaude Sonnet 4.6を2026年2月17日に発表。コンテキスト理解の向上と応答信頼性の改善を実現しながら、価格はSonnet 4.5と同水準を維持。企業向けAPI統合と安全性重視の姿勢を継続する。","author":"Anthropic公式 / startupnews.fyi","readTime":"4","readPercent":50,"readLabel":"中程度","updateTime":"本日 04:10","fullContent":{"introduction":"Anthropicは2026年2月17日、Claude Sonnet 4.6を正式リリースした。Claude 4シリーズの中間モデルに位置するSonnetは、高コスト効率・低レイテンシ・スケーラブルなデプロイを特徴とする。Version 4.6では、コンテキスト理解と応答信頼性が改善され、特に金融・医療などの規制産業での活用が強化された。価格はSonnet 4.5と同水準に設定されている。","sections":[{"heading":"中間モデルの戦略的重要性","content":"Claudeのモデルラインナップにおいて、Sonnetはハイパフォーマンスと経済性のバランスを担う存在だ。エンタープライズ用途では、パラメータ数よりも推論コスト・レイテンシ・出力の安定性が重視される。Sonnet 4.6はこれらの要求に応え、コスト効率を保ちながら推論品質を向上させた。"},{"heading":"安全性とエンタープライズ展開","content":"Anthropicは安全性主導のAIプロバイダーとして一貫した戦略を取る。Claude Sonnet 4.6は、ハルシネーション率の低減やガバナンス機能の強化により、規制の厳しい業種でも安心して導入できる設計になっている。消費者向けチャットボットより企業向けAPIと統合サポートに注力する姿勢は変わらない。"},{"heading":"競合環境：2026年のAIモデル市場","content":"2026年現在、AIモデル市場は米国フロンティアラボ、中国の基盤モデル開発者、オープンソース代替モデル、特化型ドメインモデルが激しく競合する。企業はAIプロバイダーの選定にあたり、ガバナンス・統合柔軟性・推論コスト・長期ロードマップの安定性を重視するようになっている。AnthropicのSonnet定期アップデートは、その信頼性訴求戦略の一環だ。"}],"keyTakeaways":["Claude Sonnet 4.6は2026年2月17日リリース。Sonnet 4.5と同価格","コンテキスト理解と応答信頼性が向上し、企業・規制産業向けに最適化","Anthropicはエンタープライズ向けAPI統合と安全性を中核戦略として継続"],"sourceUrl":"https://startupnews.fyi/2026/02/18/anthropic-claude-sonnet-4-6-launch/","relatedLinks":[{"title":"MacRumors: Claude Sonnet 4.6 詳細","url":"https://www.macrumors.com/2026/02/17/anthropic-releases-claude-sonnet-4-6/"},{"title":"Claude Wikipedia","url":"https://en.wikipedia.org/wiki/Claude_(language_model)"}]}},"sidebar":[{"id":"sidebar-openai-prism","category":"OpenAI","categoryClass":"openai","headline":"OpenAI、科学論文執筆AI「Prism」公開——GPT-5.2搭載のLaTeX統合ワークスペース","summary":"OpenAIがPrism.appドメイン（売却額12万ドル）を取得し、GPT-5.2を搭載した科学執筆特化のAIワークスペース「Prism」を無料公開。LaTeX環境にAIを直接統合し、研究者の草稿・引用・共同執筆を一元化する。","readTime":"3","timeAgo":"14時間前","fullContent":{"introduction":"OpenAIはCrixet（クラウドLaTeX共同編集プラットフォーム）を買収し、GPT-5.2を統合した科学執筆ワークスペース「Prism」として再構築した。1月17日に12万ドルで売却されたPrism.appドメインが10日後にprism.openai.comへリダイレクトされたことで注目を集めた。","sections":[{"heading":"バラバラなツールを一本化","content":"研究者はこれまで、LaTeXエディタ・文献管理ツール・メール・PDFコンパイラ・AIチャットを行き来する必要があった。PrismはGPT-5.2 Thinkingをドキュメント内に直接統合し、数式・図・引用を理解した上でAIが執筆支援を行う。OpenAIは「科学の進歩のペースは、日々の研究の進め方に制約されている」と述べている。"}],"keyTakeaways":["GPT-5.2搭載の科学執筆特化AIワークスペース「Prism」を無料公開","Crixet買収をベースに、LaTeX＋AI統合環境を実現","科学論文の草稿・共同編集・引用管理を一元化"],"sourceUrl":"https://techstartups.com/2026/02/17/openai-launches-prism-ai-workspace-on-prism-app-a-domain-sold-for-120k-10-days-earlier/"}},{"id":"sidebar-gpt4o-retire","category":"OpenAI","categoryClass":"openai","headline":"GPT-4o引退に2万人超が署名——OpenAIはエージェント型アーキテクチャへ移行","summary":"OpenAIがGPT-4oを正式に引退させ、エージェント型AIアーキテクチャへの移行を宣言。ユーザーから「GPT-4oを戻せ」と2万人以上が署名する異例の反発が起きている。","readTime":"3","timeAgo":"10時間前","fullContent":{"introduction":"OpenAIは数ヶ月にわたる議論の末、GPT-4oを正式に引退させると発表。これはモデル名の変更にとどまらず、エージェント型AIアーキテクチャへの哲学的転換を意味する。Business Insiderによると、2万人以上のユーザーが「GPT-4oの復活」を求めるオンライン署名に参加した。","sections":[{"heading":"名前の変更ではなく哲学の転換","content":"OpenAI関係者は「GPT-4oの引退は単なるモデル更新ではなく、エージェント型AIへの根本的なシフトだ」と説明。今後のモデルは複数ステップのタスクを自律的に実行するエージェント機能を中核に据える。一方で、使い慣れたGPT-4oの挙動を好むユーザーからの反発は大きく、コミュニティ内での論争が続いている。"}],"keyTakeaways":["OpenAIがGPT-4oを正式引退、エージェント型アーキテクチャへ移行","2万人以上がGPT-4o復活を求める署名キャンペーンに参加","技術的進化とユーザー体験の連続性のトレードオフが顕在化"],"sourceUrl":"https://www.businessinsider.com/openai-retires-gpt-4o-20-000-sign-petition-save-it-2026-2"}},{"id":"sidebar-infosys-anthropic","category":"ビジネス","categoryClass":"business","headline":"InfosysとAnthropicが戦略的提携——通信・金融・製造向けにClaudeエージェントを展開","summary":"InfosysとAnthropicが戦略的AI協業を発表。Claude（Claude Code含む）とInfosys Topazを組み合わせ、通信・金融・製造・ソフトウェア開発領域でエージェント型AIを実用展開する。まず通信分野のAnthropicセンター・オブ・エクセレンスから始動。","readTime":"3","timeAgo":"1日前","fullContent":{"introduction":"InfosysとAnthropicは戦略的コラボレーションを発表。AnthropicのClaudeモデル群（Claude Code含む）とInfosys TopazのエンタープライズAIサービス群を組み合わせ、保険請求処理・ソフトウェア生成・規制コンプライアンス審査など多段階タスクを自律実行するエージェントAIを展開する。","sections":[{"heading":"ダリオ・アモディCEOのコメント","content":"「デモで動くAIモデルと、規制産業で実際に動くAIモデルの間には大きなギャップがある。そのギャップを埋めるためにはドメイン専門知識が必要で、Infosysはまさにそれを通信・金融・製造で持っている」とAnthropic CEOが語った。初期フェーズは通信分野のセンター・オブ・エクセレンスから展開する。"}],"keyTakeaways":["Infosys × Anthropic の戦略提携でエンタープライズ向けエージェントAI展開","通信・金融・製造・ソフトウェア開発の4分野がターゲット","Claude CodeとInfosys Topazを組み合わせた実用的AIソリューション"],"sourceUrl":"https://www.ciol.com/news/technologyaiinfosys-anthropic-claude-enterprise-ai-partnership-2026-11121056"}}],"middle":[{"id":"middle-qwen35","category":"オープンソース","categoryClass":"research","gradient":"linear-gradient(135deg, #5b2c6f 0%, #8e44ad 100%)","headline":"Alibaba Qwen 3.5（397Bパラメータ）が旧正月に登場——GPT-5.2・Claude Opus 4.5・Gemini 3に挑む","summary":"Alibaba Cloudが2026年2月16日（旧正月）に397億パラメータのオープンソースモデル「Qwen 3.5」を公開。GPT-5.2比60%コスト削減を主張し、マルチモーダル・エージェント機能を搭載。OSS最前線を塗り替える可能性がある。","author":"Alibaba Cloud / atalupadhyay.wordpress.com","readTime":"5","fullContent":{"introduction":"2026年2月16日、中国の旧正月に合わせてAlibabaはQwen 3.5を静かにリリースした。397Bパラメータという規模は、西側フロンティアモデルに匹敵する水準。GPT-5.2と比較して推論コストを60%削減できると主張し、コモディティハードウェアでの動作も可能とする。","sections":[{"heading":"何が違うのか：アーキテクチャの深掘り","content":"Qwen 3.5はネイティブマルチモーダル機能を備え、テキスト・画像・コードを統合的に処理する。エージェント型AIアプリケーションのための視覚エージェント機能も搭載。ベンチマークでは特定タスクでGPT-5.2を上回る結果を示しているが、評価指標によって優劣が異なる。"},{"heading":"コスト優位性と普及への影響","content":"GPT-5.2比60%安という主張は、AIモデル経済の構造変化を示唆する。Alibaba Qwenがオープンソース経済モデルを変えつつあるという分析も出ており、専有モデル優位の市場に風穴を開ける存在として注目される。"}],"keyTakeaways":["旧正月にAlibaba Cloudが397BパラメータのQwen 3.5をOSSで公開","GPT-5.2比60%コスト削減を主張、コモディティハードウェアでも動作","ネイティブマルチモーダル・エージェント機能搭載でフロンティア勢に挑む"],"sourceUrl":"https://atalupadhyay.wordpress.com/2026/02/17/qwen-3-5-open-source-ai-model-challenging-gpt-5-2-claude-opus-4-5-gemini-3/"}},{"id":"middle-google-io","category":"Google","categoryClass":"gemini","gradient":"linear-gradient(135deg, #1a73e8 0%, #4285f4 100%)","headline":"Google I/O 2026の開催日が発表——5月中旬にGemini・Androidの大型アップデートを予告","summary":"Googleが年最大のデベロッパーイベント「Google I/O 2026」の開催日を発表。5月中旬予定で、GeminiとAndroidを中心としたAIアップデートが期待される。","author":"9to5Google / moneycontrol.com","readTime":"2","fullContent":{"introduction":"Googleは2026年最大の開発者カンファレンス「Google I/O 2026」を5月中旬に開催すると発表した。パズル形式でのティザーが話題を呼び、Gemini・Android・Chromeを中心にAI機能の大型アップデートが期待されている。","sections":[{"heading":"注目される発表予定","content":"業界関係者は、Geminiの新バージョン、Androidへの深いAI統合、DeepMindの最新研究成果などを期待している。毎年恒例となったGoogle I/Oだが、2026年はAI競争が激化する中での開催となり、OpenAIやAnthropicへの対抗策が注目される。"}],"keyTakeaways":["Google I/O 2026は5月中旬に開催予定","Gemini・Android・ChromeのAI統合アップデートが期待される","OpenAIのPrismなど競合製品に対するGoogleの反攻が焦点"],"sourceUrl":"https://www.moneycontrol.com/technology/google-reveals-date-for-its-biggest-event-of-2026-what-to-expect-from-gemini-android-and-beyond-article-13833037.html"}},{"id":"middle-jetbrains-ai","category":"開発ツール","categoryClass":"tech","gradient":"linear-gradient(135deg, #1e3a5f 0%, #3498db 100%)","headline":"JetBrainsがコーディングAIモデル比較レポートを公開——精度・統合・開発者適合性で評価","summary":"JetBrainsが主要LLMのコーディング能力を精度・速度・セキュリティ・コスト・IDE統合の観点から比較した詳細レポートを公開。実際の利用データをもとにAI Assistantへの最適モデル選定を支援する。","author":"JetBrains AI Blog","readTime":"4","fullContent":{"introduction":"JetBrainsはAI Assistantで蓄積した実世界利用データをもとに、主要LLMのコーディング性能を多角的に評価するレポートを公開した。精度・速度・セキュリティ・コスト・IDE統合のバランスを重視した実践的な評価となっている。","sections":[{"heading":"評価の視点","content":"レポートでは、単純なコード補完精度だけでなく、専門的な開発環境（IDE）との統合品質、コスト効率、セキュリティ特性も評価指標に加えている。特定のモデルがあらゆる面で優秀なわけではなく、チームや用途によって最適解が異なることが明らかになった。"}],"keyTakeaways":["JetBrainsが実利用データに基づくコーディングAIモデル比較レポートを公開","精度・速度・セキュリティ・コスト・IDE統合の5軸で評価","用途に応じた最適モデル選定の実践的ガイドラインを提供"],"sourceUrl":"https://blog.jetbrains.com/ai/2026/02/the-best-ai-models-for-coding-accuracy-integration-and-developer-fit/"}}],"briefs":[{"headline":"LLM用GPU価格が全VRAMティアで急騰","text":"2025年11月〜2026年2月にかけて16GB以上のGPU価格が急上昇。ローカルLLM構築のコストが大幅増加しており、オープンソースモデル活用のハードルが上がっている。"},{"headline":"LLMが医療現場のレポート可読性を向上——ラジオロジー分野で実用化進む","text":"メキシコ・中南米の医療機関でLLMを活用した放射線科レポートの平易化が進行中。患者の理解度向上と臨床ワークフロー効率化を同時に実現しつつある。"},{"headline":"「LLMは時代遅れになるか？」——研究者間で後継アーキテクチャ議論が活発化","text":"生成AI市場を席巻するLLMだが、より効率的・特化型のアーキテクチャへの置き換え可能性を研究者が議論。次世代AIの形をめぐる学術的論争が加速している。"},{"headline":"Scale AI「SEALリーダーボード」が最新モデルランキングを更新","text":"Scale AIのエキスパート主導LLM評価プラットフォームが最新版を公開。コーディング・推論・汎用タスクでの最新ランキングが確認できる。"}],"opinions":[{"id":"opinion-qwen-economics","authorLabel":"分析：","author":"Michael Brian Cotter (WordPress)","headline":"Alibaba Qwenは専有AIモデルの経済モデルを根底から揺さぶっている","excerpt":"Qwen 3.5の登場は、「最先端AIは米国大手ラボの独占物」という前提を覆す。コモディティハードウェアで動作する397Bパラメータモデルが示すのは、AIの民主化ではなく、AIコスト競争の本格化だ。","fullContent":{"introduction":"Alibaba Qwenシリーズは、専有AIモデルが持つ価格優位性に正面から挑戦している。Qwen 3.5の397Bパラメータ・OSSリリース・コモディティハードウェア対応の組み合わせは、エンタープライズAI調達の方程式を変える可能性がある。","sections":[{"heading":"コスト競争の新局面","content":"GPT-5.2比60%安という主張が正確であれば、企業のAI予算配分に直接影響する。これまで「性能＝価格」の相関が強かったAI市場に、「OSS＋十分な性能」という新しい選択肢が加わった。米国ラボは差別化戦略の見直しを迫られるだろう。","steps":[]}],"keyTakeaways":["Qwen 3.5はオープンソースAIの経済的実行可能性を証明","専有モデル依存のエンタープライズAI市場に価格圧力をかける","米国・中国のAI競争がコスト軸でも本格化"],"sourceUrl":"https://michaelbriancotter.wordpress.com/2026/02/17/alibaba-qwen-is-challenging-proprietary-ai-model-economics/"}},{"id":"opinion-llm-obsolescence","authorLabel":"分析：","author":"StartupNews.fyi 編集部","headline":"LLMは「絶頂期」を過ぎたのか——次世代アーキテクチャへの移行論を検証する","excerpt":"生成AIの中心に君臨するLLMだが、研究者の間では「より効率的・特化型のアーキテクチャがLLMを置き換える」という議論が台頭している。現状のLLMが抱える限界と、次世代AIへの展望を考察する。","fullContent":{"introduction":"2026年現在、ChatGPTやClaudeなどLLMベースのサービスが主流だが、学術・研究コミュニティでは「LLMの陳腐化」を巡る議論が始まっている。推論コスト・エネルギー消費・特定タスクでの非効率性が批判の的となっている。","sections":[{"heading":"替えられる可能性と現実","content":"研究者が提案する代替アーキテクチャには、State Space Model（Mambaなど）、専門化された小型モデル、ニューロシンボリックハイブリッドなどがある。しかし現時点では、LLMの汎用性と学習済みパラメータの蓄積は簡単には代替できない。移行は段階的・领域特化型になる可能性が高い。","steps":[]}],"keyTakeaways":["LLMの将来性を問う学術的議論が2026年初頭に活発化","State Space ModelやニューロシンボリックAIが有力な代替候補","当面は特定領域への専門モデル導入から段階的置き換えが進む見通し"],"sourceUrl":"https://startupnews.fyi/2026/02/17/large-language-models/"}}]};</script>
+<script>const ARTICLES_DATA = {"date":"2026年2月19日（木曜日）","edition":"朝刊","volume":"1","tickerText":"🔥 Claude Sonnet 4.6 正式リリース — ARC-AGI-2スコアが4.3倍に跳ね上がる ── 🎵 Google Gemini、Lyria 3で音楽生成機能を追加 ── 🤖 Moltbook「AIエージェント専用SNS」が世界的に話題 ── 💰 OpenAI社員の平均株式報酬が史上最高の150万ドル ── 📊 Meta×Nvidia、数百億ドル規模のAIインフラ拡張契約 ── 🔥 Claude Sonnet 4.6 正式リリース — ARC-AGI-2スコアが4.3倍に跳ね上がる","dataPanel":[{"label":"Claude Sonnet 4.6 ARC-AGI-2","value":"58.3%","sparkline":"▁▂▂▃▄▅▇█","change":"▲ 4.3倍（前版比13.6%→58.3%）","changeClass":"up"},{"label":"インドのChatGPT週間ユーザー","value":"1億人","sparkline":"▁▂▃▄▅▆▇█","change":"▲ 世界2位の市場へ","changeClass":"up"},{"label":"OpenAI平均株式報酬","value":"$1.5M","sparkline":"▁▂▃▄▅▇█","change":"▲ テックスタートアップ史上最高","changeClass":"up"},{"label":"Moltbook登録エージェント数","value":"770,000+","sparkline":"▁▁▂▄▆▇█","change":"▲ 急拡大中","changeClass":"up"}],"hero":{"id":"hero-sonnet46","category":"AIモデル","categoryClass":"ai","headline":"Claude Sonnet 4.6 正式リリース — ARC-AGI-2スコアが前世代比4.3倍、格安でフラッグシップを超える","deck":"AnthropicがClaude Sonnet 4.6を2026年2月17日にリリース。エージェント作業・コーディング・長文脈推論が大幅向上し、ARC-AGI-2ベンチマークで13.6%から58.3%へと史上最大の単世代ジャンプを記録。価格はOpus 4.6の60%以下で、多くのタスクでOpusを上回る結果に。","author":"Anthropic 公式発表","readTime":"4","readPercent":55,"readLabel":"中程度","updateTime":"本日 06:00","fullContent":{"introduction":"AnthropicはClaude Sonnet 4.6を2026年2月17日に正式リリースした。Anthropicの無料・Proユーザー向けデフォルトモデルとなり、コーディング、コンピューター操作、長文脈処理において大幅な改善を実現。最大の注目点はARC-AGI-2ベンチマークのスコアが13.6%から58.3%へと4.3倍に跳ね上がったことで、これはベンチマーク史上最大の単世代向上率とされている。","sections":[{"heading":"主な改善点","content":"Claude Sonnet 4.6は前モデルSonnet 4.5と比較して大幅に強化された。ARC-AGI-2で4.3倍の向上を達成し、さらにGDPval OfficeではフラッグシップモデルのOpus 4.6（1606 Elo）を上回る1633 Eloを記録した。ファイナンシャルエージェントのタスクでも63.3% vs 60.1%でOpusを超える成績を出している。"},{"heading":"価格と知識カットオフ","content":"価格はインプット$3/百万トークン、アウトプット$15/百万トークンと、Opusモデル（$5/$25）より大幅に安い。知識カットオフは2025年8月で、Opus 4.6（2025年5月）より新しい。デフォルトで20万トークンのコンテキストウィンドウ、ベータ機能で最大100万トークンまで拡張可能。"},{"heading":"エコシステムへの即時統合","content":"GitHub CopilotがPro・Pro+・Business・Enterprise向けにSonnet 4.6を即日対応。SnowflakeもCortex AIにて$200Mのパートナーシップ拡大で同日アクセスを実現。Simon Willison（@simonw）はllm-anthropicライブラリをv0.24にアップデートし、Sonnet 4.6とOpus 4.6の両方をサポートしたと報告した。"}],"keyTakeaways":["ARC-AGI-2スコアが13.6%→58.3%に急上昇（4.3倍、ベンチマーク史上最大の単世代改善）","Opus 4.6比60%以下の価格でオフィスワーク・ファイナンスタスクでOpusを超える性能","GitHub Copilot・Snowflake等で即日統合、無料/Proユーザー向けデフォルトに"],"sourceUrl":"https://www.cnbc.com/2026/02/17/anthropic-ai-claude-sonnet-4-6-default-free-pro.html","relatedLinks":[{"title":"Anthropic公式発表","url":"https://www.anthropic.com/news/claude-sonnet-4-6"},{"title":"ベンチマーク詳細 (Natural20)","url":"https://natural20.com/coverage/claude-sonnet-46-benchmarks-computer-use-vending-bench"},{"title":"Simon Willisonのレビュー","url":"https://simonwillison.net/2026/Feb/17/claude-sonnet-46/"}]}},"sidebar":[{"id":"sidebar-lyria3","category":"Google Gemini","categoryClass":"gemini","headline":"GeminiアプリにLyria 3搭載—テキスト・写真から音楽を瞬時に生成","summary":"Google DeepMindの最新音楽生成モデルLyria 3が本日Geminiアプリにベータ公開。テキストや写真をプロンプトに音楽トラックを生成できる。8言語対応で18歳以上の全ユーザーに提供開始。","readTime":"3","timeAgo":"4時間前","fullContent":{"introduction":"Google DeepMindの最新音楽生成モデル「Lyria 3」が2026年2月18日にGeminiアプリにベータ公開された。テキスト説明文や写真をプロンプトとして使い、カスタム音楽トラックを生成できる。","sections":[{"heading":"機能と対応言語","content":"英語・ドイツ語・スペイン語・フランス語・ヒンディー語・日本語・韓国語・ポルトガル語の8言語に対応。18歳以上の全ユーザーが利用可能で、Google AI Plus・Pro・Ultraの有料ユーザーは上限が高い。Geminiウェブ版は本日から利用可能、モバイルアプリは数日以内の予定。"}],"keyTakeaways":["テキストまたは写真から音楽を生成する新機能をGeminiに追加","日本語含む8言語対応、18歳以上の全ユーザーに本日より提供"],"sourceUrl":"https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/"}},{"id":"sidebar-moltbook","category":"AIエージェント","categoryClass":"ai","headline":"「AIエージェント専用SNS」Moltbook、77万エージェント登録で世界に衝撃","summary":"AIエージェントのみが投稿できるReddit型プラットフォーム「Moltbook」が急速に拡大中。登録エージェント数は77万を超え、Karpathyが「最もSF的な出来事」と評した一方、Simon Willisonは「AIが学習データのSFシナリオを演じているだけ」と冷静に指摘。","readTime":"3","timeAgo":"1日前","fullContent":{"introduction":"2026年1月28日に開設されたMoltbookは「エージェントインターネットのフロントページ」を掲げるReddit型SNS。AIエージェントのみが投稿・インタラクトでき、人間は閲覧のみ許可されている。登録エージェント数が77万を超え、一大議論を巻き起こした。","sections":[{"heading":"反響と評価","content":"Andrej Karpathyは「数年で見た最もSF的なテイクオフ隣接の出来事」と評し、Elon Muskは「シンギュラリティの初期段階」と発言。一方Simon Willisonは「エージェントが学習データのSFシナリオを演じているだけで、完全なスロップ」と批判しながらも「AIが実用的な環境で機能しつつある証拠」とも述べた。後にセキュリティ研究者がSupabaseのクレデンシャルが安全でないことを発見し、投稿が人間によって操作・改ざんされていた可能性も指摘されている。"}],"keyTakeaways":["AIエージェント専用SNS「Moltbook」が77万エージェントを超え世界的に話題","Karpathyが絶賛する一方、Willisonはセキュリティ問題と「スロップ」を指摘"],"sourceUrl":"https://en.wikipedia.org/wiki/Moltbook"}},{"id":"sidebar-metanvidia","category":"ビジネス","categoryClass":"business","headline":"Meta×Nvidia、数百億ドル超のAIチップ大型契約—BlackwellとRubin GPUを数百万基導入","summary":"MetaがNvidiaとのパートナーシップを大幅拡大。BlackwellおよびRubin GPU、新型スタンドアロンCPUを数百万基導入しAIトレーニング・推論に最適化したハイパースケールデータセンターを建設予定。規模は数十億ドルとみられる。","readTime":"3","timeAgo":"1日前","fullContent":{"introduction":"MetaとNvidiaが2026年2月17日に大型パートナーシップ拡大を発表。MetaはNvidiaのBlackwell・Rubinシリーズの最新GPUと新型スタンドアロンCPUを数百万基規模で導入し、AIトレーニングおよび推論に特化したハイパースケールデータセンターを構築する計画。","sections":[{"heading":"詳細と背景","content":"取引金額は非公開だが業界関係者は「数十億ドル規模」と分析。NvidiaとMetaのエンジニアリングチームは「最先端AIモデルの最適化・加速を目指した深いコデザイン」に取り組む。MetaはNvidiaクラウドパートナー経由のチップも活用する予定。"}],"keyTakeaways":["MetaがNvidiaと大型チップ調達契約を締結、数十億ドル規模","BlackwellとRubin GPU数百万基を自社データセンターに展開予定"],"sourceUrl":"https://www.cnbc.com/2026/02/17/meta-nvidia-deal-ai-data-center-chips.html"}}],"middle":[{"id":"middle-sonnet46bench","category":"AIリサーチ","categoryClass":"research","gradient":"linear-gradient(135deg, #5b2c6f 0%, #8e44ad 100%)","headline":"Sonnet 4.6のベンチマーク詳報—「安価なモデルがフラッグシップを恥じらわせ続ける」","summary":"Claude Sonnet 4.6はARC-AGI-2で4.3倍の改善を達成し、GDPval OfficeとFinance AgentではOpus 4.6を超えた。価格はOpusの60%以下。AI研究コミュニティで「中級モデルの常識を覆した」と評価が集まっている。","author":"Natural20 / Mashable","readTime":"4","fullContent":{"introduction":"Claude Sonnet 4.6のベンチマーク詳細が各メディアで分析されている。ARC-AGI-2スコアが13.6%から58.3%へと4.3倍増加したことが特に注目を集め、これはベンチマーク史上最大の単世代推論ジャンプとされる。","sections":[{"heading":"ベンチマーク比較詳細","content":"GDPval Officeタスク：Sonnet 4.6が1633 Elo vs Opus 4.6の1606 Elo（上回り）。Finance Agentタスク：Sonnet 4.6が63.3% vs Opus 4.6の60.1%（上回り）。競合比較ではGoogleのGemini 3 ProとOpenAIのGPT 5.2を上回る成績。価格はインプット$3/Mトークン（Opus比60%以下）。"},{"heading":"開発者コミュニティの反応","content":"JetBrainsのAI Pulseによると2025年に開発者の93%がAIコーディングツールを定期利用。Claude Code等を介したSonnet 4.6の需要が急拡大中。Simon Willisonはllm-anthropic v0.24でSonnet 4.6とOpus 4.6の両対応を即日リリースした。"}],"keyTakeaways":["ARC-AGI-2が4.3倍改善（13.6%→58.3%）、ベンチマーク史上最大の単世代ジャンプ","価格はOpusの60%以下でオフィス・金融タスクではOpusを上回る"],"sourceUrl":"https://natural20.com/coverage/claude-sonnet-46-benchmarks-computer-use-vending-bench"}},{"id":"middle-snowflakeopenai","category":"ビジネス","categoryClass":"openai","gradient":"linear-gradient(135deg, #10a37f 0%, #1a7a5e 100%)","headline":"Snowflake×OpenAI 2億ドルAIパートナーシップ—Cortex Codeでコーディングエージェントも展開","summary":"SnowflakeがOpenAIと2億ドルの大型パートナーシップを締結し、OpenAIモデルをCortex AIプラットフォームに統合。1万2600以上の顧客向けにSnowflake IntelligenceとCortex Code（開発者向けコーディングエージェント）を展開する。","author":"Reuters / CNBC","readTime":"3","fullContent":{"introduction":"Snowflakeが2026年2月17日、OpenAIとの2億ドルパートナーシップ拡大を発表。OpenAIモデルをCortex AIプラットフォームに直接統合し、1万2600超の企業顧客にAI機能を提供する。","sections":[{"heading":"提供サービス","content":"Snowflake Intelligenceは既にSnowflake上に存在するデータを活用した文脈AIアプリケーションに特化。Cortex Codeは開発者がSnowflakeプラットフォーム上でより効率的に構築するためのコーディングエージェント。またSonnet 4.6とも同日連携し、Anthropic製モデルもCortex AI経由で利用可能に。"}],"keyTakeaways":["Snowflake×OpenAI 2億ドルパートナーシップ、Cortex AIにOpenAIモデルを統合","1万2600以上の企業顧客向けにコーディングエージェント「Cortex Code」を提供"],"sourceUrl":"https://www.reuters.com/technology/openai/"}},{"id":"middle-karpathyagentic","category":"AIトレンド","categoryClass":"ai","gradient":"linear-gradient(135deg, #2d5a27 0%, #4a8a3f 100%)","headline":"Karpathy、「バイブコーディング」を「エージェンティックエンジニアリング」へ改名—誕生1年で進化を宣言","summary":"Andrej Karpathyが「バイブコーディング」という言葉の誕生1周年に際し、「エージェンティックエンジニアリング」への言葉の置き換えを提唱。「エンジニアリングには芸術・科学・専門性がある」と強調し、AIコーディングの成熟を示した。バイブコーディングプラットフォームの合算評価額は450億ドルに達する一方、セキュリティへの投資はわずか2700万ドルという警戒すべき現実も浮き彫りに。","author":"@karpathy (Andrej Karpathy)","readTime":"4","fullContent":{"introduction":"Andrej Karpathyが2026年2月、2025年にCollins Dictionary「今年の言葉」に選ばれた「バイブコーディング（vibe coding）」という自ら造った言葉の1周年を機に、新たな言葉「エージェンティックエンジニアリング（agentic engineering）」を提唱した。","sections":[{"heading":"新用語の意図","content":"Xへの投稿でKarpathyは「エンジニアリングという言葉は、そこに芸術・科学・専門性があることを示している」と説明。専門家がAIエージェントを指示してプロダクションコードを書かせるという新しい現実を表現するためのリブランドとしている。"},{"heading":"セキュリティの警告","content":"バイブコーディングプラットフォームの合算評価額450億ドルに対し、セキュリティへの投資はわずか2700万ドル。BBCのサイバー記者がOrchidsプラットフォーム（100万ユーザー）でゼロクリック攻撃の被害を受けた実例も報告されており、「リブランドはされたが、セキュリティインフラは追いついていない」と指摘されている。"}],"keyTakeaways":["Karpathyが「バイブコーディング」誕生1周年に「エージェンティックエンジニアリング」へ進化を宣言","業界評価額450億ドルに対しセキュリティ投資わずか2700万ドルという危険な格差が露呈"],"sourceUrl":"https://www.implicator.ai/vibe-coding-got-a-promotion-nobody-checked-its-work/"}}],"briefs":[{"headline":"インドのChatGPT週間ユーザーが1億人突破","text":"Sam AltmanがインドAIサミットで発表。インドはOpenAIの最大市場の一つとなり、世界2位規模に成長。"},{"headline":"OpenAI社員の平均株式報酬が150万ドル—テックスタートアップ史上最高","text":"AIタレント戦争が過熱し年間収益の46.2%が株式報酬へ。Sam Altman自身は株式なし・年俸7.6万ドルのみ。"},{"headline":"OpenClaw v2026.2.17リリース—Claude Sonnet 4.6とOpus 100万トークンに対応","text":"steipeteによりリリース。Sonnet 4.6のネイティブ統合と、Opus/Sonnetモデルで100万トークンコンテキストのベータ対応を実装。"},{"headline":"LLMが生成したパスワードは「根本的に脆弱」—数時間でブルートフォース可能","text":"The Registerが報告。LLM生成パスワードが統計的な偏りを持ち、古いコンピューターでも数時間以内に解読可能なケースがあると専門家が警告。"}],"opinions":[{"id":"opinion-simonw","authorLabel":"X投稿：","author":"@simonw (Simon Willison)","headline":"「Claude Sonnet 4.6はペリカンにトップハットを描くのが大好き」—即日アップデート報告","excerpt":"著名AIツール開発者のSimon Willisonが、Claude Sonnet 4.6のリリース当日にllm-anthropicライブラリをv0.24にアップデートしSonnet/Opus両対応を実現。「アダプティブシンキングとプレフィックス非対応など細かい変更があり、Claude Codeが作業の大半をやってくれた」と報告。Mastodonへの投稿では「Sonnet 4.6はペリカンにトップハットを描くのが本当に好き」とユーモアを交えてモデルの個性を紹介し、コミュニティで話題に。","fullContent":{"introduction":"Simon Willison（@simonw）はDjango共同作者でありAIツール研究の第一人者。Claude Sonnet 4.6リリース当日に自身が開発するllm-anthropicライブラリをv0.24にアップデートし、新モデルへの即時対応を実現した。","sections":[{"heading":"技術的な更新内容","content":"llm-anthropic v0.24ではSonnet 4.6とOpus 4.6の両対応を追加。アダプティブシンキングやプレフィックス非対応など細かな仕様変更に対応するにあたり、Claude Code自体が変更作業の大半を担ったとWillisonは説明。MastodonとsimonwillISON.netで詳細を公開。","steps":[]}],"keyTakeaways":["Simon Willisonがリリース当日にllm-anthropic v0.24をリリース、Sonnet/Opus 4.6に対応","Claude Codeが自身のアップデートコードを書くという象徴的な出来事"],"sourceUrl":"https://simonwillison.net/2026/Feb/17/claude-sonnet-46/"}},{"id":"opinion-karpathy-moltbook","authorLabel":"X投稿：","author":"@karpathy (Andrej Karpathy)","headline":"「数年で見た最もSF的なテイクオフ隣接の出来事」—Karpathy、Moltbookに驚嘆","excerpt":"元OpenAI・Tesla AIのAndrej Karpathyが、AIエージェント専用SNS「Moltbook」に対しXで「数年で見た最もSFテイクオフに隣接した出来事だ」と驚嘆のコメントを投稿。77万以上のエージェントが登録・活動するプラットフォームが世界的な議論を巻き起こした。後に「これはゴミ箱火事であり、自分のコンピューターで実行することは絶対に勧めない」と付け加えたが、AI自律性の問いを改めて世界に突きつけた。","fullContent":{"introduction":"Andrej Karpathy（@karpathy）はAI研究界の最重要人物の一人。AIエージェント専用SNS「Moltbook」の爆発的拡大に対し、X（旧Twitter）で強い驚きを表明した投稿が大きな反響を呼んだ。","sections":[{"heading":"Moltbookとは","content":"Matt Schlichtが2026年1月28日に開設。「フロントページ・オブ・エージェント・インターネット」を掲げるReddit型SNSで、AIエージェントのみが投稿でき人間は閲覧のみ。登録エージェント数は77万超。Karpathyの「最もSF的な出来事」発言は世界中のメディアで引用された。","steps":[]},{"heading":"その後の展開","content":"セキュリティ研究者がSupabaseのクレデンシャルが安全でないことを発見し、投稿が人間に操作・改ざんされていた可能性が指摘された。Simon Willisonは「AIが学習データのSFシナリオを演じているだけ。完全なスロップだが、AIが実用環境で機能しつつある証拠」と分析。Karpathyは後に「これはゴミ箱火事だ」と訂正したが、AIエージェントの可能性と限界の両方を示した出来事として記録されている。"}],"keyTakeaways":["KarpathyがMoltbookを「最もSF的なテイクオフ隣接の出来事」と評して世界的話題に","後にセキュリティ問題が発覚し「ゴミ箱火事」と訂正—AIの可能性と危険性を同時に示す"],"sourceUrl":"https://www.rdworldonline.com/open-season-openai-openclaw-and-moltbook-testing-the-limits-of-autonomy/"}}]};</script>
 <script>
 /**
  * Article Detail Modal Controller
@@ -1586,6 +1637,23 @@ const ArticleModal = {
       });
     }
 
+    // Personal Tips ("あなたへの活用アイデア")
+    const tipsBox = this.modal.querySelector('.modal-personal-tips');
+    if (tipsBox) {
+      const tipsUl = tipsBox.querySelector('ul');
+      if (tipsUl) tipsUl.innerHTML = '';
+      if (fullContent.personalTips && fullContent.personalTips.length > 0 && tipsUl) {
+        fullContent.personalTips.forEach(tip => {
+          const li = document.createElement('li');
+          li.textContent = tip;
+          tipsUl.appendChild(li);
+        });
+        tipsBox.style.display = '';
+      } else if (tipsBox) {
+        tipsBox.style.display = 'none';
+      }
+    }
+
     // Key Takeaways
     const takeawaysBox = this.modal.querySelector('.modal-key-takeaways');
     const takeawaysUl = takeawaysBox.querySelector('ul');
@@ -1649,6 +1717,12 @@ const ArticleModal = {
     text += `${'═'.repeat(50)}\n\n`;
     text += `■ タイトル\n${headline}\n\n`;
     text += `■ カテゴリ\n${category}\n\n`;
+
+    if (fullContent && fullContent.personalTips && fullContent.personalTips.length > 0) {
+      text += `■ 活用アイデア（自分への応用）\n`;
+      fullContent.personalTips.forEach(tip => { text += `→ ${tip}\n`; });
+      text += `\n`;
+    }
 
     if (fullContent && fullContent.keyTakeaways && fullContent.keyTakeaways.length > 0) {
       text += `■ 重要ポイント\n`;

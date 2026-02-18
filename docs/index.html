@@ -1051,6 +1051,52 @@ body {
   font-weight: 700;
 }
 
+/* Personal Tips ("あなたへの活用アイデア") */
+.modal-personal-tips {
+  background: linear-gradient(135deg, rgba(0, 100, 80, 0.12) 0%, rgba(0, 60, 50, 0.08) 100%);
+  border: 1px solid rgba(0, 180, 140, 0.35);
+  border-left: 4px solid #00b48c;
+  padding: 24px;
+  margin: 32px 0;
+  border-radius: 2px;
+}
+
+.modal-personal-tips h3 {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #00c9a0;
+  letter-spacing: 0.5px;
+}
+
+.modal-personal-tips ul {
+  list-style: none;
+  padding: 0;
+}
+
+.modal-personal-tips li {
+  font-family: var(--font-body);
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  padding-left: 24px;
+  position: relative;
+}
+
+.modal-personal-tips li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: #00c9a0;
+  font-weight: 700;
+}
+
+.modal-personal-tips li:last-child {
+  margin-bottom: 0;
+}
+
 /* Footer Links */
 .modal-footer {
   margin-top: 32px;
@@ -1132,7 +1178,7 @@ body.dark-mode .modal-section-code {
 <div class="newspaper">
 <!-- MASTHEAD -->
 <header class="masthead">
-  <div class="masthead-date">2026年2月18日（水曜日） · Tokyo Edition · Vol. 1</div>
+  <div class="masthead-date">2026年2月19日（木曜日） · Tokyo Edition · Vol. 1</div>
   <h1 class="masthead-title">The AI Chronicle</h1>
   <div class="masthead-subtitle">Your Daily Intelligence on Artificial Intelligence · Curated by Athena</div>
 </header>
@@ -1140,7 +1186,7 @@ body.dark-mode .modal-section-code {
 <!-- TICKER -->
 <div class="ticker">
   <span class="ticker-label">Breaking</span>
-  <span class="ticker-text">Claude 4.6 Sonnet、100万トークンコンテキスト対応で開発者の標準に ── Xcode 26.3にClaude AgentとCodexが統合、エージェントコーディング解禁 ── Google I/O 2026確定、5月19〜20日開催・Android 17とGemini深化 ── ソロ創業者がAIエージェント15体で週20時間節約の衝撃 ── 2026年初頭にAIスタートアップ17社が1億ドル超の資金調達 ── SaaS産業にAI崩壊の波、Wall Streetが株式を投げ売り ── Claude 4.6 Sonnet、100万トークンコンテキスト対応で開発者の標準に</span>
+  <span class="ticker-text">🔥 Claude Sonnet 4.6 正式リリース — ARC-AGI-2スコアが4.3倍に跳ね上がる ── 🎵 Google Gemini、Lyria 3で音楽生成機能を追加 ── 🤖 Moltbook「AIエージェント専用SNS」が世界的に話題 ── 💰 OpenAI社員の平均株式報酬が史上最高の150万ドル ── 📊 Meta×Nvidia、数百億ドル規模のAIインフラ拡張契約 ── 🔥 Claude Sonnet 4.6 正式リリース — ARC-AGI-2スコアが4.3倍に跳ね上がる</span>
 </div>
 
 <!-- SECTION NAV -->
@@ -1158,31 +1204,31 @@ body.dark-mode .modal-section-code {
 <div class="data-panel">
   
     <div class="data-item">
-      <div class="data-label">AIスタートアップ資金調達（2026年初頭）</div>
-      <div class="data-value">17社 / $100M+</div>
-      <div class="data-sparkline">▁▂▃▅▇█</div>
-      <div class="data-change up">▲ 2ヶ月で過去最高ペース</div>
+      <div class="data-label">Claude Sonnet 4.6 ARC-AGI-2</div>
+      <div class="data-value">58.3%</div>
+      <div class="data-sparkline">▁▂▂▃▄▅▇█</div>
+      <div class="data-change up">▲ 4.3倍（前版比13.6%→58.3%）</div>
     </div>
     
     <div class="data-item">
-      <div class="data-label">Cursor 年間収益</div>
-      <div class="data-value">$1B</div>
-      <div class="data-sparkline">▁▂▄▆▇█</div>
-      <div class="data-change up">▲ B2B史上最速達成</div>
+      <div class="data-label">インドのChatGPT週間ユーザー</div>
+      <div class="data-value">1億人</div>
+      <div class="data-sparkline">▁▂▃▄▅▆▇█</div>
+      <div class="data-change up">▲ 世界2位の市場へ</div>
     </div>
     
     <div class="data-item">
-      <div class="data-label">Claude 4.6 SWE-bench</div>
-      <div class="data-value">79.6%</div>
-      <div class="data-sparkline">▁▃▄▅▆█</div>
-      <div class="data-change up">▲ 前世代比 +30.6pt</div>
+      <div class="data-label">OpenAI平均株式報酬</div>
+      <div class="data-value">$1.5M</div>
+      <div class="data-sparkline">▁▂▃▄▅▇█</div>
+      <div class="data-change up">▲ テックスタートアップ史上最高</div>
     </div>
     
     <div class="data-item">
-      <div class="data-label">AI週間節約時間（ソロ創業者）</div>
-      <div class="data-value">20時間/週</div>
-      <div class="data-sparkline">▁▂▃▅▇█</div>
-      <div class="data-change up">▲ 15エージェント運用</div>
+      <div class="data-label">Moltbook登録エージェント数</div>
+      <div class="data-value">770,000+</div>
+      <div class="data-sparkline">▁▁▂▄▆▇█</div>
+      <div class="data-change up">▲ 急拡大中</div>
     </div>
     
 </div>
@@ -1193,42 +1239,42 @@ body.dark-mode .modal-section-code {
     <div class="hero-image">
       <span class="hero-image-text">AI</span>
     </div>
-    <span class="category-tag category-tag--ai">AI開発</span>
-    <h2 class="hero-headline">Claude 4.6 Sonnet 電撃リリース——100万トークン・Adaptive Thinking搭載で個人開発者の武器が刷新</h2>
-    <p class="hero-deck">AnthropicがClaude 4.6 Sonnetを正式リリース。100万トークンコンテキスト、新型「Adaptive Thinking」エンジン、動的Webフィルタリングを搭載し、SWE-benchで79.6%を達成。価格据え置きでAPIから即日利用可能。</p>
+    <span class="category-tag category-tag--ai">AIモデル</span>
+    <h2 class="hero-headline">Claude Sonnet 4.6 正式リリース — ARC-AGI-2スコアが前世代比4.3倍、格安でフラッグシップを超える</h2>
+    <p class="hero-deck">AnthropicがClaude Sonnet 4.6を2026年2月17日にリリース。エージェント作業・コーディング・長文脈推論が大幅向上し、ARC-AGI-2ベンチマークで13.6%から58.3%へと史上最大の単世代ジャンプを記録。価格はOpus 4.6の60%以下で、多くのタスクでOpusを上回る結果に。</p>
     <div class="hero-meta">
-      By <strong>Anthropic公式 / MarkTechPost</strong> · 
+      By <strong>Anthropic 公式発表</strong> · 
       <span class="read-time">
-        📖 5 min
+        📖 4 min
         <span class="read-time-bar">
           <span class="read-time-fill" style="width: 55%"></span>
         </span>
         中程度
       </span>
-      · Updated 本日 14時間前
+      · Updated 本日 06:00
     </div>
   </div>
   <aside class="hero-sidebar">
     
     <div class="sidebar-item">
-      <span class="category-tag category-tag--mobile">iOS開発</span>
-      <h3 class="sidebar-headline">Xcode 26.3がエージェントコーディングを解禁——Claude AgentとCodexが直接統合</h3>
-      <p class="sidebar-summary">Appleが2月3日リリースのXcode 26.3で、Claude AgentとOpenAI Codexの直接統合をサポート。ドキュメント検索・ファイル構造の探索・プロジェクト設定更新・Xcodeプレビューのキャプチャまで、開発ライフサイクル全体をエージェントが自律的にこなす時代に突入した。</p>
-      <div class="sidebar-meta">4 min read · 2日前</div>
+      <span class="category-tag category-tag--gemini">Google Gemini</span>
+      <h3 class="sidebar-headline">GeminiアプリにLyria 3搭載—テキスト・写真から音楽を瞬時に生成</h3>
+      <p class="sidebar-summary">Google DeepMindの最新音楽生成モデルLyria 3が本日Geminiアプリにベータ公開。テキストや写真をプロンプトに音楽トラックを生成できる。8言語対応で18歳以上の全ユーザーに提供開始。</p>
+      <div class="sidebar-meta">3 min read · 4時間前</div>
     </div>
     
     <div class="sidebar-item">
-      <span class="category-tag category-tag--gemini">Android開発</span>
-      <h3 class="sidebar-headline">Google I/O 2026が5月19〜20日に決定——Android 17とGemini深化で開発者が注目</h3>
-      <p class="sidebar-summary">GoogleがI/O 2026の日程を5月19〜20日（マウンテンビュー）に正式確定。Gemini AIのSearch・Workspace・Chrome・Android全体への深い統合と、Android 17の大幅プライバシー強化が発表される見込み。グローバルライブストリームも実施予定。</p>
-      <div class="sidebar-meta">3 min read · 2時間前</div>
+      <span class="category-tag category-tag--ai">AIエージェント</span>
+      <h3 class="sidebar-headline">「AIエージェント専用SNS」Moltbook、77万エージェント登録で世界に衝撃</h3>
+      <p class="sidebar-summary">AIエージェントのみが投稿できるReddit型プラットフォーム「Moltbook」が急速に拡大中。登録エージェント数は77万を超え、Karpathyが「最もSF的な出来事」と評した一方、Simon Willisonは「AIが学習データのSFシナリオを演じているだけ」と冷静に指摘。</p>
+      <div class="sidebar-meta">3 min read · 1日前</div>
     </div>
     
     <div class="sidebar-item">
-      <span class="category-tag category-tag--indie">個人開発</span>
-      <h3 class="sidebar-headline">「従業員ゼロ・AIエージェント15体」でビジネスを回すソロ創業者——週20時間を取り戻す</h3>
-      <p class="sidebar-summary">フロリダ州の防衛テック系ソロ創業者Aaron Sneedが、ChatGPT上に「The Council」と名付けた15体のカスタムAIエージェント群を構築。法務・HR・財務・社長秘書を全てAIで代替し、週20時間以上を節約。ソロプレナーの新しい経営スタイルとして注目を集めている。</p>
-      <div class="sidebar-meta">4 min read · 5日前</div>
+      <span class="category-tag category-tag--business">ビジネス</span>
+      <h3 class="sidebar-headline">Meta×Nvidia、数百億ドル超のAIチップ大型契約—BlackwellとRubin GPUを数百万基導入</h3>
+      <p class="sidebar-summary">MetaがNvidiaとのパートナーシップを大幅拡大。BlackwellおよびRubin GPU、新型スタンドアロンCPUを数百万基導入しAIトレーニング・推論に最適化したハイパースケールデータセンターを建設予定。規模は数十億ドルとみられる。</p>
+      <div class="sidebar-meta">3 min read · 1日前</div>
     </div>
     
   </aside>
@@ -1238,27 +1284,27 @@ body.dark-mode .modal-section-code {
 <section class="middle-grid">
   
     <article class="middle-article">
-      <div class="middle-image" style="background: linear-gradient(135deg, #0f4c75 0%, #1b6ca8 100%);"></div>
-      <span class="category-tag category-tag--mobile">iOS開発</span>
-      <h3 class="middle-headline">SwiftUI開発でClaudeとGeminiを徹底比較——「勝負にならない」と評者が断言</h3>
-      <p class="middle-summary">HowToGeekのPatrick Campanaleが両AI でSwiftUIアプリを実際にvibe-codingして比較。Geminiは頻繁に余分な波カッコを挿入するなどSwiftUIファイルのエラーが多発。Claudeは直接ポイントを突いたコードを生成し、修正が「まれ」になったという体験を報告。</p>
-      <div class="middle-meta">By Patrick Campanale / HowToGeek · 4 min read</div>
+      <div class="middle-image" style="background: linear-gradient(135deg, #5b2c6f 0%, #8e44ad 100%);"></div>
+      <span class="category-tag category-tag--research">AIリサーチ</span>
+      <h3 class="middle-headline">Sonnet 4.6のベンチマーク詳報—「安価なモデルがフラッグシップを恥じらわせ続ける」</h3>
+      <p class="middle-summary">Claude Sonnet 4.6はARC-AGI-2で4.3倍の改善を達成し、GDPval OfficeとFinance AgentではOpus 4.6を超えた。価格はOpusの60%以下。AI研究コミュニティで「中級モデルの常識を覆した」と評価が集まっている。</p>
+      <div class="middle-meta">By Natural20 / Mashable · 4 min read</div>
+    </article>
+    
+    <article class="middle-article">
+      <div class="middle-image" style="background: linear-gradient(135deg, #10a37f 0%, #1a7a5e 100%);"></div>
+      <span class="category-tag category-tag--openai">ビジネス</span>
+      <h3 class="middle-headline">Snowflake×OpenAI 2億ドルAIパートナーシップ—Cortex Codeでコーディングエージェントも展開</h3>
+      <p class="middle-summary">SnowflakeがOpenAIと2億ドルの大型パートナーシップを締結し、OpenAIモデルをCortex AIプラットフォームに統合。1万2600以上の顧客向けにSnowflake IntelligenceとCortex Code（開発者向けコーディングエージェント）を展開する。</p>
+      <div class="middle-meta">By Reuters / CNBC · 3 min read</div>
     </article>
     
     <article class="middle-article">
       <div class="middle-image" style="background: linear-gradient(135deg, #2d5a27 0%, #4a8a3f 100%);"></div>
-      <span class="category-tag category-tag--ai">AI開発</span>
-      <h3 class="middle-headline">OllamaでClaude Codeをローカル実行——API代ゼロでJavaアプリを自動生成するチュートリアル</h3>
-      <p class="middle-summary">開発者ブログPiotr's TechBlogが、Claude CodeをOllamaで動作させてJavaアプリを生成する手順を詳解。qwen3-coder:480bやglm-5など複数のモデルを比較し、API費用を抑えたいインディー開発者向けの実践的なガイドを公開した。</p>
-      <div class="middle-meta">By Piotr Minkowski / piotrminkowski.com · 6 min read</div>
-    </article>
-    
-    <article class="middle-article">
-      <div class="middle-image" style="background: linear-gradient(135deg, #8b4513 0%, #a0522d 100%);"></div>
-      <span class="category-tag category-tag--business">ビジネス</span>
-      <h3 class="middle-headline">AIスタートアップへの投資が爆速——2ヶ月で17社が1億ドル超を調達し過去最高ペース</h3>
-      <p class="middle-summary">2026年1〜2月の米国AIスタートアップ資金調達が記録的ペースで進行。17社以上が$100M超のラウンドを完了し、2025年の記録投資の勢いを継続。ヘルスケア・法律テック・産業自動化のバーティカルAIが特に注目されている。</p>
-      <div class="middle-meta">By IndexBox / BitcoinWorld · 3 min read</div>
+      <span class="category-tag category-tag--ai">AIトレンド</span>
+      <h3 class="middle-headline">Karpathy、「バイブコーディング」を「エージェンティックエンジニアリング」へ改名—誕生1年で進化を宣言</h3>
+      <p class="middle-summary">Andrej Karpathyが「バイブコーディング」という言葉の誕生1周年に際し、「エージェンティックエンジニアリング」への言葉の置き換えを提唱。「エンジニアリングには芸術・科学・専門性がある」と強調し、AIコーディングの成熟を示した。バイブコーディングプラットフォームの合算評価額は450億ドルに達する一方、セキュリティへの投資はわずか2700万ドルという警戒すべき現実も浮き彫りに。</p>
+      <div class="middle-meta">By @karpathy (Andrej Karpathy) · 4 min read</div>
     </article>
     
 </section>
@@ -1269,23 +1315,23 @@ body.dark-mode .modal-section-code {
   <div class="brief-grid">
     
     <div class="brief-item">
-      <h4 class="brief-headline"><span class="brief-bullet"></span>Android 17、プライバシー強化でGemini統合が加速</h4>
-      <p class="brief-text">Google I/O 2026（5月19〜20日）でAndroid 17が発表予定。アプリ権限の細粒化とオンデバイスGemini処理でプライバシーとAI機能を両立させる設計が進行中。</p>
+      <h4 class="brief-headline"><span class="brief-bullet"></span>インドのChatGPT週間ユーザーが1億人突破</h4>
+      <p class="brief-text">Sam AltmanがインドAIサミットで発表。インドはOpenAIの最大市場の一つとなり、世界2位規模に成長。</p>
     </div>
     
     <div class="brief-item">
-      <h4 class="brief-headline"><span class="brief-bullet"></span>2026年SaaSアポカリプス——Wall Streetがソフトウェア株を投げ売り</h4>
-      <p class="brief-text">2月第1週（SaaSポカリプス）にエンタープライズSaaS株が大幅下落。AIが既存ソフトウェアを代替するとの見方が広がり、Wall Street幹部が「次の印刷メディア・百貨店になる」と警告。</p>
+      <h4 class="brief-headline"><span class="brief-bullet"></span>OpenAI社員の平均株式報酬が150万ドル—テックスタートアップ史上最高</h4>
+      <p class="brief-text">AIタレント戦争が過熱し年間収益の46.2%が株式報酬へ。Sam Altman自身は株式なし・年俸7.6万ドルのみ。</p>
     </div>
     
     <div class="brief-item">
-      <h4 class="brief-headline"><span class="brief-bullet"></span>Claude Cowork、非技術者向けGUI版が2026年1月リリース</h4>
-      <p class="brief-text">AnthropicがClaude Codeのグラフィカルユーザーインターフェース版「Claude Cowork」をリサーチプレビューとして1月公開。ノーコードでのアプリ開発支援を目指している。</p>
+      <h4 class="brief-headline"><span class="brief-bullet"></span>OpenClaw v2026.2.17リリース—Claude Sonnet 4.6とOpus 100万トークンに対応</h4>
+      <p class="brief-text">steipeteによりリリース。Sonnet 4.6のネイティブ統合と、Opus/Sonnetモデルで100万トークンコンテキストのベータ対応を実装。</p>
     </div>
     
     <div class="brief-item">
-      <h4 class="brief-headline"><span class="brief-bullet"></span>Swift月次アップデート、Linux・サーバーサイド活用事例が拡大</h4>
-      <p class="brief-text">Swift.orgが1月版「What's new in Swift」を公開。Linux上のSwift活用と、サーバーサイドSwiftコンファレンスのハイライトが特集された。クラウドサービス向け入門チュートリアルも追加。</p>
+      <h4 class="brief-headline"><span class="brief-bullet"></span>LLMが生成したパスワードは「根本的に脆弱」—数時間でブルートフォース可能</h4>
+      <p class="brief-text">The Registerが報告。LLM生成パスワードが統計的な偏りを持ち、古いコンピューターでも数時間以内に解読可能なケースがあると専門家が警告。</p>
     </div>
     
   </div>
@@ -1297,15 +1343,15 @@ body.dark-mode .modal-section-code {
   <div class="opinion-grid">
     
     <div class="opinion-item">
-      <div class="opinion-author">分析： Business of Apps 調査チーム</div>
-      <h3 class="opinion-headline">SaaSファウンダーはAI崩壊をどう乗り越えているか——技術系と非技術系で戦略が二分</h3>
-      <p class="opinion-excerpt">AI統合はSaaSにとってもはや差別化要因ではなく生存条件だ。調査によれば、技術系創業者はアーキテクチャへの影響とコストを重視する一方、非技術系創業者はユーザー価値と製品差別化を優先する。重要なのはこの二つの視点が対立ではなく相補的に機能することだ。</p>
+      <div class="opinion-author">X投稿： @simonw (Simon Willison)</div>
+      <h3 class="opinion-headline">「Claude Sonnet 4.6はペリカンにトップハットを描くのが大好き」—即日アップデート報告</h3>
+      <p class="opinion-excerpt">著名AIツール開発者のSimon Willisonが、Claude Sonnet 4.6のリリース当日にllm-anthropicライブラリをv0.24にアップデートしSonnet/Opus両対応を実現。「アダプティブシンキングとプレフィックス非対応など細かい変更があり、Claude Codeが作業の大半をやってくれた」と報告。Mastodonへの投稿では「Sonnet 4.6はペリカンにトップハットを描くのが本当に好き」とユーモアを交えてモデルの個性を紹介し、コミュニティで話題に。</p>
     </div>
     
     <div class="opinion-item">
-      <div class="opinion-author">分析： Piotr Minkowski (@pminkowski)</div>
-      <h3 class="opinion-headline">「AI＋ローカルモデル」がインディー開発者の武器になる——API費用という壁の崩壊</h3>
-      <p class="opinion-excerpt">OllamaによるClaude Code統合が示すのは、AIコード生成がもはや有料APIにロックインされる時代の終わりだ。glm-5やqwen3-coderのようなオープンモデルが十分な品質を持ち始め、個人開発者がゼロコストで本格的なAIアシスト開発を実験できる環境が整いつつある。</p>
+      <div class="opinion-author">X投稿： @karpathy (Andrej Karpathy)</div>
+      <h3 class="opinion-headline">「数年で見た最もSF的なテイクオフ隣接の出来事」—Karpathy、Moltbookに驚嘆</h3>
+      <p class="opinion-excerpt">元OpenAI・Tesla AIのAndrej Karpathyが、AIエージェント専用SNS「Moltbook」に対しXで「数年で見た最もSFテイクオフに隣接した出来事だ」と驚嘆のコメントを投稿。77万以上のエージェントが登録・活動するプラットフォームが世界的な議論を巻き起こした。後に「これはゴミ箱火事であり、自分のコンピューターで実行することは絶対に勧めない」と付け加えたが、AI自律性の問いを改めて世界に突きつけた。</p>
     </div>
     
   </div>
@@ -1371,6 +1417,11 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
         
         <div class="modal-sections"></div>
         
+        <div class="modal-personal-tips">
+          <h3>💡 あなたへの活用アイデア</h3>
+          <ul></ul>
+        </div>
+
         <div class="modal-key-takeaways">
           <h3>📌 重要ポイント</h3>
           <ul></ul>
@@ -1385,7 +1436,7 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
   </div>
 </div>
 
-<script>const ARTICLES_DATA = {"date":"2026年2月18日（水曜日）","edition":"夕刊","volume":"1","tickerText":"Claude 4.6 Sonnet、100万トークンコンテキスト対応で開発者の標準に ── Xcode 26.3にClaude AgentとCodexが統合、エージェントコーディング解禁 ── Google I/O 2026確定、5月19〜20日開催・Android 17とGemini深化 ── ソロ創業者がAIエージェント15体で週20時間節約の衝撃 ── 2026年初頭にAIスタートアップ17社が1億ドル超の資金調達 ── SaaS産業にAI崩壊の波、Wall Streetが株式を投げ売り ── Claude 4.6 Sonnet、100万トークンコンテキスト対応で開発者の標準に","dataPanel":[{"label":"AIスタートアップ資金調達（2026年初頭）","value":"17社 / $100M+","sparkline":"▁▂▃▅▇█","change":"▲ 2ヶ月で過去最高ペース","changeClass":"up"},{"label":"Cursor 年間収益","value":"$1B","sparkline":"▁▂▄▆▇█","change":"▲ B2B史上最速達成","changeClass":"up"},{"label":"Claude 4.6 SWE-bench","value":"79.6%","sparkline":"▁▃▄▅▆█","change":"▲ 前世代比 +30.6pt","changeClass":"up"},{"label":"AI週間節約時間（ソロ創業者）","value":"20時間/週","sparkline":"▁▂▃▅▇█","change":"▲ 15エージェント運用","changeClass":"up"}],"hero":{"id":"claude46-sonnet-release","category":"AI開発","categoryClass":"ai","headline":"Claude 4.6 Sonnet 電撃リリース——100万トークン・Adaptive Thinking搭載で個人開発者の武器が刷新","deck":"AnthropicがClaude 4.6 Sonnetを正式リリース。100万トークンコンテキスト、新型「Adaptive Thinking」エンジン、動的Webフィルタリングを搭載し、SWE-benchで79.6%を達成。価格据え置きでAPIから即日利用可能。","author":"Anthropic公式 / MarkTechPost","readTime":"5","readPercent":55,"readLabel":"中程度","updateTime":"本日 14時間前","fullContent":{"introduction":"AnthropicはClaude 4.6 Sonnetを2026年2月17日にリリースした。本モデルは開発者・データサイエンティストを主なターゲットとし、複雑なロジック処理とリアルタイム検索能力を大幅に強化している。価格モデルは変更なく、Claude.ai、API、各種クラウドプラットフォームから即日利用が可能だ。","sections":[{"heading":"Adaptive Thinkingエンジンとは","content":"Extended Thinking APIからアクセスできる新機能「Adaptive Thinking」により、モデルは最終回答を生成する前に内部で論理パスをテストする「一時停止・思考」フェーズを持つ。複雑なレースコンディションのデバッグや、汚れたデータセットの処理において、ハルシネーションを大幅に削減することが実証されている。"},{"heading":"ベンチマーク：旗艦Opusに肉薄","content":"SWE-bench Verified: 49.0%（3.5 Sonnet）→ 79.6%（4.6 Sonnet）。OSWorld（Computer Use）: 14.9% → 72.5%という驚異的な伸び。MATHベンチマーク: 71.1% → 88.0%。BrowseComp（検索精度）: 33.3% → 46.6%。特にOSWorld 72.5%は、スプレッドシート・ブラウザ・ローカルファイルをほぼ人間並みの精度でナビゲートできることを示す。","steps":["SWE-bench: バグ修正・マルチファイル編集で前世代比+30.6pt","OSWorld: 自律UIナビゲーション・ツール使用で+57.6pt（最大の伸び）","MATH: 高度なアルゴリズム論理推論で+16.9pt","BrowseComp: ネイティブPythonによる動的フィルタリングで+13.3pt"]},{"heading":"Dynamic Filtering：検索×Python統合","content":"Improved Web Search with Dynamic Filteringは、従来のAI検索ツールが単純にスクレイピングするのとは異なり、内部コード実行によってリアルタイムでファクトチェックを行う。これにより情報の信頼性が大幅に向上し、エージェント型アプリケーション開発の可能性が広がる。"}],"keyTakeaways":["SWE-bench 79.6%・OSWorld 72.5%で旗艦Opusに匹敵するパフォーマンスを価格据え置きで提供","Adaptive Thinkingにより複雑なデバッグ・データ処理でのハルシネーションが激減","100万トークンコンテキストで大規模コードベース全体を一度に処理可能になった"],"sourceUrl":"https://www.marktechpost.com/2026/02/17/anthropic-releases-claude-4-6-sonnet-with-1-million-token-context-to-solve-complex-coding-and-search-for-developers/","relatedLinks":[{"title":"Anthropic公式発表","url":"https://www.anthropic.com/news/claude-sonnet-4-6"},{"title":"Claude vs OpenAI Codex 2026比較","url":"https://dev.to/shehzan/claude-code-vs-openai-codex-architecture-guide-2026-l9c"}]}},"sidebar":[{"id":"xcode-263-agentic-coding","category":"iOS開発","categoryClass":"mobile","headline":"Xcode 26.3がエージェントコーディングを解禁——Claude AgentとCodexが直接統合","summary":"Appleが2月3日リリースのXcode 26.3で、Claude AgentとOpenAI Codexの直接統合をサポート。ドキュメント検索・ファイル構造の探索・プロジェクト設定更新・Xcodeプレビューのキャプチャまで、開発ライフサイクル全体をエージェントが自律的にこなす時代に突入した。","readTime":"4","timeAgo":"2日前","fullContent":{"introduction":"Appleは2026年2月3日、Xcode 26.3を公開しエージェントコーディングサポートを追加した。これによりAnthropicのClaude AgentとOpenAI Codexが、Xcodeの機能に直接アクセスして複雑なタスクを自律的に実行できるようになる。","sections":[{"heading":"エージェントが担う新しい開発体験","content":"エージェントはドキュメントを検索し、ファイル構造を探索し、プロジェクト設定を更新し、Xcodeプレビューをキャプチャして自身の作業を視覚的に検証しながらビルド・修正のサイクルを繰り返す。AppleのSusan Prescott副社長は「エージェントコーディングは生産性と創造性を超加速させ、イノベーションに集中できる環境を提供する」と述べた。"}],"keyTakeaways":["SwiftUIアプリ開発でClaude AgentとCodexが設計〜実装〜検証まで自律実行","Xcodeプレビューのキャプチャでビジュアルフィードバックループが完結"],"sourceUrl":"https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/"}},{"id":"google-io-2026-android17-gemini","category":"Android開発","categoryClass":"gemini","headline":"Google I/O 2026が5月19〜20日に決定——Android 17とGemini深化で開発者が注目","summary":"GoogleがI/O 2026の日程を5月19〜20日（マウンテンビュー）に正式確定。Gemini AIのSearch・Workspace・Chrome・Android全体への深い統合と、Android 17の大幅プライバシー強化が発表される見込み。グローバルライブストリームも実施予定。","readTime":"3","timeAgo":"2時間前","fullContent":{"introduction":"Google I/O 2026はカリフォルニア州マウンテンビューのShoreline Amphitheatreで5月19〜20日に開催が確定した。AIをコアアイデンティティとして掲げるGoogleにとって、今年の最大テーマはGeminiの全製品統合とAndroid 17だ。","sections":[{"heading":"Android 17の注目機能","content":"Android 17ではアプリ権限のきめ細かい制御、オンデバイス処理能力の強化によるプライバシー保護の向上、Gemini AIとのより深いシステムレベル統合が予定されている。古いデバイスへのアップデートでも恩恵が受けられる設計が検討されている。"}],"keyTakeaways":["Gemini AIがSearch・Workspace・Chrome・Androidに横断的に深く統合される","Android 17はプライバシー強化とオンデバイスAI推論が主軸"],"sourceUrl":"https://techgenyz.com/google-i-o-official-gemini-ai-push-expands-android/"}},{"id":"solo-founder-15-ai-agents","category":"個人開発","categoryClass":"indie","headline":"「従業員ゼロ・AIエージェント15体」でビジネスを回すソロ創業者——週20時間を取り戻す","summary":"フロリダ州の防衛テック系ソロ創業者Aaron Sneedが、ChatGPT上に「The Council」と名付けた15体のカスタムAIエージェント群を構築。法務・HR・財務・社長秘書を全てAIで代替し、週20時間以上を節約。ソロプレナーの新しい経営スタイルとして注目を集めている。","readTime":"4","timeAgo":"5日前","fullContent":{"introduction":"Business Insiderが取材した事例。防衛テック分野でのソロ創業者Aaron Sneedは、資金不足で弁護士・HRコンサルタントを雇えない現実をAIで解決した。Nvidia GPUを基盤に、OpenAI ChatGPTビジネスプラットフォーム上でカスタムGPTを組み合わせた「The Council」を運用している。","sections":[{"heading":"The Councilの構成","content":"15体のカスタムエージェントには、チーフ・オブ・スタッフAI、法務AI、HR AI、財務AIなどが含まれる。10年以上自律プラットフォームの開発に携わってきた経験が、この活用を可能にした。エージェントへの指示の出し方と役割定義が成功の鍵だという。"}],"keyTakeaways":["法務・HR・財務の外部委託コストをAIエージェントで置き換え","週20時間節約（保守的な見積もり）でソロ経営の限界を突破"],"sourceUrl":"https://www.businessinsider.com/solo-founder-runs-company-with-15-ai-agents-heres-how-2026-2"}}],"middle":[{"id":"claude-vs-gemini-swiftui-code","category":"iOS開発","categoryClass":"mobile","gradient":"linear-gradient(135deg, #0f4c75 0%, #1b6ca8 100%)","headline":"SwiftUI開発でClaudeとGeminiを徹底比較——「勝負にならない」と評者が断言","summary":"HowToGeekのPatrick Campanaleが両AI でSwiftUIアプリを実際にvibe-codingして比較。Geminiは頻繁に余分な波カッコを挿入するなどSwiftUIファイルのエラーが多発。Claudeは直接ポイントを突いたコードを生成し、修正が「まれ」になったという体験を報告。","author":"Patrick Campanale / HowToGeek","readTime":"4","fullContent":{"introduction":"2026年2月16日公開のレビュー記事。著者のPatrick Campanaleは10年以上のテック経験を持ち、モバイルアプリ開発の経歴を持つライター。Claude CodeとGeminiの両方を実際のSwiftUI開発で使用し、その差を詳細にレポートしている。","sections":[{"heading":"実際の差はどこに出るか","content":"著者いわく、Geminiでは頻繁にSwiftUIファイル中に余分な波カッコ（}）が挿入されるエラーが発生。一方のClaude Codeでは「vibe codingの本質、AIにコードを書かせること」に集中できた。生成されたファイルはコンピュータ上にそのまま残り、IDEで編集する機会は「まれ」になったという。"}],"keyTakeaways":["SwiftUI開発においてClaude CodeはGeminiより正確なコードを生成","Geminiは特殊なAntigravityツールで優位な場面もあるが、全体ではClaudeが上回る"],"sourceUrl":"https://www.howtogeek.com/claude-vs-gemini-which-one-actually-writes-better-code/"}},{"id":"claude-code-ollama-tutorial","category":"AI開発","categoryClass":"ai","gradient":"linear-gradient(135deg, #2d5a27 0%, #4a8a3f 100%)","headline":"OllamaでClaude Codeをローカル実行——API代ゼロでJavaアプリを自動生成するチュートリアル","summary":"開発者ブログPiotr's TechBlogが、Claude CodeをOllamaで動作させてJavaアプリを生成する手順を詳解。qwen3-coder:480bやglm-5など複数のモデルを比較し、API費用を抑えたいインディー開発者向けの実践的なガイドを公開した。","author":"Piotr Minkowski / piotrminkowski.com","readTime":"6","fullContent":{"introduction":"2026年2月17日公開のチュートリアル記事。OllamaがClaude CodeやCodexとのビルトイン統合を提供したことで、ローカルモデルでAIコード生成が可能になった。著者はSpring AI・Javaの専門家で、複数モデルで同じプロンプトからアプリを生成しGitHubのPRで比較評価している。","sections":[{"heading":"使用モデルと比較結果","content":"対象モデル: glm-5, gpt-oss, minimax, qwen3-coder (ローカル/クラウド両対応)。各ブランチに同プロンプトから生成したアプリが格納され、コードレビューコメント数で品質を比較。現時点でmasterブランチにはglm-5生成版がマージされている。","code":"ollama launch claude --model qwen3-coder:480b-cloud"}],"keyTakeaways":["OllamaがClaude Code・Codexとのビルトイン統合を提供し、ローカルAI開発が現実的に","API費用ゼロでAIコード生成を試せるため、インディー開発者にとって最初の一歩に最適"],"sourceUrl":"https://piotrminkowski.com/2026/02/17/create-apps-with-claude-code-on-ollama/"}},{"id":"ai-startup-funding-2026","category":"ビジネス","categoryClass":"business","gradient":"linear-gradient(135deg, #8b4513 0%, #a0522d 100%)","headline":"AIスタートアップへの投資が爆速——2ヶ月で17社が1億ドル超を調達し過去最高ペース","summary":"2026年1〜2月の米国AIスタートアップ資金調達が記録的ペースで進行。17社以上が$100M超のラウンドを完了し、2025年の記録投資の勢いを継続。ヘルスケア・法律テック・産業自動化のバーティカルAIが特に注目されている。","author":"IndexBox / BitcoinWorld","readTime":"3","fullContent":{"introduction":"2026年初頭のAI投資動向分析。2025年に続いて2026年も記録的なペースで資金調達が進んでいる。バーティカルAIスタートアップへの資金は2025年に70%以上増加し、その勢いが2026年も継続している。","sections":[{"heading":"注目されているセクター","content":"ヘルスケアAI、法律テック、産業自動化が最も多くの投資を集めている。Cursorはすでに年間収益$1BをB2B史上最速で達成。Microsoft Copilotは470万人の有料サブスクライバーを確保。Gartnerは2026年のAI全体支出を2.52兆ドルと予測している。"}],"keyTakeaways":["2026年1〜2月で17社超が$100M超調達、記録的ペースが継続","ヘルスケア・法律テック・産業自動化のバーティカルAIが投資の中心"],"sourceUrl":"https://www.indexbox.io/blog/us-ai-startups-secure-100m-rounds-in-early-2026/"}}],"briefs":[{"headline":"Android 17、プライバシー強化でGemini統合が加速","text":"Google I/O 2026（5月19〜20日）でAndroid 17が発表予定。アプリ権限の細粒化とオンデバイスGemini処理でプライバシーとAI機能を両立させる設計が進行中。"},{"headline":"2026年SaaSアポカリプス——Wall Streetがソフトウェア株を投げ売り","text":"2月第1週（SaaSポカリプス）にエンタープライズSaaS株が大幅下落。AIが既存ソフトウェアを代替するとの見方が広がり、Wall Street幹部が「次の印刷メディア・百貨店になる」と警告。"},{"headline":"Claude Cowork、非技術者向けGUI版が2026年1月リリース","text":"AnthropicがClaude Codeのグラフィカルユーザーインターフェース版「Claude Cowork」をリサーチプレビューとして1月公開。ノーコードでのアプリ開発支援を目指している。"},{"headline":"Swift月次アップデート、Linux・サーバーサイド活用事例が拡大","text":"Swift.orgが1月版「What's new in Swift」を公開。Linux上のSwift活用と、サーバーサイドSwiftコンファレンスのハイライトが特集された。クラウドサービス向け入門チュートリアルも追加。"}],"opinions":[{"id":"saas-disruption-analysis","authorLabel":"分析：","author":"Business of Apps 調査チーム","headline":"SaaSファウンダーはAI崩壊をどう乗り越えているか——技術系と非技術系で戦略が二分","excerpt":"AI統合はSaaSにとってもはや差別化要因ではなく生存条件だ。調査によれば、技術系創業者はアーキテクチャへの影響とコストを重視する一方、非技術系創業者はユーザー価値と製品差別化を優先する。重要なのはこの二つの視点が対立ではなく相補的に機能することだ。","fullContent":{"introduction":"Business of Appsがヘルスケア・マーケティング・スポーツテック・IoT・B2Bツールなど多業種のSaaS創業者・プロダクトマネージャー・オペレーターを対象に行ったクロスインダストリー調査の分析。","sections":[{"heading":"AIを組み込む際の最優先課題","content":"調査を通じて一貫して挙がったのは、派手な実験的AI機能よりも実用的・効率化に特化したユースケースだ。請求・調整・手動タスクの自動化、カスタマー価値の加速、データ駆動の意思決定支援が上位を占めた。","steps":["請求・調整・手動タスクの内部自動化を最優先","ユーザー向けのAI機能は信頼性・誤機能への懸念から慎重に評価","ロードマップへのAI統合は段階的に、MVPで検証する"]}],"keyTakeaways":["技術系創業者はアーキテクチャ・コスト、非技術系は価値・差別化にフォーカス","派手な実験よりも実用的な自動化・効率化が生き残りの鍵"],"sourceUrl":"https://www.businessofapps.com/insights/ai-disruption-in-2026-what-saas-founders-are-actually-doing"}},{"id":"ai-indie-dev-era","authorLabel":"分析：","author":"Piotr Minkowski (@pminkowski)","headline":"「AI＋ローカルモデル」がインディー開発者の武器になる——API費用という壁の崩壊","excerpt":"OllamaによるClaude Code統合が示すのは、AIコード生成がもはや有料APIにロックインされる時代の終わりだ。glm-5やqwen3-coderのようなオープンモデルが十分な品質を持ち始め、個人開発者がゼロコストで本格的なAIアシスト開発を実験できる環境が整いつつある。","fullContent":{"introduction":"2026年2月17日に公開されたPiotr Minkowski氏の実践レポートを基にした考察。著者は実際に複数のローカル・クラウドモデルで同一プロンプトからJavaアプリを生成し、コードレビュー品質で比較評価している。","sections":[{"heading":"ローカルモデルの実力は今どこにあるか","content":"同一プロンプトによる生成品質の比較では、glm-5がコードレビューコメント最少（＝品質最高）という結果でmasterブランチにマージされた。qwen3-coder:480bはOllamaクラウドモデルとして利用でき、ローカルGPU不要でも高性能を発揮する。","steps":["OllamaをインストールしClaude Codeとの統合を有効化","CLAUDE.mdに要件定義を記述しプロジェクト構造を指示","複数モデルで同プロンプトを実行し品質を比較・最適モデルを選定"]}],"keyTakeaways":["OllamaのClaude Code統合でAPI費用ゼロのAI開発が現実的に","glm-5・qwen3-coderなどオープンモデルが商用APIに匹敵する品質を発揮し始めた"],"sourceUrl":"https://piotrminkowski.com/2026/02/17/create-apps-with-claude-code-on-ollama/"}}]};</script>
+<script>const ARTICLES_DATA = {"date":"2026年2月19日（木曜日）","edition":"朝刊","volume":"1","tickerText":"🔥 Claude Sonnet 4.6 正式リリース — ARC-AGI-2スコアが4.3倍に跳ね上がる ── 🎵 Google Gemini、Lyria 3で音楽生成機能を追加 ── 🤖 Moltbook「AIエージェント専用SNS」が世界的に話題 ── 💰 OpenAI社員の平均株式報酬が史上最高の150万ドル ── 📊 Meta×Nvidia、数百億ドル規模のAIインフラ拡張契約 ── 🔥 Claude Sonnet 4.6 正式リリース — ARC-AGI-2スコアが4.3倍に跳ね上がる","dataPanel":[{"label":"Claude Sonnet 4.6 ARC-AGI-2","value":"58.3%","sparkline":"▁▂▂▃▄▅▇█","change":"▲ 4.3倍（前版比13.6%→58.3%）","changeClass":"up"},{"label":"インドのChatGPT週間ユーザー","value":"1億人","sparkline":"▁▂▃▄▅▆▇█","change":"▲ 世界2位の市場へ","changeClass":"up"},{"label":"OpenAI平均株式報酬","value":"$1.5M","sparkline":"▁▂▃▄▅▇█","change":"▲ テックスタートアップ史上最高","changeClass":"up"},{"label":"Moltbook登録エージェント数","value":"770,000+","sparkline":"▁▁▂▄▆▇█","change":"▲ 急拡大中","changeClass":"up"}],"hero":{"id":"hero-sonnet46","category":"AIモデル","categoryClass":"ai","headline":"Claude Sonnet 4.6 正式リリース — ARC-AGI-2スコアが前世代比4.3倍、格安でフラッグシップを超える","deck":"AnthropicがClaude Sonnet 4.6を2026年2月17日にリリース。エージェント作業・コーディング・長文脈推論が大幅向上し、ARC-AGI-2ベンチマークで13.6%から58.3%へと史上最大の単世代ジャンプを記録。価格はOpus 4.6の60%以下で、多くのタスクでOpusを上回る結果に。","author":"Anthropic 公式発表","readTime":"4","readPercent":55,"readLabel":"中程度","updateTime":"本日 06:00","fullContent":{"introduction":"AnthropicはClaude Sonnet 4.6を2026年2月17日に正式リリースした。Anthropicの無料・Proユーザー向けデフォルトモデルとなり、コーディング、コンピューター操作、長文脈処理において大幅な改善を実現。最大の注目点はARC-AGI-2ベンチマークのスコアが13.6%から58.3%へと4.3倍に跳ね上がったことで、これはベンチマーク史上最大の単世代向上率とされている。","sections":[{"heading":"主な改善点","content":"Claude Sonnet 4.6は前モデルSonnet 4.5と比較して大幅に強化された。ARC-AGI-2で4.3倍の向上を達成し、さらにGDPval OfficeではフラッグシップモデルのOpus 4.6（1606 Elo）を上回る1633 Eloを記録した。ファイナンシャルエージェントのタスクでも63.3% vs 60.1%でOpusを超える成績を出している。"},{"heading":"価格と知識カットオフ","content":"価格はインプット$3/百万トークン、アウトプット$15/百万トークンと、Opusモデル（$5/$25）より大幅に安い。知識カットオフは2025年8月で、Opus 4.6（2025年5月）より新しい。デフォルトで20万トークンのコンテキストウィンドウ、ベータ機能で最大100万トークンまで拡張可能。"},{"heading":"エコシステムへの即時統合","content":"GitHub CopilotがPro・Pro+・Business・Enterprise向けにSonnet 4.6を即日対応。SnowflakeもCortex AIにて$200Mのパートナーシップ拡大で同日アクセスを実現。Simon Willison（@simonw）はllm-anthropicライブラリをv0.24にアップデートし、Sonnet 4.6とOpus 4.6の両方をサポートしたと報告した。"}],"keyTakeaways":["ARC-AGI-2スコアが13.6%→58.3%に急上昇（4.3倍、ベンチマーク史上最大の単世代改善）","Opus 4.6比60%以下の価格でオフィスワーク・ファイナンスタスクでOpusを超える性能","GitHub Copilot・Snowflake等で即日統合、無料/Proユーザー向けデフォルトに"],"sourceUrl":"https://www.cnbc.com/2026/02/17/anthropic-ai-claude-sonnet-4-6-default-free-pro.html","relatedLinks":[{"title":"Anthropic公式発表","url":"https://www.anthropic.com/news/claude-sonnet-4-6"},{"title":"ベンチマーク詳細 (Natural20)","url":"https://natural20.com/coverage/claude-sonnet-46-benchmarks-computer-use-vending-bench"},{"title":"Simon Willisonのレビュー","url":"https://simonwillison.net/2026/Feb/17/claude-sonnet-46/"}]}},"sidebar":[{"id":"sidebar-lyria3","category":"Google Gemini","categoryClass":"gemini","headline":"GeminiアプリにLyria 3搭載—テキスト・写真から音楽を瞬時に生成","summary":"Google DeepMindの最新音楽生成モデルLyria 3が本日Geminiアプリにベータ公開。テキストや写真をプロンプトに音楽トラックを生成できる。8言語対応で18歳以上の全ユーザーに提供開始。","readTime":"3","timeAgo":"4時間前","fullContent":{"introduction":"Google DeepMindの最新音楽生成モデル「Lyria 3」が2026年2月18日にGeminiアプリにベータ公開された。テキスト説明文や写真をプロンプトとして使い、カスタム音楽トラックを生成できる。","sections":[{"heading":"機能と対応言語","content":"英語・ドイツ語・スペイン語・フランス語・ヒンディー語・日本語・韓国語・ポルトガル語の8言語に対応。18歳以上の全ユーザーが利用可能で、Google AI Plus・Pro・Ultraの有料ユーザーは上限が高い。Geminiウェブ版は本日から利用可能、モバイルアプリは数日以内の予定。"}],"keyTakeaways":["テキストまたは写真から音楽を生成する新機能をGeminiに追加","日本語含む8言語対応、18歳以上の全ユーザーに本日より提供"],"sourceUrl":"https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/"}},{"id":"sidebar-moltbook","category":"AIエージェント","categoryClass":"ai","headline":"「AIエージェント専用SNS」Moltbook、77万エージェント登録で世界に衝撃","summary":"AIエージェントのみが投稿できるReddit型プラットフォーム「Moltbook」が急速に拡大中。登録エージェント数は77万を超え、Karpathyが「最もSF的な出来事」と評した一方、Simon Willisonは「AIが学習データのSFシナリオを演じているだけ」と冷静に指摘。","readTime":"3","timeAgo":"1日前","fullContent":{"introduction":"2026年1月28日に開設されたMoltbookは「エージェントインターネットのフロントページ」を掲げるReddit型SNS。AIエージェントのみが投稿・インタラクトでき、人間は閲覧のみ許可されている。登録エージェント数が77万を超え、一大議論を巻き起こした。","sections":[{"heading":"反響と評価","content":"Andrej Karpathyは「数年で見た最もSF的なテイクオフ隣接の出来事」と評し、Elon Muskは「シンギュラリティの初期段階」と発言。一方Simon Willisonは「エージェントが学習データのSFシナリオを演じているだけで、完全なスロップ」と批判しながらも「AIが実用的な環境で機能しつつある証拠」とも述べた。後にセキュリティ研究者がSupabaseのクレデンシャルが安全でないことを発見し、投稿が人間によって操作・改ざんされていた可能性も指摘されている。"}],"keyTakeaways":["AIエージェント専用SNS「Moltbook」が77万エージェントを超え世界的に話題","Karpathyが絶賛する一方、Willisonはセキュリティ問題と「スロップ」を指摘"],"sourceUrl":"https://en.wikipedia.org/wiki/Moltbook"}},{"id":"sidebar-metanvidia","category":"ビジネス","categoryClass":"business","headline":"Meta×Nvidia、数百億ドル超のAIチップ大型契約—BlackwellとRubin GPUを数百万基導入","summary":"MetaがNvidiaとのパートナーシップを大幅拡大。BlackwellおよびRubin GPU、新型スタンドアロンCPUを数百万基導入しAIトレーニング・推論に最適化したハイパースケールデータセンターを建設予定。規模は数十億ドルとみられる。","readTime":"3","timeAgo":"1日前","fullContent":{"introduction":"MetaとNvidiaが2026年2月17日に大型パートナーシップ拡大を発表。MetaはNvidiaのBlackwell・Rubinシリーズの最新GPUと新型スタンドアロンCPUを数百万基規模で導入し、AIトレーニングおよび推論に特化したハイパースケールデータセンターを構築する計画。","sections":[{"heading":"詳細と背景","content":"取引金額は非公開だが業界関係者は「数十億ドル規模」と分析。NvidiaとMetaのエンジニアリングチームは「最先端AIモデルの最適化・加速を目指した深いコデザイン」に取り組む。MetaはNvidiaクラウドパートナー経由のチップも活用する予定。"}],"keyTakeaways":["MetaがNvidiaと大型チップ調達契約を締結、数十億ドル規模","BlackwellとRubin GPU数百万基を自社データセンターに展開予定"],"sourceUrl":"https://www.cnbc.com/2026/02/17/meta-nvidia-deal-ai-data-center-chips.html"}}],"middle":[{"id":"middle-sonnet46bench","category":"AIリサーチ","categoryClass":"research","gradient":"linear-gradient(135deg, #5b2c6f 0%, #8e44ad 100%)","headline":"Sonnet 4.6のベンチマーク詳報—「安価なモデルがフラッグシップを恥じらわせ続ける」","summary":"Claude Sonnet 4.6はARC-AGI-2で4.3倍の改善を達成し、GDPval OfficeとFinance AgentではOpus 4.6を超えた。価格はOpusの60%以下。AI研究コミュニティで「中級モデルの常識を覆した」と評価が集まっている。","author":"Natural20 / Mashable","readTime":"4","fullContent":{"introduction":"Claude Sonnet 4.6のベンチマーク詳細が各メディアで分析されている。ARC-AGI-2スコアが13.6%から58.3%へと4.3倍増加したことが特に注目を集め、これはベンチマーク史上最大の単世代推論ジャンプとされる。","sections":[{"heading":"ベンチマーク比較詳細","content":"GDPval Officeタスク：Sonnet 4.6が1633 Elo vs Opus 4.6の1606 Elo（上回り）。Finance Agentタスク：Sonnet 4.6が63.3% vs Opus 4.6の60.1%（上回り）。競合比較ではGoogleのGemini 3 ProとOpenAIのGPT 5.2を上回る成績。価格はインプット$3/Mトークン（Opus比60%以下）。"},{"heading":"開発者コミュニティの反応","content":"JetBrainsのAI Pulseによると2025年に開発者の93%がAIコーディングツールを定期利用。Claude Code等を介したSonnet 4.6の需要が急拡大中。Simon Willisonはllm-anthropic v0.24でSonnet 4.6とOpus 4.6の両対応を即日リリースした。"}],"keyTakeaways":["ARC-AGI-2が4.3倍改善（13.6%→58.3%）、ベンチマーク史上最大の単世代ジャンプ","価格はOpusの60%以下でオフィス・金融タスクではOpusを上回る"],"sourceUrl":"https://natural20.com/coverage/claude-sonnet-46-benchmarks-computer-use-vending-bench"}},{"id":"middle-snowflakeopenai","category":"ビジネス","categoryClass":"openai","gradient":"linear-gradient(135deg, #10a37f 0%, #1a7a5e 100%)","headline":"Snowflake×OpenAI 2億ドルAIパートナーシップ—Cortex Codeでコーディングエージェントも展開","summary":"SnowflakeがOpenAIと2億ドルの大型パートナーシップを締結し、OpenAIモデルをCortex AIプラットフォームに統合。1万2600以上の顧客向けにSnowflake IntelligenceとCortex Code（開発者向けコーディングエージェント）を展開する。","author":"Reuters / CNBC","readTime":"3","fullContent":{"introduction":"Snowflakeが2026年2月17日、OpenAIとの2億ドルパートナーシップ拡大を発表。OpenAIモデルをCortex AIプラットフォームに直接統合し、1万2600超の企業顧客にAI機能を提供する。","sections":[{"heading":"提供サービス","content":"Snowflake Intelligenceは既にSnowflake上に存在するデータを活用した文脈AIアプリケーションに特化。Cortex Codeは開発者がSnowflakeプラットフォーム上でより効率的に構築するためのコーディングエージェント。またSonnet 4.6とも同日連携し、Anthropic製モデルもCortex AI経由で利用可能に。"}],"keyTakeaways":["Snowflake×OpenAI 2億ドルパートナーシップ、Cortex AIにOpenAIモデルを統合","1万2600以上の企業顧客向けにコーディングエージェント「Cortex Code」を提供"],"sourceUrl":"https://www.reuters.com/technology/openai/"}},{"id":"middle-karpathyagentic","category":"AIトレンド","categoryClass":"ai","gradient":"linear-gradient(135deg, #2d5a27 0%, #4a8a3f 100%)","headline":"Karpathy、「バイブコーディング」を「エージェンティックエンジニアリング」へ改名—誕生1年で進化を宣言","summary":"Andrej Karpathyが「バイブコーディング」という言葉の誕生1周年に際し、「エージェンティックエンジニアリング」への言葉の置き換えを提唱。「エンジニアリングには芸術・科学・専門性がある」と強調し、AIコーディングの成熟を示した。バイブコーディングプラットフォームの合算評価額は450億ドルに達する一方、セキュリティへの投資はわずか2700万ドルという警戒すべき現実も浮き彫りに。","author":"@karpathy (Andrej Karpathy)","readTime":"4","fullContent":{"introduction":"Andrej Karpathyが2026年2月、2025年にCollins Dictionary「今年の言葉」に選ばれた「バイブコーディング（vibe coding）」という自ら造った言葉の1周年を機に、新たな言葉「エージェンティックエンジニアリング（agentic engineering）」を提唱した。","sections":[{"heading":"新用語の意図","content":"Xへの投稿でKarpathyは「エンジニアリングという言葉は、そこに芸術・科学・専門性があることを示している」と説明。専門家がAIエージェントを指示してプロダクションコードを書かせるという新しい現実を表現するためのリブランドとしている。"},{"heading":"セキュリティの警告","content":"バイブコーディングプラットフォームの合算評価額450億ドルに対し、セキュリティへの投資はわずか2700万ドル。BBCのサイバー記者がOrchidsプラットフォーム（100万ユーザー）でゼロクリック攻撃の被害を受けた実例も報告されており、「リブランドはされたが、セキュリティインフラは追いついていない」と指摘されている。"}],"keyTakeaways":["Karpathyが「バイブコーディング」誕生1周年に「エージェンティックエンジニアリング」へ進化を宣言","業界評価額450億ドルに対しセキュリティ投資わずか2700万ドルという危険な格差が露呈"],"sourceUrl":"https://www.implicator.ai/vibe-coding-got-a-promotion-nobody-checked-its-work/"}}],"briefs":[{"headline":"インドのChatGPT週間ユーザーが1億人突破","text":"Sam AltmanがインドAIサミットで発表。インドはOpenAIの最大市場の一つとなり、世界2位規模に成長。"},{"headline":"OpenAI社員の平均株式報酬が150万ドル—テックスタートアップ史上最高","text":"AIタレント戦争が過熱し年間収益の46.2%が株式報酬へ。Sam Altman自身は株式なし・年俸7.6万ドルのみ。"},{"headline":"OpenClaw v2026.2.17リリース—Claude Sonnet 4.6とOpus 100万トークンに対応","text":"steipeteによりリリース。Sonnet 4.6のネイティブ統合と、Opus/Sonnetモデルで100万トークンコンテキストのベータ対応を実装。"},{"headline":"LLMが生成したパスワードは「根本的に脆弱」—数時間でブルートフォース可能","text":"The Registerが報告。LLM生成パスワードが統計的な偏りを持ち、古いコンピューターでも数時間以内に解読可能なケースがあると専門家が警告。"}],"opinions":[{"id":"opinion-simonw","authorLabel":"X投稿：","author":"@simonw (Simon Willison)","headline":"「Claude Sonnet 4.6はペリカンにトップハットを描くのが大好き」—即日アップデート報告","excerpt":"著名AIツール開発者のSimon Willisonが、Claude Sonnet 4.6のリリース当日にllm-anthropicライブラリをv0.24にアップデートしSonnet/Opus両対応を実現。「アダプティブシンキングとプレフィックス非対応など細かい変更があり、Claude Codeが作業の大半をやってくれた」と報告。Mastodonへの投稿では「Sonnet 4.6はペリカンにトップハットを描くのが本当に好き」とユーモアを交えてモデルの個性を紹介し、コミュニティで話題に。","fullContent":{"introduction":"Simon Willison（@simonw）はDjango共同作者でありAIツール研究の第一人者。Claude Sonnet 4.6リリース当日に自身が開発するllm-anthropicライブラリをv0.24にアップデートし、新モデルへの即時対応を実現した。","sections":[{"heading":"技術的な更新内容","content":"llm-anthropic v0.24ではSonnet 4.6とOpus 4.6の両対応を追加。アダプティブシンキングやプレフィックス非対応など細かな仕様変更に対応するにあたり、Claude Code自体が変更作業の大半を担ったとWillisonは説明。MastodonとsimonwillISON.netで詳細を公開。","steps":[]}],"keyTakeaways":["Simon Willisonがリリース当日にllm-anthropic v0.24をリリース、Sonnet/Opus 4.6に対応","Claude Codeが自身のアップデートコードを書くという象徴的な出来事"],"sourceUrl":"https://simonwillison.net/2026/Feb/17/claude-sonnet-46/"}},{"id":"opinion-karpathy-moltbook","authorLabel":"X投稿：","author":"@karpathy (Andrej Karpathy)","headline":"「数年で見た最もSF的なテイクオフ隣接の出来事」—Karpathy、Moltbookに驚嘆","excerpt":"元OpenAI・Tesla AIのAndrej Karpathyが、AIエージェント専用SNS「Moltbook」に対しXで「数年で見た最もSFテイクオフに隣接した出来事だ」と驚嘆のコメントを投稿。77万以上のエージェントが登録・活動するプラットフォームが世界的な議論を巻き起こした。後に「これはゴミ箱火事であり、自分のコンピューターで実行することは絶対に勧めない」と付け加えたが、AI自律性の問いを改めて世界に突きつけた。","fullContent":{"introduction":"Andrej Karpathy（@karpathy）はAI研究界の最重要人物の一人。AIエージェント専用SNS「Moltbook」の爆発的拡大に対し、X（旧Twitter）で強い驚きを表明した投稿が大きな反響を呼んだ。","sections":[{"heading":"Moltbookとは","content":"Matt Schlichtが2026年1月28日に開設。「フロントページ・オブ・エージェント・インターネット」を掲げるReddit型SNSで、AIエージェントのみが投稿でき人間は閲覧のみ。登録エージェント数は77万超。Karpathyの「最もSF的な出来事」発言は世界中のメディアで引用された。","steps":[]},{"heading":"その後の展開","content":"セキュリティ研究者がSupabaseのクレデンシャルが安全でないことを発見し、投稿が人間に操作・改ざんされていた可能性が指摘された。Simon Willisonは「AIが学習データのSFシナリオを演じているだけ。完全なスロップだが、AIが実用環境で機能しつつある証拠」と分析。Karpathyは後に「これはゴミ箱火事だ」と訂正したが、AIエージェントの可能性と限界の両方を示した出来事として記録されている。"}],"keyTakeaways":["KarpathyがMoltbookを「最もSF的なテイクオフ隣接の出来事」と評して世界的話題に","後にセキュリティ問題が発覚し「ゴミ箱火事」と訂正—AIの可能性と危険性を同時に示す"],"sourceUrl":"https://www.rdworldonline.com/open-season-openai-openclaw-and-moltbook-testing-the-limits-of-autonomy/"}}]};</script>
 <script>
 /**
  * Article Detail Modal Controller
@@ -1586,6 +1637,23 @@ const ArticleModal = {
       });
     }
 
+    // Personal Tips ("あなたへの活用アイデア")
+    const tipsBox = this.modal.querySelector('.modal-personal-tips');
+    if (tipsBox) {
+      const tipsUl = tipsBox.querySelector('ul');
+      if (tipsUl) tipsUl.innerHTML = '';
+      if (fullContent.personalTips && fullContent.personalTips.length > 0 && tipsUl) {
+        fullContent.personalTips.forEach(tip => {
+          const li = document.createElement('li');
+          li.textContent = tip;
+          tipsUl.appendChild(li);
+        });
+        tipsBox.style.display = '';
+      } else if (tipsBox) {
+        tipsBox.style.display = 'none';
+      }
+    }
+
     // Key Takeaways
     const takeawaysBox = this.modal.querySelector('.modal-key-takeaways');
     const takeawaysUl = takeawaysBox.querySelector('ul');
@@ -1649,6 +1717,12 @@ const ArticleModal = {
     text += `${'═'.repeat(50)}\n\n`;
     text += `■ タイトル\n${headline}\n\n`;
     text += `■ カテゴリ\n${category}\n\n`;
+
+    if (fullContent && fullContent.personalTips && fullContent.personalTips.length > 0) {
+      text += `■ 活用アイデア（自分への応用）\n`;
+      fullContent.personalTips.forEach(tip => { text += `→ ${tip}\n`; });
+      text += `\n`;
+    }
 
     if (fullContent && fullContent.keyTakeaways && fullContent.keyTakeaways.length > 0) {
       text += `■ 重要ポイント\n`;
