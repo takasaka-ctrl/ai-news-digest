@@ -1,0 +1,301 @@
+{
+  "date": "2026年2月18日（水曜日）",
+  "edition": "朝刊",
+  "volume": "1",
+  "tickerText": "【速報】Claude Sonnet 4.6リリース ── OpenAI、GPT-4oを正式退役 ── Google I/O 2026日程発表 ── Qwen 3.5がオープンソース最強を主張 ── AIコーディングモデル競争が激化 ── Infosys×Anthropic戦略提携 ── GPU価格が急騰中 ── 【速報】Claude Sonnet 4.6リリース",
+
+  "dataPanel": [
+    {
+      "label": "Claude Sonnet",
+      "value": "4.6",
+      "sparkline": "▁▂▃▅▇█",
+      "change": "▲ 最新版リリース",
+      "changeClass": "up"
+    },
+    {
+      "label": "OpenAI 署名数",
+      "value": "20,000+",
+      "sparkline": "▁▂▄▅▇█",
+      "change": "▲ GPT-4o復活要求",
+      "changeClass": "up"
+    },
+    {
+      "label": "GPU価格推移",
+      "value": "16GB+急騰",
+      "sparkline": "▂▃▄▆▇█",
+      "change": "▲ 2025年11月比大幅上昇",
+      "changeClass": "up"
+    },
+    {
+      "label": "Qwen 3.5",
+      "value": "オープンソース",
+      "sparkline": "▁▂▃▅▆█",
+      "change": "▲ フロンティアモデルに挑戦",
+      "changeClass": "up"
+    }
+  ],
+
+  "hero": {
+    "id": "hero-sonnet46",
+    "category": "AIモデル",
+    "categoryClass": "ai",
+    "headline": "AnthropicがClaude Sonnet 4.6をリリース — エンタープライズ向け精度・信頼性を強化",
+    "deck": "Anthropicは2026年2月17日、最新の中堅モデル「Claude Sonnet 4.6」を発表。エンタープライズ環境での文脈理解と応答信頼性を向上させながら、コスト効率と低レイテンシを維持。金融・医療などの規制業種での採用加速が期待される。",
+    "author": "Anthropic公式 / startupnews.fyi",
+    "readTime": "4",
+    "readPercent": 60,
+    "readLabel": "中程度",
+    "updateTime": "本日 06:30",
+    "fullContent": {
+      "introduction": "Anthropicは2026年2月17日、Claudeモデルファミリーの最新版「Claude Sonnet 4.6」を正式発表した。中堅クラスのモデルとして、エンタープライズ顧客のコスト効率と高性能の両立を重視した設計となっている。リリースと同時に既存ユーザーへのロールアウトが開始され、価格は前バージョンのSonnet 4.5と同一に設定された。",
+      "sections": [
+        {
+          "heading": "パフォーマンス向上の詳細",
+          "content": "Claude Sonnet 4.6は前バージョンと比較して文脈理解の深さと応答の一貫性が改善されている。特にエンタープライズ向けのコード補完、ドキュメント処理、コンピューター操作（Computer Use）機能が強化された。コスト面では推論当たりの価格を据え置き、スケーラブルなデプロイメントを支援する。"
+        },
+        {
+          "heading": "エンタープライズ市場での差別化",
+          "content": "Anthropicの安全性重視のアプローチは、金融・医療・製造業などの規制の厳しいセクターで引き続き高評価を受けている。Claude Sonnet 4.6は幻覚（ハルシネーション）率の低減と制御された出力を強みとし、エンタープライズ向けのAPIインテグレーションや管理コントロールを提供する。InfosysとのCenter of Excellence設立など、パートナーシップ展開も進んでいる。"
+        },
+        {
+          "heading": "競争環境",
+          "content": "2026年のAIモデルエコシステムは米国フロンティアラボ、中国発の基盤モデル（Qwen 3.5など）、オープンソース代替製品、専門特化型モデルが並立する。AnthropicはGPT-5.2やGemini 3との激化する競争の中、段階的なアップグレードの継続によって市場シェアを維持する戦略をとっている。"
+        }
+      ],
+      "keyTakeaways": [
+        "Claude Sonnet 4.6は2026年2月17日にリリース、価格はSonnet 4.5と同一",
+        "エンタープライズ向けコーディング・コンピューター操作・オフィス業務が強化",
+        "金融・医療等の規制業種での採用拡大を見込む安全性重視設計"
+      ],
+      "sourceUrl": "https://startupnews.fyi/2026/02/18/anthropic-claude-sonnet-4-6-launch/",
+      "relatedLinks": [
+        {"title": "Claude Sonnet 4.6 on MacRumors", "url": "https://www.macrumors.com/2026/02/17/anthropic-releases-claude-sonnet-4-6/"},
+        {"title": "Infosys × Anthropic 提携", "url": "https://www.ciol.com/news/technologyaiinfosys-anthropic-claude-enterprise-ai-partnership-2026-11121056"}
+      ]
+    }
+  },
+
+  "sidebar": [
+    {
+      "id": "sb-openai-prism",
+      "category": "OpenAI",
+      "categoryClass": "openai",
+      "headline": "OpenAI、科学論文執筆AIワークスペース「Prism」を正式ローンチ — GPT-5.2搭載",
+      "summary": "OpenAIが科学者・研究者向けの無料AIワークスペース「Prism」をPrism.appドメインで公開。GPT-5.2を搭載し、論文執筆・共同研究をサポート。ドメインが10日前に12万ドルで売却された直後の立ち上げに注目が集まる。",
+      "readTime": "3",
+      "timeAgo": "10時間前",
+      "fullContent": {
+        "introduction": "OpenAIが科学分野向けのAIワークスペース「Prism」を正式ローンチした。GPT-5.2を中核に据えた無料サービスで、研究者の論文執筆・コラボレーションを支援する。",
+        "sections": [
+          {
+            "heading": "Prismの主要機能",
+            "content": "Prismは科学的な文書作成、参考文献管理、共同研究者との協働をAIがサポートするプラットフォーム。GPT-5.2の自然言語処理能力を活かし、複雑な研究内容を整理・構造化する機能を提供する。"
+          }
+        ],
+        "keyTakeaways": [
+          "GPT-5.2搭載の無料科学論文執筆AIワークスペース",
+          "Prism.appドメインは10日前に12万ドルで売却されたばかり"
+        ],
+        "sourceUrl": "https://techstartups.com/2026/02/17/openai-launches-prism-ai-workspace-on-prism-app-a-domain-sold-for-120k-10-days-earlier/"
+      }
+    },
+    {
+      "id": "sb-gpt4o-retire",
+      "category": "OpenAI",
+      "categoryClass": "openai",
+      "headline": "GPT-4oが正式退役 — 2万人超が「復活」を求めてペティション署名",
+      "summary": "OpenAIがGPT-4oを正式に退役させ、エージェント型アーキテクチャへの移行を宣言。ユーザーの間で惜しむ声が相次ぎ、2万人以上が復活を求めるペティションに署名した。",
+      "readTime": "3",
+      "timeAgo": "10時間前",
+      "fullContent": {
+        "introduction": "OpenAIはGPT-4oを公式に退役させ、エージェント型の新アーキテクチャへの全面移行を発表した。ユーザーからは惜しむ声が多数上がり、ペティション署名活動が起きている。",
+        "sections": [
+          {
+            "heading": "退役の背景と影響",
+            "content": "GPT-4oの退役は単なるモデル更新ではなく、OpenAIの技術哲学の転換を意味する。エージェント型アーキテクチャへのシフトにより、より自律的なタスク遂行能力が強化される見込み。しかし多くのユーザーがGPT-4oのシンプルさや使い勝手を支持し、復活を求めている。"
+          }
+        ],
+        "keyTakeaways": [
+          "GPT-4o正式退役、エージェント型アーキテクチャへ移行",
+          "2万人以上がGPT-4o復活を求める署名を提出"
+        ],
+        "sourceUrl": "https://www.businessinsider.com/openai-retires-gpt-4o-20-000-sign-petition-save-it-2026-2"
+      }
+    },
+    {
+      "id": "sb-google-io-2026",
+      "category": "Google",
+      "categoryClass": "gemini",
+      "headline": "Google I/O 2026の日程が判明 — GeminiとAndroidの大型発表に期待",
+      "summary": "Googleが今年最大のイベント「Google I/O 2026」を5月中旬に開催すると発表。AIとGemini、Androidの最新アップデートが中心テーマとなり、開発者コミュニティの注目を集めている。",
+      "readTime": "2",
+      "timeAgo": "1時間前",
+      "fullContent": {
+        "introduction": "GoogleがGoogle I/O 2026の開催日程を発表した。5月中旬に開催予定のこの年次開発者会議では、GeminiモデルのアップデートやAndroid新機能が主要テーマになると見られる。",
+        "sections": [
+          {
+            "heading": "期待される発表内容",
+            "content": "業界アナリストは、Geminiの最新バージョン、Android AIインテグレーション、Workspace向けAI機能強化などの発表を予測している。昨年に続いてAIが会議の中心テーマとなる見通し。"
+          }
+        ],
+        "keyTakeaways": [
+          "Google I/O 2026は5月中旬に開催予定",
+          "GeminiとAndroidのAI統合が主要テーマになる見通し"
+        ],
+        "sourceUrl": "https://www.moneycontrol.com/technology/google-reveals-date-for-its-biggest-event-of-2026-what-to-expect-from-gemini-android-and-beyond-article-13833037.html"
+      }
+    }
+  ],
+
+  "middle": [
+    {
+      "id": "mid-qwen35",
+      "category": "オープンソース",
+      "categoryClass": "research",
+      "gradient": "linear-gradient(135deg, #5b2c6f 0%, #8e44ad 100%)",
+      "headline": "Qwen 3.5が登場 — GPT-5.2・Claude Opus 4.5・Gemini 3に挑む最強OSSモデル",
+      "summary": "AlibabaのQwen 3.5がフロンティア独自モデルに匹敵するパフォーマンスを一部ベンチマークで達成。オープンソースAIが商用モデルの経済合理性を本格的に揺るがし始めた。",
+      "author": "atalupadhyay.wordpress.com",
+      "readTime": "4",
+      "fullContent": {
+        "introduction": "AlibabaのQwen 3.5は、最新のベンチマーク評価でGPT-5.2、Claude Opus 4.5、Gemini 3などのフロンティアモデルと肩を並べる性能を一部分野で示した。オープンソースモデルの実力が問われる試金石となっている。",
+        "sections": [
+          {
+            "heading": "ベンチマーク評価",
+            "content": "Qwen 3.5は推論、コーディング、多言語処理のベンチマークで競合モデルと競争力のあるスコアを記録した。ただし「最強」の称号はベンチマークの種類によって異なり、特定タスクでは商用モデルが依然優位を保つ。"
+          },
+          {
+            "heading": "コモディティハードウェアでの動作",
+            "content": "Qwen 3.5の最大の特徴は、コモディティハードウェア上での実行可能性。フロンティアモデルに近いパフォーマンスをローカル環境で実現できるため、APIコスト削減とプライバシー保護の観点から企業の注目を集めている。"
+          }
+        ],
+        "keyTakeaways": [
+          "Qwen 3.5は一部ベンチマークでGPT-5.2・Opus 4.5・Gemini 3と競合",
+          "コモディティハードウェアで動作可能、API依存コストを削減",
+          "オープンソースモデルが独自モデル経済を本格的に脅かし始めた"
+        ],
+        "sourceUrl": "https://atalupadhyay.wordpress.com/2026/02/17/qwen-3-5-open-source-ai-model-challenging-gpt-5-2-claude-opus-4-5-gemini-3/"
+      }
+    },
+    {
+      "id": "mid-jetbrains-coding",
+      "category": "開発者向け",
+      "categoryClass": "tech",
+      "gradient": "linear-gradient(135deg, #1e3a5f 0%, #3498db 100%)",
+      "headline": "JetBrainsが2026年版AIコーディングモデル比較を公開 — 精度・統合性・コストで評価",
+      "summary": "JetBrainsが主要LLMのコーディング性能を精度・速度・セキュリティ・コスト・IDE統合の観点から比較したレポートを公開。実際の使用データに基づくランキングが開発者の選択を支援する。",
+      "author": "JetBrains AI Blog",
+      "readTime": "5",
+      "fullContent": {
+        "introduction": "JetBrainsのAIブログが、2026年版の主要AIモデルのコーディング性能比較レポートを公開した。精度、速度、セキュリティ、コスト、IDE統合の5軸で評価し、JetBrains AI Assistantと組み合わせた実務データを反映している。",
+        "sections": [
+          {
+            "heading": "評価軸と主要知見",
+            "content": "各モデルはコード補完精度、応答速度、セキュリティ対応、推論コスト、IDE（IntelliJ IDEA・PyCharm等）との統合品質で評価された。チームの規模や用途によって最適なモデルが異なり、単一の「最強モデル」は存在しないとの結論。"
+          }
+        ],
+        "keyTakeaways": [
+          "精度・速度・セキュリティ・コスト・IDE統合の5軸で主要LLMを比較",
+          "実務データに基づいたチーム・用途別のモデル選択指針を提供",
+          "JetBrains AI Assistantは主要モデルのハブとして機能"
+        ],
+        "sourceUrl": "https://blog.jetbrains.com/ai/2026/02/the-best-ai-models-for-coding-accuracy-integration-and-developer-fit/"
+      }
+    },
+    {
+      "id": "mid-qwen-economics",
+      "category": "ビジネス",
+      "categoryClass": "business",
+      "gradient": "linear-gradient(135deg, #8b4513 0%, #a0522d 100%)",
+      "headline": "Alibaba Qwenがプロプライエタリモデルの経済性を揺るがす",
+      "summary": "AlibabaのQwenシリーズ最新版がコモディティハードウェアで同等パフォーマンスを実現し、米国系フロンティアラボの価格優位性に疑問符。エンタープライズのAI調達戦略に変化が起きるか注目される。",
+      "author": "Michael Brian Cotter",
+      "readTime": "3",
+      "fullContent": {
+        "introduction": "AlibabaのQwenモデルの最新リリースが、独自モデルの経済合理性に挑戦している。コモディティハードウェア上で匹敵するパフォーマンスを実現することで、米国フロンティアラボが歴史的に持つ性能優位が問い直されている。",
+        "sections": [
+          {
+            "heading": "コスト面での競争優位",
+            "content": "Qwenの主要な差別化ポイントはコスト効率だ。API利用料を払い続けるモデルに対し、オープンソースのQwenをオンプレミスで運用することで推論コストを大幅削減できる可能性がある。特にデータプライバシーや規制遵守が求められる業種での採用が見込まれる。"
+          }
+        ],
+        "keyTakeaways": [
+          "Qwenはコモディティハードウェアで商用モデルに匹敵するパフォーマンスを実現",
+          "エンタープライズのAPI調達コスト削減の手段として注目",
+          "データプライバシー重視の業種でのオンプレミス展開に適する"
+        ],
+        "sourceUrl": "https://michaelbriancotter.wordpress.com/2026/02/17/alibaba-qwen-is-challenging-proprietary-ai-model-economics/"
+      }
+    }
+  ],
+
+  "briefs": [
+    {
+      "headline": "Infosys × Anthropic が戦略的AI提携を発表",
+      "text": "InfosysとAnthropicが通信・金融・製造・ソフトウェア開発分野でClaudeエージェントを展開するCenter of Excellenceを設立する戦略提携を締結した。"
+    },
+    {
+      "headline": "LLMは時代遅れになるのか？研究者が議論",
+      "text": "生成AI市場を支配するLLMだが、研究者の間でより効率的・特化型のアーキテクチャが将来的にこれらを置き換える可能性についての議論が活発化している。"
+    },
+    {
+      "headline": "AIローカル運用向けGPU価格が全VRAMクラスで急騰",
+      "text": "2025年11月〜2026年2月にかけて16GB以上のGPU価格が大幅上昇。LLMのローカル運用コストが増大しており、クラウドとのコスト比較が再評価されている。"
+    },
+    {
+      "headline": "LLMが医療レポートの可読性向上に貢献",
+      "text": "メキシコ・ラテンアメリカを中心に、LLMが放射線科レポートを患者が理解しやすい形に変換する取り組みが進んでいる。臨床ワークフローの効率化にも寄与。"
+    }
+  ],
+
+  "opinions": [
+    {
+      "id": "op-gpt53codex",
+      "authorLabel": "分析：",
+      "author": "AI Code Detector Blog (@aicodedetector)",
+      "headline": "GPT-5.3-Codexの登場とコーディングAI競争の新局面",
+      "excerpt": "OpenAIが2月5日にGPT-5.3-Codexをリリースし、コーディング専用モデルの競争が新局面へ。Claude Sonnet 4.6、Qwen 3.5との三つ巴の戦いが開発者の選択肢を豊かにする一方、モデル評価の複雑さも増している。",
+      "fullContent": {
+        "introduction": "OpenAIがGPT-5.3-Codexをリリースし、コーディング特化モデルの市場競争が激化している。AnthropicのClaude Sonnet 4.6とAlibabaのQwen 3.5も同時期にコーディング性能を前面に出しており、開発者はかつてないほど多様な選択肢を持つことになった。",
+        "sections": [
+          {
+            "heading": "三つ巴の競争構図",
+            "content": "GPT-5.3-Codex（OpenAI）、Claude Sonnet 4.6（Anthropic）、Qwen 3.5（Alibaba）の3モデルがそれぞれコーディング性能でリードを主張している。ただしベンチマークの種類によって優劣が入れ替わるため、特定のユースケースに合わせたモデル選択が重要になっている。",
+            "steps": [
+              "複数のベンチマーク（HumanEval, SWE-bench等）で各モデルを比較",
+              "自社のユースケース（補完・レビュー・テスト生成等）に合わせて評価",
+              "IDE統合とコスト効率も加味した総合判断"
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "GPT-5.3-Codex、Claude Sonnet 4.6、Qwen 3.5の三つ巴でコーディングAI競争が激化",
+          "ベンチマーク依存の評価では優劣が変わるため、ユースケース別の検証が重要"
+        ],
+        "sourceUrl": "https://aicodedetector.com/openai-codex-statistics/"
+      }
+    },
+    {
+      "id": "op-llm-future",
+      "authorLabel": "分析：",
+      "author": "StartupNews.fyi 編集部",
+      "headline": "LLMは本当に時代遅れになるのか — アーキテクチャ進化論の現在地",
+      "excerpt": "生成AIの主役を担うLLMだが、より効率的・特化型のアーキテクチャへの移行論が浮上している。State Space ModelsやMixtureアーキテクチャの進化が、Transformerベース一強時代に終止符を打つ可能性を研究者たちが検討している。",
+      "fullContent": {
+        "introduction": "LLM（大規模言語モデル）は現在の生成AIシーンを支配しているが、研究者の間では将来的により効率的・特化型のアーキテクチャがこれらを置き換える可能性について活発な議論が展開されている。",
+        "sections": [
+          {
+            "heading": "次世代アーキテクチャの候補",
+            "content": "State Space Models（Mamba等）、Mixture-of-Expertsアーキテクチャ、ハイブリッドモデルなどが次世代の候補として挙げられている。これらはTransformerの計算コスト問題を解決しつつ、特定タスクでの性能向上を目指している。ただし汎用性という点では依然LLMが優位を保つとする見方も強い。"
+          }
+        ],
+        "keyTakeaways": [
+          "State Space Models等の代替アーキテクチャがTransformer一強に挑戦",
+          "汎用タスクではLLMが当面主流を維持するとの見方が多数",
+          "特化型モデルとの共存・ハイブリッド化が現実的なシナリオ"
+        ],
+        "sourceUrl": "https://startupnews.fyi/2026/02/17/large-language-models/"
+      }
+    }
+  ]
+}
