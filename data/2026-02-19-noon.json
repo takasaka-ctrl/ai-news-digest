@@ -1,0 +1,314 @@
+{
+  "date": "2026年2月19日（木曜日）",
+  "edition": "昼刊",
+  "volume": "1",
+  "tickerText": "Claude Sonnet 4.6 リリース — 1/5のコストでフラッグシップ並み性能 ── Karpathy「Vibe Codingは古い、Agentic Engineering時代へ」 ── GPT4AllがMacでOllamaを置き換え ── Claude Code 50の実践Tipsが話題に ── Simon Willison「AIエージェントのおかげで型ヒントに転向」 ── Claude Sonnet 4.6 リリース — 1/5のコストでフラッグシップ並み性能",
+
+  "dataPanel": [
+    {
+      "label": "Claude Sonnet 4.6 コスト削減",
+      "value": "1/5",
+      "sparkline": "▁▂▃▅▇█",
+      "change": "▲ Opus 4.5比で80%コスト削減",
+      "changeClass": "up"
+    },
+    {
+      "label": "Vibe Coding市場評価額",
+      "value": "$450億",
+      "sparkline": "▁▂▄▅▇█",
+      "change": "▲ Cursor $293億、Lovable $66億など",
+      "changeClass": "up"
+    },
+    {
+      "label": "Claude Code 実践Tips",
+      "value": "50件",
+      "sparkline": "▂▃▄▅▆█",
+      "change": "▲ 2026年版完全ガイド公開",
+      "changeClass": "up"
+    },
+    {
+      "label": "ローカルAI市場競争",
+      "value": "GPT4All",
+      "sparkline": "▁▂▃▄▆█",
+      "change": "▲ MacでOllamaを置き換える新定番",
+      "changeClass": "up"
+    }
+  ],
+
+  "hero": {
+    "id": "hero-sonnet46",
+    "category": "AI モデル",
+    "categoryClass": "ai",
+    "headline": "Claude Sonnet 4.6 登場——Opus 4.5の1/5コストでフラッグシップ並み性能、1Mトークンコンテキスト対応",
+    "deck": "AnthropicがClaude Sonnet 4.6をリリース。コーディング・エージェント計画・長文脈推論を大幅強化し、開発者テストではOpus 4.5を59%のケースで上回る評価を獲得。1Mトークンのコンテキストウィンドウもベータ提供開始。",
+    "author": "Anthropic / VentureBeat",
+    "readTime": "4",
+    "readPercent": 65,
+    "readLabel": "中程度",
+    "updateTime": "本日 07:00",
+    "fullContent": {
+      "introduction": "AnthropicはClaude Sonnet 4.6を正式リリースした。コーディング、コンピューター操作、ウェブ検索、長文脈推論、エージェント計画、知識ワーク、デザインの各分野で大幅に改善され、価格はOpus 4.5の5分の1を維持。開発者の間では「実質的なアップグレード」として高く評価されており、Opus 4.5との比較テストで59%のケースでSonnet 4.6が優れているとの評価を得た。",
+      "sections": [
+        {
+          "heading": "主な改善点",
+          "content": "Claude Sonnet 4.6の最大の特徴は、フラッグシップモデル(Opus 4.5)に匹敵する知性を大幅に低いコストで提供すること。コーディング能力の向上に加え、computer useスキルが強化され、複雑なエージェントワークフローにも対応できるようになった。また、1Mトークンのコンテキストウィンドウがベータ版として提供開始され、大規模なコードベースや長文ドキュメントの処理が可能になった。"
+        },
+        {
+          "heading": "開発者からの評価",
+          "content": "初期レビューでは、Sonnet 4.6はOpus 4.5より幻覚（ハルシネーション）が少なく、コーディングタスクでより良い結果を出すと評価された。VentureBeatによると、エンタープライズ向けの採用が加速しており、価格対性能比での優位性が選択の決め手になっているという。The-Decoderは「倫理的ブレーキの欠如」への懸念も指摘しているが、技術的パフォーマンスは業界最高水準と評価している。"
+        }
+      ],
+      "keyTakeaways": [
+        "Opus 4.5の1/5のコストでフラッグシップ並みの性能を実現",
+        "1Mトークンコンテキストウィンドウがベータ提供開始",
+        "コーディング・computer use・ウェブ検索が大幅強化",
+        "開発者テストでOpus 4.5を59%のケースで上回る評価"
+      ],
+      "sourceUrl": "https://siliconangle.com/2026/02/17/anthropic-debuts-sonnet-4-6-highly-capable-creative-coding-ai-model/",
+      "relatedLinks": [
+        {"title": "VentureBeat: Sonnet 4.6 詳細レポート", "url": "https://venturebeat.com/technology/anthropics-sonnet-4-6-matches-flagship-ai-performance-at-one-fifth-the-cost"},
+        {"title": "XDA Developers: Sonnet 4.6 レビュー", "url": "https://www.xda-developers.com/claude-sonnet-4-6-release/"},
+        {"title": "The Decoder: 倫理面の懸念分析", "url": "https://the-decoder.com/anthropics-claude-sonnet-4-6-arrives-with-smarter-search-and-coding-skills-but-a-concerning-lack-of-ethical-brakes/"}
+      ]
+    }
+  },
+
+  "sidebar": [
+    {
+      "id": "sidebar-claude-50tips",
+      "category": "実践Tips",
+      "categoryClass": "tech",
+      "headline": "Claude Code 50の実践Tips——Plan Mode・Git Worktrees・並列開発を完全攻略",
+      "summary": "Geeky Gadgetsが2026年版のClaude Code完全ガイドを公開。Plan Modeの活用、/clear・/compactコマンドの戦略的使用、Git Worktreesを使った並列開発など、日常的なコーディングを劇的に効率化する50のティップスを網羅している。",
+      "readTime": "6",
+      "timeAgo": "15時間前",
+      "fullContent": {
+        "introduction": "Claude Code使いこなしの決定版ガイドが公開された。サブエージェントを使ったタスク委譲、デバッグツールの活用、再利用可能なスキルの作成など、開発ワークフローを根本から変える50のティップスが紹介されている。",
+        "sections": [
+          {
+            "heading": "基礎設定のポイント",
+            "content": "プロジェクトのルートディレクトリでClaude Codeを実行し、claw.mdファイルにコーディング標準・アーキテクチャ詳細・バリデーションフローを記述することが出発点。",
+            "steps": [
+              "プロジェクトルートでClaude Codeを起動",
+              "claw.mdにプロジェクト固有のルールを記述",
+              "Plan Modeを活用して変更前に計画を立てる",
+              "/compact でコンテキストを定期的に整理"
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "Plan Modeで実行前に計画フェーズを挟む習慣をつける",
+          "Git Worktreesで複数ブランチを並列作業",
+          "/context と /compact でコンテキスト管理を最適化"
+        ],
+        "sourceUrl": "https://www.geeky-gadgets.com/claude-code-tips-2/"
+      }
+    },
+    {
+      "id": "sidebar-claude-hooks",
+      "category": "自動化",
+      "categoryClass": "tech",
+      "headline": "Claude Code Hooksで開発規約を自動強制——CLAUDE.mdを超えた次世代ワークフロー",
+      "summary": "AWS DEV Communityが、Claude Code Hooksの実践ガイドを公開。command・prompt・agentの3種類のフックを使い、破壊的コマンドのブロック、自動フォーマット、型チェック、環境セットアップを自動化する方法を解説している。",
+      "readTime": "5",
+      "timeAgo": "13時間前",
+      "fullContent": {
+        "introduction": "CLAUDE.mdでの指示だけでは限界があった。Claude Code Hooksを使えば、開発規約をコードレベルで自動的に強制できる。3種類のフックタイプを組み合わせることで、人為的なミスを大幅に削減できる。",
+        "sections": [
+          {
+            "heading": "3種類のフックタイプ",
+            "content": "commandフック（特定コマンドの実行前後）、promptフック（プロンプト処理前後）、agentフック（エージェント動作の制御）を状況に応じて使い分ける。",
+            "steps": [
+              "rm -rf等の破壊的コマンドをcommandフックでブロック",
+              "コード実行後に自動でlint/format",
+              "型チェックを自動実行してエラーを即座に検出"
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "3種類のフックで開発規約を自動強制できる",
+          "CLAUDE.mdの指示+フックの組み合わせが最強",
+          "破壊的コマンドのブロックでセキュリティ向上"
+        ],
+        "sourceUrl": "https://dev.to/aws/automating-your-workflow-with-claude-code-hooks-389h"
+      }
+    },
+    {
+      "id": "sidebar-gpt4all-ollama",
+      "category": "ローカルAI",
+      "categoryClass": "ai",
+      "headline": "GPT4AllがMacでOllamaを置き換え——「ローカルAI新定番」としてZDNETが推薦",
+      "summary": "ZDNETが「この地元のAIが私のMacでOllamaを素早く置き換えた」という検証レポートを公開。GPT4AllはAPIコール不要、GPU不要で数千のモデルをサポートし、ローカルドキュメントチャット（LocalDocs）機能も搭載。プライバシー重視のユーザーに最適と評価している。",
+      "readTime": "4",
+      "timeAgo": "9時間前",
+      "fullContent": {
+        "introduction": "ローカルAIの定番だったOllamaに代わる選択肢として、GPT4AllがmacOSユーザーの間で注目を集めている。APIコールやGPUが不要で、数千のモデルをサポートし、プライバシー重視のユーザーに特に人気だ。",
+        "sections": [
+          {
+            "heading": "GPT4AllとOllamaの違い",
+            "content": "Ollamaがパワーユーザー向けの柔軟性を提供するのに対し、GPT4Allはシンプルさとアクセシビリティを重視。ローカルドキュメントチャット機能(LocalDocs)で、自分のPDFや文書をAIに読ませることができる。"
+          }
+        ],
+        "keyTakeaways": [
+          "APIコール・GPU不要でローカルAIを実現",
+          "LocalDocs機能でプライベート文書とのチャットが可能",
+          "プリテスト済みモデルで初心者でも簡単にセットアップ"
+        ],
+        "sourceUrl": "https://www.zdnet.com/article/local-ai-gpt4all-replaced-ollama-mac-why/"
+      }
+    }
+  ],
+
+  "middle": [
+    {
+      "id": "middle-vibe-agentic",
+      "category": "業界動向",
+      "categoryClass": "research",
+      "gradient": "linear-gradient(135deg, #5b2c6f 0%, #8e44ad 100%)",
+      "headline": "「Vibe Coding」から「Agentic Engineering」へ——Karpathyが改名も、$450億産業のセキュリティは置き去り",
+      "summary": "Karpathyが1周年を機に「vibe coding」を「agentic engineering」と改名したが、BBC記者のPCがvibe codingプラットフォーム経由でハイジャックされる事件が発生。$450億の評価額に対し、セキュリティ投資はわずか$2700万に留まるという深刻なギャップが浮き彫りになった。",
+      "author": "implicator.ai",
+      "readTime": "5",
+      "fullContent": {
+        "introduction": "Andrej Karpathyが「vibe coding」という言葉を生み出した1周年を記念して、「agentic engineering」という新しい概念を提唱。しかし、Cursor($293億)、Lovable($66億)、Replit($90億超)など合計$450億の評価額を誇るvibe codingプラットフォームのセキュリティ投資は$2700万に過ぎないことが明らかになった。",
+        "sections": [
+          {
+            "heading": "リブランドの背景",
+            "content": "Karpathyは「vibe coding」は趣味的な開発を指すが、プロフェッショナルがAIエージェントに生産コードを書かせる現在の状況は「agentic engineering」と呼ぶべきだと主張。「Engineeringという言葉が、そこに芸術・科学・専門知識があることを強調する」とX(旧Twitter)に投稿した。",
+            "warning": "セキュリティ: BBC記者のPCがvibe codingプラットフォーム「Orchids」経由でゼロクリック攻撃を受けた事例が報告された"
+          }
+        ],
+        "keyTakeaways": [
+          "Karpathyが「vibe coding」を「agentic engineering」に改名",
+          "$450億の市場評価額に対しセキュリティ投資は$2700万のみ",
+          "vibe codingプラットフォーム経由のゼロクリック攻撃事例が発生"
+        ],
+        "sourceUrl": "https://www.implicator.ai/vibe-coding-got-a-promotion-nobody-checked-its-work/"
+      }
+    },
+    {
+      "id": "middle-nyt-aijob",
+      "category": "メディア・社会",
+      "categoryClass": "business",
+      "gradient": "linear-gradient(135deg, #8b4513 0%, #a0522d 100%)",
+      "headline": "NYT「AIはあなたの仕事をもうできるのか？」——Claude Codeをフィーチャーした特集放送が話題",
+      "summary": "The New York Timesのポッドキャスト「The Daily」がAIとvibe codingを特集。Andrej Karpathyが生み出した「vibe coding」という概念が、シリコンバレーを超えて一般社会へと広まっていく過程と、AIが実際の職場に与えるインパクトを詳報した。",
+      "author": "The New York Times",
+      "readTime": "3",
+      "fullContent": {
+        "introduction": "NYTのデイリーポッドキャストがvibe codingとClaude Codeを特集。AI coding革命が「シリコンバレーの専門用語」から一般社会の議論へと移行していることを示す象徴的な出来事となった。",
+        "sections": [
+          {
+            "heading": "特集の内容",
+            "content": "Karpathyが1年前に「throwaway tweet」として投稿したvibe codingの概念が、Collins Dictionaryの2025年「今年の言葉」に選ばれるまでに成長した経緯を追跡。AIが白領職（ホワイトカラー）の仕事に与える影響をリポートした。"
+          }
+        ],
+        "keyTakeaways": [
+          "「vibe coding」がCollins Dictionary 2025年の言葉に選出",
+          "NYTがClaude CodeをAI coding革命の代表として特集",
+          "一般社会でのAI coding認知度が急速に拡大中"
+        ],
+        "sourceUrl": "https://www.nytimes.com/2026/02/18/podcasts/the-daily/ai-vibecoding-claude-code.html"
+      }
+    },
+    {
+      "id": "middle-claude-strategies",
+      "category": "開発者Tips",
+      "categoryClass": "tech",
+      "gradient": "linear-gradient(135deg, #1e3a5f 0%, #3498db 100%)",
+      "headline": "Claude Code 6つのワークフロー戦略——Plan Mode・並列開発・コンテキスト管理の実践",
+      "summary": "Intelligent Toolsが実際の開発現場で効果を上げているClaude Code戦略を6つ紹介。Plan Modeをデフォルトにする、コードベース探索を事前に実施する、詳細計画の承認を必須にするなど、AIエージェントとの協業を最適化するための具体的な手法を解説している。",
+      "author": "Intelligent Tools",
+      "readTime": "5",
+      "fullContent": {
+        "introduction": "Claude Codeを日常開発で使い倒しているエンジニアが、実際に効果のあった6つのワークフロー戦略を公開。単にプロンプトを投げるだけでなく、AIエージェントとの协業を設計するという視点が重要だと強調している。",
+        "sections": [
+          {
+            "heading": "最重要戦略: Plan Modeをデフォルトに",
+            "content": "Plan Modeは、Claude Codeが即座にコードを実行する代わりに、まずコードベースを探索し、関連ドキュメントを調査し、詳細な計画を生成してから承認を待つモード。これにより無駄な変更を大幅に削減できる。",
+            "steps": [
+              "Plan Modeを常にデフォルトとして設定",
+              "計画段階でコードベース全体を探索させる",
+              "実行前に必ず計画内容を確認・承認",
+              "承認後に実行モードに切り替える"
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "Plan Modeをデフォルトにすることで品質が大幅向上",
+          "AIに計画を立てさせてから実行する2段階アプローチが効果的",
+          "コンテキスト管理が長期プロジェクトの成否を左右する"
+        ],
+        "sourceUrl": "https://intelligenttools.co/blog/claude-code-strategies-that-work"
+      }
+    }
+  ],
+
+  "briefs": [
+    {
+      "headline": "Ollama vs vLLM vs Text Generation WebUI——ローカルLLM三大プラットフォーム比較 2026",
+      "text": "ML Journeyが3大ローカルLLMランタイムを徹底比較。Ollamaはシンプルさ、vLLMは本番スループット、Text Generation WebUIは細かい制御をそれぞれ得意とし、用途に応じた選択指南を提供している。"
+    },
+    {
+      "headline": "Martin Fowler「LLMは専門スキルを食い尽くす」——Thoughtworksリトリートで警告",
+      "text": "ThoughtworksのFuture of Software Development Retreatで、Martin FowlerがLLMがフロントエンド・バックエンドの専門分業を解体しつつあると指摘。Simon WillisonがHackerNews経由で引用し注目を集めた。"
+    },
+    {
+      "headline": "CodeWiki——86万〜140万行のコードベースでもLLMが機能する新ツール登場",
+      "text": "BrightCodingが大規模コードベース向けLLMツール「CodeWiki」を紹介。トークン制限に合わせてコードを最適分割し、どんな巨大プロジェクトでもLLMが効果的に機能するよう設計されている。"
+    },
+    {
+      "headline": "PCMag「AIプロンプト設計の秘密の公式」——初心者から上級者まで使えるガイド公開",
+      "text": "PCMagがプロンプトエンジニアリングの決定版ガイドを更新。具体的なコンテキスト・制約・役割の指定が良いプロンプトの三要素であり、深いリサーチから画像生成まで幅広く応用できる手法を解説した。"
+    }
+  ],
+
+  "opinions": [
+    {
+      "id": "opinion-karpathy-agentic",
+      "authorLabel": "X投稿：",
+      "author": "@karpathy (Andrej Karpathy)",
+      "headline": "「Vibe Codingは趣味、Agentic Engineeringはプロの仕事——呼び方を変えよう」",
+      "excerpt": "Karpathyは「vibe coding」1周年を記念してXに投稿。プロフェッショナルがAIエージェントを指揮して本番コードを書かせる現状を指し「Agentic Engineering」と新たに命名した。「Engineering」という言葉が、そこに芸術と科学と専門知識があることを強調すると説明。Collins Dictionaryが2025年の言葉に選んだ「vibe coding」は趣味的なフェーズを指すとし、プロの現場では新しい概念が必要だと主張した。",
+      "fullContent": {
+        "introduction": "「vibe coding」の生みの親であるAndrej Karpathyが、自身の「throwaway tweet」から1年が経ち、新たな概念「agentic engineering」を提唱した。単なるリブランドではなく、AIが生産環境でのコード開発を担うようになった現実を反映した概念の進化だ。",
+        "sections": [
+          {
+            "heading": "vibe codingからagentic engineeringへの進化",
+            "content": "vibe codingが「気分でAIにコードを書かせる」という感覚的なアプローチを指すのに対し、agentic engineeringは「AIエージェントを設計・指揮する専門的な技術」を指す。Karpathyはこの違いを「趣味と仕事の違い」として明確にした。",
+            "steps": []
+          }
+        ],
+        "keyTakeaways": [
+          "「vibe coding」は趣味的開発、「agentic engineering」はプロの仕事",
+          "Karpathy自身が用語の進化を主導",
+          "一方でセキュリティ面の課題が未解決のまま残っている"
+        ],
+        "sourceUrl": "https://x.com/karpathy/status/2019137879310836075"
+      }
+    },
+    {
+      "id": "opinion-simonw-typing",
+      "authorLabel": "X投稿：",
+      "author": "@simonw (Simon Willison)",
+      "headline": "「25年間の型ヒント嫌いを捨てた——AIエージェントが全部タイプしてくれるなら話は別だ」",
+      "excerpt": "Simon Willisonが2月18日のブログ投稿で、キャリア転換を告白。「25年以上プログラマーとして働いてきて、型ヒントや強い型付けを好むようになってきたかもしれない」と明かした。以前は反復速度を落とすとして型ヒントを敬遠していたが、「コーディングエージェントが全部タイプしてくれるなら、型を明示的に定義する利点が突然とても魅力的になった」と述べた。AIが開発の前提を変えているという鋭い洞察が開発者コミュニティで共感を呼んでいる。",
+      "fullContent": {
+        "introduction": "Simon Willisonは25年超のキャリアを持つ開発者でありLLMツール活用の第一人者。2月18日のブログノートで、AIコーディングエージェントの普及が自分の型ヒントへの価値観を根本的に変えたと告白した。",
+        "sections": [
+          {
+            "heading": "価値観の転換",
+            "content": "以前は型ヒントが反復速度を落とすため避けていた。しかしAIエージェントがタイピングを代行してくれる時代では、型を明示することでAIが生成するコードの精度が上がるというメリットが、コスト（手入力の手間）を大幅に上回るようになった。",
+            "steps": []
+          }
+        ],
+        "keyTakeaways": [
+          "AIエージェント時代は型ヒントの「コスト」が消滅した",
+          "AIが前提としてきた開発習慣自体を変えつつある",
+          "25年ベテラン開発者でさえ価値観の根本的な転換が起きている"
+        ],
+        "sourceUrl": "https://simonwillison.net/2026/Feb/18/typing/"
+      }
+    }
+  ]
+}
