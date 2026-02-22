@@ -1,0 +1,349 @@
+{
+  "date": "2026年2月22日（日曜日）",
+  "edition": "昼刊",
+  "volume": "1",
+  "tickerText": "Karpathy氏が「Claws」新用語を提唱 ── Claude Code、デスクトップ自動化機能を大幅拡充 ── spec2commit、AI開発ワークフローを完全自動化 ── Cursor 2.5.20リリース、生産性向上 ── プロンプトエンジニアリング新技法が話題に ── ChatGPTインドで週間1億ユーザー突破 ── Karpathy氏が「Claws」新用語を提唱",
+
+  "dataPanel": [
+    {
+      "label": "Claude Code アクティブユーザー",
+      "value": "420万人",
+      "sparkline": "▁▂▃▅▇█",
+      "change": "▲ 先週比 +18%",
+      "changeClass": "up"
+    },
+    {
+      "label": "Ollama ダウンロード数",
+      "value": "1,250万",
+      "sparkline": "▁▂▃▄▆█",
+      "change": "▲ 月間成長率 +22%",
+      "changeClass": "up"
+    },
+    {
+      "label": "AI開発ツール市場規模",
+      "value": "$8.4B",
+      "sparkline": "▁▂▃▅▇█",
+      "change": "▲ 前年比 +64%",
+      "changeClass": "up"
+    },
+    {
+      "label": "MCP Server 公開数",
+      "value": "3,200+",
+      "sparkline": "▁▂▃▄▅█",
+      "change": "▲ 先月比 +35%",
+      "changeClass": "up"
+    }
+  ],
+
+  "hero": {
+    "id": "claws-karpathy",
+    "category": "AI用語",
+    "categoryClass": "ai",
+    "headline": "Karpathy氏が提唱：「Claws」がAIエージェント新カテゴリーに",
+    "deck": "元OpenAI共同創業者のAndrej Karpathy氏が、OpenClawのようなパーソナルAIエージェントシステムを「Claws」と呼ぶ新しい用語を提案。メッセージング経由で動作し、直接指示と自律タスク実行の両方が可能なエージェント群を指す。",
+    "author": "@karpathy (Andrej Karpathy)",
+    "readTime": "4",
+    "readPercent": 50,
+    "readLabel": "中程度",
+    "updateTime": "1日前",
+    "fullContent": {
+      "introduction": "元OpenAI共同創業者でAI研究の第一人者であるAndrej Karpathy氏が、OpenClaw、NanoClaw、zeroclaw、ironclaw、picoclawなど、個人向けAIエージェントシステムの新しいカテゴリーを「Claws」と呼ぶことを提案しました。これは「vibe coding」や「agentic engineering」といった用語を生み出してきた彼らしい、鋭い命名センスです。",
+      "sections": [
+        {
+          "heading": "「Claw」とは何か？",
+          "content": "Karpathy氏の定義によれば、「Claw」は以下の特徴を持つAIエージェントシステムを指します：\n\n1. **個人のハードウェア上で動作** — クラウドではなく、Mac、PC、Raspberry Piなどのローカル環境で稼働\n2. **メッセージングプロトコル経由で通信** — Slack、Discord、Telegram、WhatsAppなどと統合\n3. **直接指示と自律実行の両方に対応** — ユーザーからの明示的なコマンドと、スケジュール化されたタスクの両方を処理\n4. **LLMをベースとする** — Claude、GPT-4、Geminiなどの大規模言語モデルが中核",
+          "steps": []
+        },
+        {
+          "heading": "なぜ「Claws」が重要なのか",
+          "content": "この用語の提案は単なる命名以上の意味を持ちます。Karpathy氏は「Clawsは次のコンピューティングインターフェースになる可能性がある」と述べています。\n\nOpenClawのようなシステムは、従来のアプリやCLIツールとは異なる新しいパラダイムを提供します。ユーザーは自然言語で指示を出し、エージェントは複数のツール（ファイルシステム、ブラウザ、API、デバイス制御など）を組み合わせて目標を達成します。これは「conversational computing」の進化形と言えます。",
+          "steps": []
+        },
+        {
+          "heading": "Simon Willisonの反応",
+          "content": "AI開発者のSimon Willison氏は自身のブログで、「Andrejは常に新しい用語を生み出すセンスがある。これもそのひとつだ」とコメント。「Clawというカテゴリーが確立すれば、開発者コミュニティ全体がベストプラクティスやセキュリティガイドラインを共有しやすくなる」と指摘しました。",
+          "steps": []
+        }
+      ],
+      "keyTakeaways": [
+        "Andrej Karpathy氏が「Claws」という新しいAIエージェントカテゴリーを提唱",
+        "個人ハードウェア上で動作し、メッセージング経由で通信する自律エージェントを指す",
+        "OpenClaw、NanoClaw、zeroclawなどがこのカテゴリーに該当",
+        "Simon Willison氏も支持を表明、コミュニティ形成に期待"
+      ],
+      "sourceUrl": "https://simonwillison.net/2026/Feb/21/claws/",
+      "relatedLinks": [
+        {
+          "title": "OpenClaw公式サイト",
+          "url": "https://openclaw.ai"
+        },
+        {
+          "title": "Andrej Karpathyの「vibe coding」解説",
+          "url": "https://twitter.com/karpathy"
+        }
+      ]
+    }
+  },
+
+  "sidebar": [
+    {
+      "id": "claude-code-desktop",
+      "category": "開発ツール",
+      "categoryClass": "openai",
+      "headline": "Claude Code、デスクトップ自動化機能を大幅拡充",
+      "summary": "Anthropicがデスクトップ版Claude Codeに、ライブアプリプレビュー、コードレビュー、PR自動マージなど、開発ワークフロー全体を自動化する新機能を追加。CI/CDエラー修正も自律的に実行可能に。",
+      "readTime": "3",
+      "timeAgo": "16時間前",
+      "fullContent": {
+        "introduction": "Anthropicがデスクトップ版Claude Codeに大規模アップデートを実施しました。ライブプレビュー、コードレビュー、GitHub PR自動処理など、開発者の生産性を劇的に向上させる機能群が追加されています。",
+        "sections": [
+          {
+            "heading": "主な新機能",
+            "content": "1. **ライブアプリプレビュー** — コード変更をリアルタイムで確認\n2. **インテリジェントコードレビュー** — 差分ビューに直接コメント挿入\n3. **GitHub PR自動処理** — バックグラウンドでPRを監視し、CIエラーを自動修正\n4. **自動マージ** — テスト通過後、PRを自動的にマージ\n5. **セッション継続性** — 作業状態を保持し、中断から即座に再開"
+          },
+          {
+            "heading": "開発者の反応",
+            "content": "C-Sharp Cornerのレビューでは、「これはもはやコーディングアシスタントではなく、開発チームのメンバーだ」と評価されています。特にCI/CD統合の自律性が高く評価されており、「GitHub Actionsのエラーに目を光らせ、自分で直してくれる」という声が多数。"
+          }
+        ],
+        "keyTakeaways": [
+          "ライブプレビュー、コードレビュー、PR自動処理機能を追加",
+          "CI/CDエラーを自律的に修正し、テスト通過後に自動マージ",
+          "開発者の生産性が大幅に向上"
+        ],
+        "sourceUrl": "https://the-decoder.com/anthropic-updates-claude-code-with-desktop-features-that-automate-more-of-the-dev-workflow/"
+      }
+    },
+    {
+      "id": "boris-cherny-workflow",
+      "category": "ワークフロー",
+      "categoryClass": "tech",
+      "headline": "Claude Code作者Boris Chernyが個人ワークフローを公開",
+      "summary": "Claude Codeの開発者であるBoris Cherny氏が、自身のセットアップとワークフローをYouTubeで公開。実践的なTipsが開発者コミュニティで話題に。",
+      "readTime": "2",
+      "timeAgo": "11時間前",
+      "fullContent": {
+        "introduction": "Claude Codeの作者であるBoris Cherny氏が、自身のパーソナルセットアップとワークフローをYouTube動画で公開しました。開発者たちが実際に使える実践的なTipsが満載です。",
+        "sections": [
+          {
+            "heading": "主なポイント",
+            "content": "動画では、Boris氏が日常的に使用している以下の要素が紹介されています：\n\n- プロジェクト構造の最適化\n- Claude Codeのカスタマイズ設定\n- ショートカットキーの活用法\n- 外部ツールとの連携方法\n\n開発者コミュニティでは「作者本人のワークフローを見られるのは貴重」と好評です。"
+          }
+        ],
+        "keyTakeaways": [
+          "Claude Code作者がパーソナルワークフローを公開",
+          "実践的なカスタマイズTipsを動画で解説",
+          "開発者コミュニティで高評価"
+        ],
+        "sourceUrl": "https://www.youtube.com/watch?v=WpQZlKiy3zo"
+      }
+    },
+    {
+      "id": "roblox-mcp",
+      "category": "開発ツール",
+      "categoryClass": "tech",
+      "headline": "Roblox、Studio MCPサーバーを更新、外部LLM対応",
+      "summary": "RobloxがStudio MCP Serverを大幅更新し、Cursor・Claude Codeなどの外部AIツールからRoblox体験を編集可能に。クリエイター向けAI統合が加速。",
+      "readTime": "2",
+      "timeAgo": "1日前",
+      "fullContent": {
+        "introduction": "Robloxがオープンソースの「Studio MCP Server」を更新し、Cursor、Claude Codeなどの外部AIコーディングツールからRoblox体験を直接編集できるようにしました。",
+        "sections": [
+          {
+            "heading": "MCPサーバーとは",
+            "content": "MCP（Model Context Protocol）は、AIツールがアプリケーション間でコンテキストを共有するためのプロトコルです。Robloxのこの更新により、開発者は自分の好みのAIツールを使いながら、Roblox環境内で直接作業できます。"
+          },
+          {
+            "heading": "クリエイターへの影響",
+            "content": "この統合により、AIを活用した開発プロセスがさらに効率化されます。特にClaude CodeやCursorのようなツールは、コード生成・修正を大幅にスピードアップさせるため、Robloxクリエイターにとって強力な武器になります。"
+          }
+        ],
+        "keyTakeaways": [
+          "RobloxがStudio MCPサーバーを更新",
+          "Cursor・Claude Codeなどから直接編集可能に",
+          "AIを活用した開発プロセスが加速"
+        ],
+        "sourceUrl": "https://devforum.roblox.com/t/studio-mcp-server-updates-and-external-llm-support-for-assistant/4415631"
+      }
+    }
+  ],
+
+  "middle": [
+    {
+      "id": "spec2commit",
+      "category": "自動化",
+      "categoryClass": "indie",
+      "gradient": "linear-gradient(135deg, #c07000 0%, #e09020 100%)",
+      "headline": "spec2commit：Claude CodeとCodexの完全自動ワークフロー",
+      "summary": "Reddit r/ClaudeCodeで話題の「spec2commit」は、Claude CodeとCodexを組み合わせた完全自動開発ワークフロー。仕様を書いて/goと打つだけで、コーディング、レビュー、ループが自律実行される。",
+      "author": "Reddit r/ClaudeCode",
+      "readTime": "3",
+      "fullContent": {
+        "introduction": "Reddit r/ClaudeCodeコミュニティで「spec2commit」という革新的な自動化ツールが話題になっています。Codexで仕様を定義し、Claude Codeが実装、Codexがレビューという完全自律サイクルを実現しています。",
+        "sections": [
+          {
+            "heading": "仕組み",
+            "content": "spec2commitは以下のワークフローを自動化します：\n\n1. **Codexで仕様を定義** — 自然言語でビルドしたいものを記述\n2. **/go コマンド** — 自動実行開始\n3. **Claude Codeが計画・実装** — コードを生成\n4. **Codexがレビュー** — 品質チェック\n5. **ループ** — 問題があれば自動修正、なければコミット\n\n開発者が介入するのは仕様入力と最終チェックだけ。中間プロセスは完全に自律化されています。",
+            "steps": [
+              "Codexで仕様を自然言語で記述",
+              "/go コマンドで自動実行開始",
+              "Claude Codeが計画・コーディング",
+              "Codexがレビュー・品質チェック",
+              "問題なければコミット、あれば自動修正ループ"
+            ]
+          },
+          {
+            "heading": "コミュニティの反応",
+            "content": "「これこそ本当の意味でのAI駆動開発だ」「手作業でやってたレビューループが全部自動化された」といった声が多数。一方で「完全自律化は便利だが、理解せずにコミットするリスクもある」との慎重な意見も。"
+          }
+        ],
+        "keyTakeaways": [
+          "Claude CodeとCodexを組み合わせた完全自動開発ワークフロー",
+          "仕様を書いて/goと打つだけで、実装からレビューまで自律実行",
+          "Reddit r/ClaudeCodeで高評価、慎重派の声も"
+        ],
+        "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1raq3oe/spec2commit_i_automated_my_claude_code_and_codex/"
+      }
+    },
+    {
+      "id": "raspberry-pi-claude",
+      "category": "個人開発",
+      "categoryClass": "indie",
+      "gradient": "linear-gradient(135deg, #c07000 0%, #e09020 100%)",
+      "headline": "Raspberry PiでClaude Code AIアシスタントを構築",
+      "summary": "Szymon Pacholski氏がRaspberry Pi上でClaude CodeをTelegramボットに変換。N8NやMakeなどのノーコードツールを使わず、API コストをゼロに抑えたDIYアプローチが話題。",
+      "author": "Szymon Pacholski",
+      "readTime": "4",
+      "fullContent": {
+        "introduction": "Szymon Pacholski氏が、Raspberry Pi上でClaude CodeをTelegramボットとして動作させる方法をMediumで公開しました。ノーコードツールに頼らず、完全にDIYでコストを最小化したアプローチです。",
+        "sections": [
+          {
+            "heading": "なぜN8N/Makeを使わないのか",
+            "content": "N8N、Makeなどのノーコードプラットフォームは便利ですが、Pacholski氏は以下の理由で避けました：\n\n- **APIコスト** — 独自のAPIキーが必要で、LLM呼び出しコストが急増\n- **柔軟性の制限** — カスタマイズに限界がある\n- **個人開発者には高額** — 月額料金が負担になる\n\n代わりに、シェルベースのClaude Codeを直接Raspberry Piで動かし、Telegram APIと統合しました。"
+          },
+          {
+            "heading": "実装のポイント",
+            "content": "- **Raspberry Pi 4を使用** — リビングルームで24時間稼働\n- **Telegram Bot API統合** — webhookでメッセージを受信\n- **Claude Codeをバックエンドに** — シェル経由でLLMを実行\n- **完全無料** — Anthropic APIの無料枠内で運用\n\nこの構成により、月額コストゼロでパーソナルAIアシスタントを実現しています。"
+          }
+        ],
+        "keyTakeaways": [
+          "Raspberry PiでClaude CodeをTelegramボットとして運用",
+          "N8N/Makeなどのノーコードツールを使わず完全DIY",
+          "月額コストゼロで24時間稼働するパーソナルAIアシスタント"
+        ],
+        "sourceUrl": "https://medium.com/@spacholski99/how-i-built-a-personal-ai-assistant-with-claude-code-and-telegram-for-free-61316b167a81"
+      }
+    },
+    {
+      "id": "ollama-16gb",
+      "category": "ローカルLLM",
+      "categoryClass": "tech",
+      "gradient": "linear-gradient(135deg, #1e3a5f 0%, #3498db 100%)",
+      "headline": "Ollama：16GB VRAM GPUで最適なLLMベンチマーク",
+      "summary": "DEV Communityで公開された最新ベンチマークが、16GB VRAM GPU環境で最速のLLMモデルを明らかに。Ollama 0.15.2を使用した実測データが開発者の参考に。",
+      "author": "rosgluk (DEV Community)",
+      "readTime": "3",
+      "fullContent": {
+        "introduction": "DEV Communityのrosgluk氏が、16GB VRAM GPUで動作する各種LLMモデルのベンチマークを公開しました。Ollama 0.15.2を使用した実測データで、どのモデルが最速かが明らかになっています。",
+        "sections": [
+          {
+            "heading": "テスト環境",
+            "content": "- **Ollama バージョン**: 0.15.2（最新リリース）\n- **GPU**: 16GB VRAM\n- **測定項目**: テキスト生成速度、VRAM超過時のペナルティ\n\nベンチマークでは、VRAMの限界を超えた場合のパフォーマンス低下も測定されています。"
+          },
+          {
+            "heading": "結果の要点",
+            "content": "rosgluk氏は「16GBという制約の中で、どのモデルが実用的な速度を維持できるかが重要」と指摘。特にVRAM超過時のスワップペナルティが大きいため、モデル選択が生産性に直結します。\n\n詳細な数値は元記事で公開されており、ローカルLLM運用を検討している開発者にとって貴重なリファレンスになります。"
+          }
+        ],
+        "keyTakeaways": [
+          "16GB VRAM GPU環境でのLLMベンチマーク公開",
+          "Ollama 0.15.2を使用した実測データ",
+          "VRAM超過時のペナルティも測定、モデル選択の参考に"
+        ],
+        "sourceUrl": "https://dev.to/rosgluk/best-llms-for-ollama-on-16gb-vram-gpu-393h"
+      }
+    }
+  ],
+
+  "briefs": [
+    {
+      "headline": "ChatGPTインドで週間1億ユーザー突破、Z世代が主導",
+      "text": "インドのChatGPT週間アクティブユーザーが1億人を超え、18-24歳が全メッセージの46%を占める。仕事関連の会話は世界平均30%に対しインドは35%と高く、生産性ツールとしての活用が顕著。"
+    },
+    {
+      "headline": "プロンプトエンジニアリング6つの必須技法が話題に",
+      "text": "Towards AIが「10倍良い結果を得る」プロンプト技法を解説。Zero-Shot、Few-Shot、Chain-of-Thought、Self-Consistency、Tree of Thoughts、ReActの6手法を詳述。"
+    },
+    {
+      "headline": "コンテキストエンジニアリングが2026年の主流に",
+      "text": "プロンプトからコンテキストへのパラダイムシフトが進行中。動的コンテキスト選択、圧縮、メモリ管理がLLMパフォーマンスの鍵になると、Towards AIが6つの実践技法を紹介。"
+    },
+    {
+      "headline": "Cursor 2.5.20リリース、AI駆動IDEが進化",
+      "text": "AI統合開発環境Cursorが2.5.20にアップデート。コーディング効率と生産性向上に焦点を当てた新機能を追加し、中級〜プロフェッショナル開発者向けに最適化。"
+    }
+  ],
+
+  "opinions": [
+    {
+      "id": "swyx-ai-future",
+      "authorLabel": "ポッドキャスト：",
+      "author": "@swyx (Shawn Wang)",
+      "headline": "AIの未来：3つの重要な道筋",
+      "excerpt": "AI Engineering界の第一人者swyx氏がポッドキャスト#208で、AIの未来を3つのパスに分けて解説。AI-nativeフレームワーク、統合スキル、UX設計の重要性を強調し、技術革命をどう形作るかを議論。",
+      "fullContent": {
+        "introduction": "AI Engineering界のリーダー的存在であるswyx（Shawn Wang）氏が、ポッドキャスト#208で「AIの未来：3つの重要な道筋」をテーマに語りました。開発者が今後どこに注力すべきかの明確な指針を示しています。",
+        "sections": [
+          {
+            "heading": "3つの重要な道筋",
+            "content": "1. **AI-nativeフレームワークとツールの台頭** — 従来のフレームワークではなく、AIを前提に設計された新しいエコシステムが重要になる\n\n2. **AI統合スキルの開発** — API利用、プロンプトエンジニアリング、ワークフロー自動化など、AIを実際に使いこなすスキルが必須\n\n3. **UX設計の革新** — AIがどのようにインタラクションを直感的で価値あるものにできるかを批判的に考える必要がある",
+            "steps": []
+          },
+          {
+            "heading": "開発者へのメッセージ",
+            "content": "swyx氏は「AIの未来は決まっていない。これらの道筋を理解し、積極的に形作ることで、自分自身と自分の仕事をこの技術革命の最前線に位置づけられる」と強調しました。\n\nポッドキャストでは、具体的なツール選択、学習リソース、キャリア戦略についても詳しく議論されています。"
+          }
+        ],
+        "keyTakeaways": [
+          "AI-nativeフレームワークの台頭が鍵",
+          "プロンプトエンジニアリング、API統合などの実践スキルが必須",
+          "UX設計の革新がAIの真価を決める",
+          "未来は決まっていない — 積極的に形作るべき"
+        ],
+        "sourceUrl": "https://www.techedubyte.com/future-ai-3-key-paths-shawn-wang-swix-podcast-208/"
+      }
+    },
+    {
+      "id": "vibe-coding-security",
+      "authorLabel": "分析記事：",
+      "author": "@karpathy (Andrej Karpathy)",
+      "headline": "「Vibe Coding」のセキュリティ問題",
+      "excerpt": "Karpathy氏が提唱した「Vibe Coding」— 差分を読まず、すべての変更を受け入れ、エラーをコピペしてAIに任せるスタイル。450万人が視聴したが、セキュリティリスクが浮上。DEV Communityが警鐘を鳴らす。",
+      "fullContent": {
+        "introduction": "Andrej Karpathy氏が2025年2月に提唱した「Vibe Coding」は、従来のコーディング手法を覆す新しいアプローチとして450万人が視聴する話題となりました。しかし、DEV Communityがセキュリティ上の深刻な問題を指摘しています。",
+        "sections": [
+          {
+            "heading": "Vibe Codingとは",
+            "content": "Karpathy氏の言葉を借りれば：\n\n- **差分を読まない** — コード変更の詳細を確認しない\n- **すべての変更を受け入れる** — AIの提案をそのまま採用\n- **エラーメッセージをコピペ** — 自分で解決せず、AIに渡す\n- **AIに任せる** — 「ただ見て、言って、実行して、だいたい動く」\n\nこのスタイルは、AIへの完全な信頼を前提としています。",
+            "steps": []
+          },
+          {
+            "heading": "セキュリティリスク",
+            "content": "DEV Communityの記事は、以下のリスクを指摘しています：\n\n1. **悪意あるコードの挿入** — 差分を読まないため、バックドアや脆弱性に気づかない\n2. **依存関係の盲目的受け入れ** — AIが提案するパッケージにマルウェアが含まれる可能性\n3. **コードベースの理解喪失** — 何が動いているのか把握できず、長期的な保守が困難に\n4. **コンプライアンス違反** — セキュリティ基準を満たさないコードが本番環境に流入\n\n記事は「Vibe Codingは便利だが、セキュリティ意識を持たずに実践するのは危険」と結論づけています。"
+          },
+          {
+            "heading": "バランスの取り方",
+            "content": "完全否定ではなく、「Vibe Codingの利点を活かしつつ、重要な部分では人間が監視する」というハイブリッドアプローチが推奨されています。\n\n特に本番環境に近いコードや、セキュリティクリティカルな部分では、従来の厳格なレビュープロセスを維持すべきとのこと。"
+          }
+        ],
+        "keyTakeaways": [
+          "Andrej Karpathy氏が提唱した「Vibe Coding」が450万再生",
+          "差分を読まず、AIに全面的に任せるスタイル",
+          "セキュリティリスク（悪意あるコード挿入、依存関係の盲目的受け入れなど）が指摘される",
+          "利点を活かしつつ、重要部分では人間が監視するハイブリッドアプローチが推奨"
+        ],
+        "sourceUrl": "https://dev.to/mothasa/vibe-coding-has-a-security-problem-nobody-wants-to-talk-about-3gj7"
+      }
+    }
+  ]
+}
