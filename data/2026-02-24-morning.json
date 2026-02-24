@@ -1,0 +1,109 @@
+{
+  "edition": "morning",
+  "date": "2026-02-24",
+  "theme": "AIモデル最新動向",
+  "topStories": [
+    {
+      "title": "Anthropic、Claude Coworkを大幅アップデート - エンタープライズ向け機能を強化",
+      "summary": "Anthropicは企業向けAIツール「Claude Cowork」に、Google Drive、Gmail、DocuSign、FactSetなどの既存ツールとの連携機能を追加。金融分析、エンジニアリング、人事など各分野向けのカスタマイズ可能なプラグインを展開し、組織の知識やワークフローを取り込める仕組みを提供。「誰でも使えるようにアクセシブルにする」とAmericas担当責任者Kate Jensenは語る。",
+      "sourceUrl": "https://www.cnbc.com/2026/02/24/anthropic-claude-cowork-office-worker.html",
+      "impact": "high",
+      "category": "product"
+    },
+    {
+      "title": "IBM株価13%急落 - AnthropicのClaude Code Securityが脅威に",
+      "summary": "Anthropicが発表した「Claude Code Security」により、IBMの株価が13%急落。この新機能はコードベースのセキュリティ脆弱性をスキャンし、ソフトウェアパッチを提案する。金曜日にはサイバーセキュリティ企業各社も同様に株価下落。Anthropicの自動化技術が既存のセキュリティ業界に大きな波紋を広げている。",
+      "sourceUrl": "https://www.cnbc.com/2026/02/23/ibm-is-the-latest-ai-casualty-shares-are-tanking-on-anthropic-cobol-threat.html",
+      "impact": "high",
+      "category": "business"
+    },
+    {
+      "title": "Google、Gemini 3.1 Proを発表 - 効率77%向上を達成",
+      "summary": "Googleは新モデル「Gemini 3.1 Pro」をリリース。複雑な推論、マルチモーダル理解、コード生成において大幅な性能向上を実現し、効率は前バージョンから77%向上。100万トークンのコンテキストウィンドウと最大64Kトークンの出力を維持しながら、Googleとして初の0.1インクリメンタルリリースとなる。",
+      "sourceUrl": "https://hi-tech.ua/en/new-google-gemini-3-1-pro-give-77-increase-in-efficiency/",
+      "impact": "high",
+      "category": "model"
+    },
+    {
+      "title": "OpenAI GPT-5.3リリース間近 - A/Bテストで新モデル確認",
+      "summary": "OpenAIが次世代モデル「GPT-5.3」のA/Bテストを開始したことが報告される。木曜日のリリースが予想され、GPT-4デビュー以来最大のアップグレードになる可能性。一方、OpenAIは視覚認識機能を搭載した初のAIスピーカーのハードウェア参入も発表し、継続的な視覚認識が可能なスマートスピーカーを展開する。",
+      "sourceUrl": "https://piunikaweb.com/2026/02/23/chatgpt-5-3-release-date-spotted-ab-tests/",
+      "impact": "high",
+      "category": "model"
+    },
+    {
+      "title": "Mercury 2登場 - 最速の推論LLMが誕生、従来比5倍の速度を実現",
+      "summary": "Inceptionが初の商用拡散型LLM「Mercury 2」を発表。推論速度において既存の速度最適化LLMの5倍を達成し、1秒あたり1,000トークンのスループットでコスト効率の高い推論を提供。拡散型基盤を本番環境レベルの推論に進化させ、速度最適化LLMの新たなパフォーマンス基準を確立した。",
+      "sourceUrl": "https://www.morningstar.com/news/business-wire/20260224034496/inception-launches-mercury-2-the-fastest-reasoning-llm-5x-faster-than-leading-speed-optimized-llms-with-dramatically-lower-inference-cost",
+      "impact": "medium",
+      "category": "model"
+    },
+    {
+      "title": "DeepSeek次期リリースに備え - Google、OpenAI、Anthropicが警戒",
+      "summary": "中国DeepSeekの次期大規模リリースに対し、Google、OpenAI、Anthropicの各社が警戒を強めている。内モンゴルのデータセンターでNvidia Blackwellチップを使用している可能性が報じられ、リリース前に米国チップ使用の技術的痕跡を消去する見込み。各社はDeepSeekによる「蒸留攻撃」について懸念を表明している。",
+      "sourceUrl": "https://the-decoder.com/google-openai-and-anthropic-are-all-bracing-for-deepseeks-next-big-release/",
+      "impact": "medium",
+      "category": "industry"
+    }
+  ],
+  "opinions": [
+    {
+      "author": "Andrej Karpathy",
+      "role": "元Tesla AI責任者、OpenAI創業メンバー",
+      "title": "「Claws」が次のAI用語に - ローカルAIエージェントの新時代",
+      "content": "KarpathyがポストでClawsについて言及したことで、この用語が大きな注目を集めている。Mac Mini上でローカルにclawsを実行することが人気となり、Raspberry Piなどのデバイスでも動作可能。Clawdbotへの直接的な言及として、オープンソースAIエージェントの新たな潮流を示している。彼が提唱する「Software 3.1」では、AIが単にコードを書くだけでなく、実行時にLLM生成コードを実行し、ネイティブなPythonオブジェクトを返す世界を描いている。",
+      "sourceUrl": "https://mashable.com/article/what-are-claws-ai-clawdbot-openclaw",
+      "sentiment": "positive"
+    },
+    {
+      "author": "Sam Altman",
+      "role": "OpenAI CEO",
+      "title": "AIのエネルギー消費議論で炎上 - 「人間育成の方が消費する」発言に批判殺到",
+      "content": "AltmanがAIのエネルギー消費に関する懸念に対し、「人間を20年間訓練する方がChatGPTよりも多くのエネルギーと水を使う」と反論し、X/Twitterで大炎上。「これらの人々は深く反社会的で反人間的」「人間開発とモデル訓練を比較するのは無神経で戦略的に無謀」といった批判が殺到。AI業界の人物からも「このような発言は私の仕事をより困難で危険なものにする」との声が上がり、彼のディストピア的発言として広く拡散された。",
+      "sourceUrl": "https://www.indy100.com/science-tech/sam-altman-ai-chatgpt-water-energy-consumption",
+      "sentiment": "negative"
+    }
+  ],
+  "trends": [
+    {
+      "keyword": "Claude Code Security",
+      "description": "Anthropicの新機能が既存のサイバーセキュリティ業界に衝撃",
+      "momentum": "rising"
+    },
+    {
+      "keyword": "推論速度競争",
+      "description": "Mercury 2の登場で推論LLMの速度競争が激化",
+      "momentum": "hot"
+    },
+    {
+      "keyword": "AIエネルギー論争",
+      "description": "Sam Altmanの発言をきっかけにAIの環境負荷が議論に",
+      "momentum": "rising"
+    },
+    {
+      "keyword": "ベンチマーク陳腐化",
+      "description": "「6ヶ月前にトップだったモデルが今や中位」という急速な進化",
+      "momentum": "stable"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Claude Cowork",
+      "description": "エンタープライズ向けAIアシスタント - Google Drive、Gmail等と連携",
+      "url": "https://www.anthropic.com",
+      "category": "productivity"
+    },
+    {
+      "name": "Mercury 2",
+      "description": "最速の推論LLM - 1秒あたり1,000トークンのスループット",
+      "url": "https://www.financialcontent.com/article/bizwire-2026-2-24-inception-launches-mercury-2-the-fastest-reasoning-llm-5x-faster-than-leading-speed-optimized-llms-with-dramatically-lower-inference-cost",
+      "category": "model"
+    },
+    {
+      "name": "Gemini 3.1 Pro",
+      "description": "Google最新モデル - 77%の効率向上と100万トークンコンテキスト",
+      "url": "https://ai.google.dev/gemini",
+      "category": "model"
+    }
+  ]
+}
