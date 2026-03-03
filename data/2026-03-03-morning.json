@@ -1,0 +1,264 @@
+{
+  "date": "2026年3月3日（火曜日）",
+  "edition": "朝刊",
+  "volume": "1",
+  "tickerText": "OpenAIがGPT-5.3 Instantを公開 ── GPT-5.4の驚くべき詳細が流出 ── サム・アルトマン、国防総省契約修正をXで発表 ── Scale AIがLLMリーダーボードを発表 ── MiniMax M2.5がGDPval-MMベンチマークと共に登場 ── LLMによる匿名解除の脅威が明らかに ── OpenAIがGPT-5.3 Instantを公開",
+
+  "dataPanel": [
+    {
+      "label": "AI投資額",
+      "value": "$200B",
+      "sparkline": "▁▂▃▅▇█",
+      "change": "▲ 15%",
+      "changeClass": "up"
+    },
+    {
+      "label": "新規LLMリリース",
+      "value": "7",
+      "sparkline": "▁▂▃▅▇█",
+      "change": "▲ 2",
+      "changeClass": "up"
+    },
+    {
+      "label": "AIスタートアップ評価",
+      "value": "$1.5T",
+      "sparkline": "▁▂▃▅▇█",
+      "change": "▲ 10%",
+      "changeClass": "up"
+    },
+    {
+      "label": "AI人材需要",
+      "value": "80万件",
+      "sparkline": "▁▂▃▅▇█",
+      "change": "▲ 8%",
+      "changeClass": "up"
+    }
+  ],
+
+  "hero": {
+    "id": "hero-openai-gpt5",
+    "category": "OpenAI",
+    "categoryClass": "openai",
+    "headline": "OpenAIがChatGPTの「GPT-5.3 Instant」を公開、GPT-5.4の驚くべき詳細も流出",
+    "deck": "OpenAIは、ChatGPTの体験を向上させる「GPT-5.3 Instant」のアップデートを発表。同時に、CodexのコミットからGPT-5.4に関する驚くべき情報が漏洩し、200万トークンのコンテキストウィンドウとフル解像度ビジョンが示唆されている。",
+    "author": "9to5mac.com 他",
+    "readTime": "5",
+    "readPercent": 50,
+    "readLabel": "中程度",
+    "updateTime": "本日 06:30",
+    "fullContent": {
+      "introduction": "OpenAIは、大規模言語モデルの進化を止めることなく、最新のGPT-5.3 InstantアップデートをChatGPTに導入しました。これにより、チャットボットの応答がより自然で「不快感のない」ものになると期待されています。この発表とほぼ同時に、同社のCodexリポジトリからのコミット履歴を通じて、次期モデルGPT-5.4に関する驚くべき詳細が意図せず流出しました。",
+      "sections": [
+        {
+          "heading": "GPT-5.3 Instant：ChatGPTの会話体験を改善",
+          "content": "ChatGPTの最も頻繁に使用されるモデルであるGPT-5.3 Instantは、ユーザーがより自然で人間らしい会話を楽しめるよう調整されました。OpenAIは、これにより「不快な」応答が減少し、全体的なユーザー体験が向上すると説明しています。"
+        },
+        {
+          "heading": "GPT-5.4リーク：200万トークンとフル解像度ビジョン",
+          "content": "Codexのコードコミットから流出した情報によると、GPT-5.4は200万トークンの驚異的なコンテキストウィンドウを搭載し、これまでのモデルを大幅に上回る可能性があります。さらに、フル解像度の画像処理能力を持つとされ、視覚情報への理解と生成において画期的な進歩が期待されています。これらの機能は、より複雑なエージェント機能と高度なAIアプリケーションへの道を拓くでしょう。"
+        }
+      ],
+      "keyTakeaways": [
+        "ChatGPTにGPT-5.3 Instantが導入され、より自然な会話が可能に。",
+        "GPT-5.4は200万トークンのコンテキストウィンドウを持つ可能性が高い。",
+        "GPT-5.4はフル解像度のビジョン能力を搭載し、画像理解を革新。"
+      ],
+      "sourceUrl": "https://9to5mac.com/2026/03/03/openai-releases-gpt-5-3-instant-update-to-make-chatgpt-less-cringe/",
+      "relatedLinks": [
+        {"title": "GPT-5.4 Leaked: 2M Context Window, Full-Resolution Vision, and What the Codex Code Commits Reveal", "url": "https://www.nxcode.io/resources/news/gpt-5-4-leaked-openai-codex-context-window-vision-release-2026"},
+        {"title": "GPT-5.4 Leaked Twice in Codex Repo PRs - Here Is What We Know", "url": "https://awesomeagents.ai/news/gpt-5-4-codex-repo-leak/"}
+      ]
+    }
+  },
+
+  "sidebar": [
+    {
+      "id": "sidebar-scale-leaderboard",
+      "category": "研究",
+      "categoryClass": "research",
+      "headline": "Scale AIがSEAL LLMリーダーボードを発表、AIモデルの性能を専門家が評価",
+      "summary": "Scale AIが、コーディング、推論などの分野でAIモデルのランキングを行うSEAL LLMリーダーボードを公開。専門家による評価を特徴としており、AIモデルの客観的な性能比較に貢献します。",
+      "readTime": "3",
+      "timeAgo": "3時間前",
+      "fullContent": {
+        "introduction": "Scale AIは、大規模言語モデル（LLM）の性能を評価するための新しいプラットフォーム「SEAL LLMリーダーボード」を発表しました。このリーダーボードは、一般的なベンチマークだけでなく、専門家による詳細な評価を取り入れている点が特徴です。",
+        "sections": [
+          {"heading": "専門家による評価の重要性", "content": "SEALリーダーボードは、AIモデルが実際のタスクでどのように機能するかをより正確に測定するため、特定分野の専門家による評価プロセスを重視しています。これにより、単なるスコアだけでなく、実用的な性能の洞察を提供します。"},
+          {"heading": "多角的な評価軸", "content": "コーディング能力、複雑な推論スキル、問題解決能力など、多岐にわたる評価軸でモデルをランク付けしています。これは、開発者や研究者がプロジェクトに最適なLLMを選択する上で貴重な情報となります。"}
+        ],
+        "keyTakeaways": [
+          "Scale AIが専門家評価ベースのSEAL LLMリーダーボードを発表。",
+          "コーディング、推論など複数の分野でモデルを評価。",
+          "実用的なAIモデル選定に役立つ客観的データを提供。"
+        ],
+        "sourceUrl": "https://scale.com/leaderboard"
+      }
+    },
+    {
+      "id": "sidebar-zhipu-glm5",
+      "category": "AI",
+      "categoryClass": "ai",
+      "headline": "Zhipu AIが744BパラメータのGLM-5を発表、Claude Opus 4.6とGPT-5.3 Codexを詳細比較",
+      "summary": "Zhipu AIが200Kコンテキストウィンドウを持つ大規模MoEモデルGLM-5をリリース。LLM-Stats.comでは、Claude Opus 4.6とGPT-5.3 Codexのベンチマーク性能、価格、機能などを詳細に比較分析している。",
+      "readTime": "4",
+      "timeAgo": "6時間前",
+      "fullContent": {
+        "introduction": "中国のAI企業Zhipu AIが、大規模なMoE（Mixture of Experts）モデルであるGLM-5を発表しました。このモデルは7440億のパラメータを持ち、20万トークンの広範なコンテキストウィンドウを特徴としています。一方、LLM-Stats.comでは、AnthropicのClaude Opus 4.6とOpenAIのGPT-5.3 Codexという二つの主要モデルの詳細な比較分析を公開し、AI業界のモデル開発競争が激化していることを示しています。",
+        "sections": [
+          {"heading": "GLM-5の革新性", "content": "Zhipu AIのGLM-5は、大規模なMoEアーキテクチャと広範なコンテキストウィンドウにより、複雑なタスク処理能力と長文理解能力を向上させています。特に、Huawei Ascendチップでトレーニングされた点が注目されます。"},
+          {"heading": "主要LLMの性能比較", "content": "LLM-Stats.comのレポートでは、Claude Opus 4.6とGPT-5.3 Codexのベンチマークスコア、API料金、コンテキストウィンドウのサイズ、エージェント機能、そして実世界での性能が詳細に比較されています。これにより、各モデルの強みと弱みが明らかになり、ユーザーが自身のニーズに最適なモデルを選択する手助けとなります。"}
+        ],
+        "keyTakeaways": [
+          "Zhipu AIが744BパラメータのGLM-5をリリース。",
+          "GLM-5は200Kのコンテキストウィンドウを持つMoEモデル。",
+          "Claude Opus 4.6とGPT-5.3 Codexの詳細な比較分析が公開。"
+        ],
+        "sourceUrl": "https://llm-stats.com/ai-news"
+      }
+    },
+    {
+      "id": "sidebar-anthropic-pentagon",
+      "category": "ビジネス",
+      "categoryClass": "business",
+      "headline": "Anthropic、国防総省とのLLM利用を巡る対立が浮上",
+      "summary": "Anthropicと米国防総省の間で、国家安全保障におけるLLMの利用に関して緊張関係が続いている。これは企業AIポリシーと政府の運用実態との間の課題を浮き彫りにしている。",
+      "readTime": "3",
+      "timeAgo": "12時間前",
+      "fullContent": {
+        "introduction": "OpenAIが国防総省との契約修正を発表したのと同時期に、Anthropicと米国防総省の間でも大規模言語モデル（LLM）の利用を巡る対立が表面化しています。この問題は、AI企業の倫理原則と国家安全保障における技術活用との間で生じるデリケートなバランスを示しています。",
+        "sections": [
+          {"heading": "企業倫理と国家安全保障", "content": "Anthropicは、責任あるAI開発と利用を掲げていますが、国防総省のような組織がLLMを兵器システムや監視活動に利用することへの懸念が根強くあります。この対立は、AI技術が社会に与える影響に対する企業側の責任と、国家の安全保障ニーズとの間の綱引きを反映しています。"},
+          {"heading": "AIポリシーの課題", "content": "このような状況は、AI技術が社会に浸透する中で、企業がどのようなポリシーを持ち、それが政府機関の要請とどのように折り合うのかという、より広範な課題を提起しています。透明性と説明責任が求められる一方で、機密性の高い分野でのAI活用は依然として多くの議論を呼んでいます。"}
+        ],
+        "keyTakeaways": [
+          "Anthropicと国防総省の間でLLM利用を巡る対立が浮上。",
+          "AI企業の倫理原則と国家安全保障の間の課題を提起。",
+          "AIポリシーと政府の技術活用におけるデリケートなバランスが焦点。"
+        ],
+        "sourceUrl": "https://nationaltoday.com/us/ca/san-francisco/news/2026/03/03/classified-llm-operator-discusses-anthropic-pentagon-standoff/"
+      }
+    }
+  ],
+
+  "middle": [
+    {
+      "id": "middle-minimax-m25",
+      "category": "技術",
+      "categoryClass": "tech",
+      "gradient": "linear-gradient(135deg, #1e3a5f 0%, #3498db 100%)",
+      "headline": "MiniMaxが「M2.5」モデルと「GDPval-MM」ベンチマークを公開、実用的な生産性を重視",
+      "summary": "MiniMaxが最新モデルM2.5を発表し、LLMを評価するための新しいエージェントベースのベンチマーク「GDPval-MM」も導入した。M2.5は実世界での生産性向上に焦点を当てている。",
+      "author": "MiniMax News",
+      "readTime": "3",
+      "fullContent": {
+        "introduction": "AI開発企業MiniMaxは、実世界での生産性向上を目的とした新しい大規模言語モデル「M2.5」を発表しました。同時に、LLMの評価精度を高めるために設計された革新的なエージェントベースのベンチマーク「GDPval-MM」も公開しました。",
+        "sections": [
+          {"heading": "M2.5モデル：生産性のための設計", "content": "M2.5は、複雑なビジネスワークフローや日常的なタスクにおいて、ユーザーがより効率的に作業できるよう支援することを目指しています。応答速度、精度、多機能性をバランス良く組み合わせることで、幅広いアプリケーションでの利用が期待されます。"},
+          {"heading": "GDPval-MM：エージェントベースの評価", "content": "従来のベンチマークとは異なり、GDPval-MMは「LLMを審判とするLLM」のアプローチを採用しています。これにより、モデルのパフォーマンスをより深く、実践的なシナリオで評価することが可能となり、モデルの真の実力を測る新たな基準を提示します。"}
+        ],
+        "keyTakeaways": [
+          "MiniMaxが実用的な生産性重視のM2.5モデルを発表。",
+          "エージェントベースの新しいLLMベンチマーク「GDPval-MM」を導入。",
+          "M2.5は応答速度と精度をバランス良く追求。"
+        ],
+        "sourceUrl": "https://www.minimax.io/news/minimax-m25"
+      }
+    },
+    {
+      "id": "middle-llm-deanonymization",
+      "category": "研究",
+      "categoryClass": "research",
+      "gradient": "linear-gradient(135deg, #5b2c6f 0%, #8e44ad 100%)",
+      "headline": "LLMが匿名投稿からユーザーを特定する脅威：プライバシーへの新たな挑戦",
+      "summary": "新しい研究により、LLMエージェントがHacker NewsやRedditなどの匿名オンライン投稿からユーザーを高い精度で特定できることが判明。これは、オンラインプライバシーに対する新たな脅威を示唆している。",
+      "author": "Schneier on Security",
+      "readTime": "4",
+      "fullContent": {
+        "introduction": "Bruce Schneier氏のブログ「Schneier on Security」で報告された最新の研究によると、大規模言語モデル（LLM）エージェントが、Hacker News、Reddit、LinkedInなどのプラットフォーム上の匿名投稿から個人を特定できることが明らかになりました。この発見は、オンラインプライバシーとデータセキュリティに関する新たな懸念を提起しています。",
+        "sections": [
+          {"heading": "LLMによる匿名解除のメカニズム", "content": "この研究では、LLMが投稿者の文体、使用される専門用語、言及される情報など、微細な言語的特徴を分析することで、匿名化されたテキストから個人を識別する能力を持つことが示されました。特に、複数のプラットフォームからの投稿を統合することで、その精度が向上するとされています。"},
+          {"heading": "プライバシーへの影響と対策", "content": "この技術は、個人情報の保護、言論の自由、そしてオンラインでの匿名性の将来に大きな影響を与える可能性があります。研究者たちは、この脅威に対処するための新たなプライバシー保護技術の開発や、ユーザーがオンラインで共有する情報の種類と量に対する意識を高める必要性を強調しています。"}
+        ],
+        "keyTakeaways": [
+          "LLMが匿名オンライン投稿からユーザーを特定可能であることが判明。",
+          "文体や情報の組み合わせにより高い精度で識別。",
+          "オンラインプライバシーとセキュリティに新たな課題を提起。"
+        ],
+        "sourceUrl": "https://www.schneier.com/blog/archives/2026/03/llm-assisted-deanonymization.html"
+      }
+    },
+    {
+      "id": "middle-claude-outage",
+      "category": "技術",
+      "categoryClass": "tech",
+      "gradient": "linear-gradient(135deg, #1e3a5f 0%, #3498db 100%)",
+      "headline": "AnthropicのClaudeでシステム障害が発生、APIとログイン経路に影響",
+      "summary": "AnthropicのClaudeで一時的なシステム障害が発生し、特にClaude.aiのログインおよびログアウト経路に影響が出た。同社は既に修正に着手していることを発表。",
+      "author": "Techloy.com",
+      "readTime": "2",
+      "fullContent": {
+        "introduction": "Anthropicが提供する主要なAIアシスタント「Claude」で、過去24時間以内に一時的なシステム障害が発生しました。この問題は、特にClaude.aiのウェブインターフェースとAPIのログイン・ログアウト経路に影響を及ぼし、多くのユーザーがサービスにアクセスできない状況に陥りました。",
+        "sections": [
+          {"heading": "障害の詳細と対応", "content": "障害はUTCで12:21にClaude APIが「意図した通りに機能している」と発表された後、claude.aiのログイン経路に問題があることが特定されました。その後、13:22にはAnthropicが「特定済み」と発表し、修正策が実施されていることを明らかにしました。"},
+          {"heading": "ユーザーへの影響", "content": "この障害により、Claudeを利用する開発者や企業は、APIを介したAIモデルの利用に一時的な中断を経験しました。また、個人ユーザーもウェブインターフェースでのアクセスが困難となり、日常業務や研究活動に影響が出ました。"}
+        ],
+        "keyTakeaways": [
+          "AnthropicのClaudeでシステム障害が発生。",
+          "APIとclaude.aiのログイン/ログアウト経路に影響。",
+          "Anthropicは問題の特定と修正作業に着手。"
+        ],
+        "sourceUrl": "https://www.techloy.com/why-is-claude-not-working-everything-we-know-about-the-anthropic-outage/"
+      }
+    }
+  ],
+
+  "briefs": [
+    {"headline": "AI開発者が労働時間増加の理由", "text": "AIツールを利用する開発者が、自動化されたタスクの増加により、実際にはより長い時間働いているという研究結果が示された。AIがプロトタイピングの自動化を促進する一方で、全体の作業負荷は軽減されていない可能性がある。 Source: Scientific American"},
+    {"headline": "GPTをカスタムOS上で構築", "text": "Andrej KarpathyのMicroGPTに触発され、依存関係のないGPTモデルをカスタムOS上で構築する試みが報じられた。これは、GPTモデルの軽量化と、より多くの環境での運用可能性を示唆している。 Source: Hackaday"},
+    {"headline": "YouTubeでAIベンチマーク解説", "text": "YouTubeで、AIモデルの真の性能を測るための11の重要なAIベンチマークを解説する動画が公開された。推論、コーディング、真実性など、各ベンチマークが何を意味するのかを理解するのに役立つ内容。 Source: YouTube"},
+    {"headline": "OpenAIの3月最新アップデートまとめ", "text": "Releasebotが、OpenAIの2026年3月の最新アップデート、製品ニュース、リリースノート、変更履歴をまとめたタイムラインを公開。OpenAIの最新動向を一覧で確認できる。 Source: Releasebot"}
+  ],
+
+  "opinions": [
+    {
+      "id": "opinion-sam-altman-pentagon",
+      "authorLabel": "X投稿：",
+      "author": "@sama (Sam Altman)",
+      "headline": "サム・アルトマン、OpenAIの国防総省契約修正についてXで発表",
+      "excerpt": "OpenAIのSam Altmanは、国防総省との契約に反監視文言を追加する修正を行ったことをXで発表した。これは、先行する契約に対する批判に応じたものと見られる。彼は、企業の倫理的原則と国家安全保障のニーズとのバランスの重要性を強調している。",
+      "fullContent": {
+        "introduction": "OpenAIのCEOであるSam Altmanは、同社が国防総省との契約内容を修正し、反監視に関する明確な文言を追加したことをX（旧Twitter）で発表しました。この動きは、OpenAIが軍事利用に関与することに対するコミュニティからの批判に応じたものと広く解釈されています。",
+        "sections": [
+          {"heading": "契約修正の背景と詳細", "content": "当初の契約に対する懸念は、AI技術の潜在的な監視利用に関する倫理的な問題を提起しました。Altman氏はXでの投稿で、OpenAIが「原則を非常に明確にするため」に国防総省と協力し、契約に新たな文言を追加したと説明しています。この追加文言は、適用される法律に従い、いかなる監視活動も制限されることを強調するものです。"},
+          {"heading": "企業倫理と国家安全保障のバランス", "content": "この件は、AI開発企業がその技術を政府機関に提供する際に直面する、倫理的責任と国家の安全保障上の要請との間の複雑なバランスを示しています。Altman氏は、OpenAIがAIの安全で有益な利用を追求し続けるというコミットメントを再確認しました。"}
+        ],
+        "keyTakeaways": [
+          "Sam AltmanがOpenAIの国防総省契約修正をXで発表。",
+          "契約に反監視文言が追加され、倫理的懸念に対応。",
+          "AI企業の社会的責任と国家安全保障のバランスが焦点。"
+        ],
+        "sourceUrl": "https://gizmodo.com/facing-backlash-openai-amends-pentagon-deal-to-add-more-anti-surveillance-verbiage-2000728644"
+      }
+    },
+    {
+      "id": "opinion-karpathy-agentic-eng",
+      "authorLabel": "X投稿：",
+      "author": "@karpathy (Andrej Karpathy)",
+      "headline": "アンドレイ・カルパシーが提唱する「エージェント的エンジニアリング」：AIによるコーディングの進化",
+      "excerpt": "Andrej Karpathyは、従来の「vibe coding」に代わる「agentic engineering」という概念を導入し、AIエージェントを使ったコーディングの効果が大幅に向上したと指摘。AIがコードを書く際のメタファーとして「幽霊を召喚する」と表現し、その可能性と課題を示唆している。",
+      "fullContent": {
+        "introduction": "元Tesla AIディレクターでOpenAIの創設メンバーであるAndrej Karpathy氏が、AIを活用した新しいコーディングパラダイム「agentic engineering（エージェント的エンジニアリング）」を提唱しています。これは、AI開発における従来の「vibe coding」からの重要な転換点を示唆するもので、AIエージェントがコード生成において果たす役割の拡大を強調しています。",
+        "sections": [
+          {"heading": "「vibe coding」から「agentic engineering」へ", "content": "Karpathy氏は、これまでの「vibe coding」（直感的にAIに指示を出すコーディング方法）が限界に達しつつあると指摘し、より構造化された「agentic engineering」のアプローチを提案しています。これは、AIエージェントが自律的にコードを生成し、デバッグし、改良する能力を高めることに焦点を当てています。彼は大規模言語モデル（LLM）を「幽霊を召喚する」と表現し、その強力ながらも予測不可能な側面を示唆しています。"},
+          {"heading": "AIエージェントの可能性と課題", "content": "「agentic engineering」の進展は、開発者の生産性を劇的に向上させる可能性を秘めていますが、同時に、AIが生成するコードの信頼性、セキュリティ、そして複雑なシステムの管理といった新たな課題も生じさせます。Karpathy氏の提言は、AI時代のソフトウェア開発の未来に対する重要な考察を提供しています。"}
+        ],
+        "keyTakeaways": [
+          "Andrej Karpathyが「agentic engineering」を提唱。",
+          "AIエージェントによる自律的なコード生成と改良に焦点。",
+          "AI時代のコーディングの可能性と課題を示す。"
+        ],
+        "sourceUrl": "https://developer.nvidia.com/blog/how-to-minimize-game-runtime-inference-costs-with-coding-agents"
+      }
+    }
+  ]
+}
