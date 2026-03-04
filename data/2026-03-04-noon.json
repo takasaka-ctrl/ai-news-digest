@@ -1,0 +1,317 @@
+{
+  "date": "2026年3月4日（水曜日）",
+  "edition": "昼刊",
+  "volume": "1",
+  "tickerText": "Claude Codeに音声モード追加 ── Ollamaが新モデル対応 ── AIコーディングで生産性向上も労働時間増 ── プロンプトエンジニアリングの進化 ── OllamaでローカルLLMファインチューニング ── Claude Codeワークフロー活用術 ── Claude Codeに音声モード追加",
+  "dataPanel": [
+    {
+      "label": "AI採用率",
+      "value": "▲ 2.5%",
+      "sparkline": "▁▂▃▅▇█",
+      "change": "製造業で採用加速",
+      "changeClass": "up"
+    },
+    {
+      "label": "新規LLMリリース",
+      "value": "▲ 3件",
+      "sparkline": "▁▂▃▅▇█",
+      "change": "Qwen 3, Llama 3.3, Gemma 3",
+      "changeClass": "up"
+    },
+    {
+      "label": "AI開発者生産性",
+      "value": "▲ 27.2%",
+      "sparkline": "▁▂▃▅▇█",
+      "change": "プルリクエストマージ数",
+      "changeClass": "up"
+    },
+    {
+      "label": "ローカルLLMダウンロード",
+      "value": "▲ 50万",
+      "sparkline": "▁▂▃▅▇█",
+      "change": "Ollamaが500万DL突破",
+      "changeClass": "up"
+    }
+  ],
+  "hero": {
+    "id": "claude-code-voice-mode",
+    "category": "tech",
+    "categoryClass": "tech",
+    "headline": "Claude Codeの音声モードがロールアウト：開発者のコーディング体験を革新",
+    "deck": "AnthropicのAIコーディングツール「Claude Code」が音声モードを導入し、コマンドラインでの自然言語によるコード生成、編集、デバッグ、リファクタリングが可能に。ハンズフリーコーディングにより生産性向上が期待されます。",
+    "author": "Anthropic",
+    "readTime": "4",
+    "readPercent": 50,
+    "readLabel": "中程度",
+    "updateTime": "本日 06:30",
+    "fullContent": {
+      "introduction": "AnthropicがAIコーディングツール「Claude Code」に音声モードを導入しました。これにより、開発者はキーボードを使わずに、自然言語でコードの生成、編集、デバッグ、リファクタリングを行えるようになります。この新機能は、開発者のワークフローを大幅に効率化し、より直感的なコーディング体験を提供することを目指しています。",
+      "sections": [
+        {
+          "heading": "音声モードの活用方法",
+          "content": "Claude Codeの音声モードは、`/voice` コマンドで有効化され、ユーザーは話すことでコードの指示を与えることができます。例えば、「認証ミドルウェアをリファクタリングして」と話すと、Claude Codeが自動的にそのリクエストを実行します。これにより、ハンズフリーでのコーディングが可能となり、特にアイデア出しやデバッグの際に集中力を維持しやすくなります。"
+        },
+        {
+          "heading": "生産性向上への影響",
+          "content": "Anthropicは、この音声モードが開発者の生産性を大きく向上させると期待しています。Visual Studio CodeやJetBrainsなどの主要なIDEとの連携強化、一般的なタスク用のショートカット文法、カスタムプロジェクトの語彙設定などが、実際の開発現場での有用性をさらに高めるでしょう。音声入力は、特に視覚に集中したい作業や、手を離せない状況でのコーディングに有効です。"
+        }
+      ],
+      "keyTakeaways": [
+        "Claude Codeが音声モードを導入し、ハンズフリーコーディングが可能に。",
+        "自然言語でコードの生成、編集、デバッグ、リファクタリングを指示。",
+        "開発者の生産性向上と直感的なコーディング体験を提供。",
+        "`/voice` コマンドで有効化、主要IDEとの連携も強化予定。"
+      ],
+      "sourceUrl": "https://www.webpronews.com/anthropic-bets-big-on-voice-claude-code-gets-a-spoken-interface-that-could-reshape-how-developers-write-software/",
+      "relatedLinks": [
+        {
+          "title": "9to5Mac: Anthropic adding voice mode to Claude Code in gradual rollout",
+          "url": "https://9to5mac.com/2026/03/03/anthropic-adding-voice-mode-to-claude-code-in-gradual-rollout/"
+        },
+        {
+          "title": "Digital Today: Anthropic launches voice mode for Claude Code",
+          "url": "https://www.digitaltoday.co.kr/en/view/17062/anthropic-launches-voice-mode-for-claude-code"
+        }
+      ]
+    }
+  },
+  "sidebar": [
+    {
+      "id": "ollama-new-models",
+      "category": "AIモデル",
+      "categoryClass": "ai",
+      "headline": "OllamaがDeepSeek-R1、Qwen 3、Llama 3.3など新モデルをローカルでサポート",
+      "summary": "Ollamaは、DeepSeek-R1、Qwen 3、Llama 3.3、Qwen 2.5-VL、Gemma 3といった最新のLLMモデルをローカル環境で実行可能にし、開発者がクラウドコストなしで高度なAIモデルを試せるようにします。",
+      "readTime": "3",
+      "timeAgo": "8時間前",
+      "fullContent": {
+        "introduction": "OllamaがDeepSeek-R1、Qwen 3、Llama 3.3、Qwen 2.5-VL、Gemma 3などの新モデルをローカル環境でサポートすることで、AI開発者は最新のLLMに簡単にアクセスできるようになりました。これにより、クラウドベースのサービスに依存することなく、プライバシーを保護しながら、自身のハードウェアでAIモデルを実験・開発することが可能になります。",
+        "sections": [
+          {
+            "heading": "ローカルLLM開発の加速",
+            "content": "Ollamaは、複雑な設定なしにこれらのモデルをプルして実行できるシンプルなインターフェースを提供します。開発者は、自身のCPU/GPU構成に合わせてモデルを最適化し、Modelfileシステムを使ってカスタムAIパーソナリティを作成することも可能です。これにより、AIアプリケーションのプロトタイピングからデプロイまでを迅速に行えるようになります。"
+          }
+        ],
+        "keyTakeaways": [
+          "OllamaがDeepSeek-R1、Qwen 3、Llama 3.3、Gemma 3など最新LLMをローカルサポート。",
+          "クラウドコストなしで高度なAIモデルを試せる。",
+          "ModelfileシステムでカスタムAIパーソナリティを作成可能。"
+        ],
+        "sourceUrl": "https://www.techspot.com/downloads/7772-ollama.html"
+      }
+    },
+    {
+      "id": "ai-coding-productivity",
+      "category": "ビジネス",
+      "categoryClass": "business",
+      "headline": "AIコーディングは開発者の生産性を向上させるが、労働時間も増加させる可能性",
+      "summary": "Scientific Americanの報告によると、AIコーディングツールは開発者のプルリクエストのマージ数を27.2%増加させる一方、全体的な労働時間の増加にも繋がる可能性があると指摘されています。",
+      "readTime": "5",
+      "timeAgo": "12時間前",
+      "fullContent": {
+        "introduction": "AIコーディングツールの導入は、開発現場に二面性をもたらしています。Scientific American誌の最新レポートでは、AIの活用がプルリクエストのマージ率を大幅に向上させる一方で、開発者の労働時間が増加する傾向にあることが明らかになりました。これは、AIがコード生成の効率を高める一方で、複雑な問題解決やAIとの協調作業における新たな課題も生み出していることを示唆しています。",
+        "sections": [
+          {
+            "heading": "「バイブコーディング」と生産性の向上",
+            "content": "OpenAIの共同創設者であるAndrej Karpathy氏が提唱する「バイブコーディング」とは、開発者がAIシステムに意図を伝えるだけでプロトタイプを迅速に作成する手法です。AIは、冗長なコード記述を自動化し、開発者がより高レベルな設計や創造的な問題解決に集中できるようにします。しかし、AIが生成したコードのレビューやデバッグ、そしてAIとの円滑な対話には、依然として多くの時間と労力が必要とされます。"
+          },
+          {
+            "heading": "労働時間の増加と新たな課題",
+            "content": "AIツールによって開発作業の一部が自動化されると、開発者はより多くのタスクをこなせるようになります。これが、結果的に全体の労働時間を押し上げる要因となる可能性があります。また、AIが生成するコードの品質を保証するためのテストや、AIの限界を理解した上での適切なプロンプトエンジニアリングなど、新たなスキルセットと責任が開発者に求められています。"
+          }
+        ],
+        "keyTakeaways": [
+          "AIコーディングツールはプルリクエストマージ数を平均27.2%増加させる。",
+          "一方で、開発者の全体的な労働時間が増加する傾向。",
+          "AIが自動化する範囲を超えた、複雑な問題解決やAIとの協調作業が新たな課題。"
+        ],
+        "sourceUrl": "https://www.scientificamerican.com/article/why-developers-using-ai-are-working-longer-hours/"
+      }
+    },
+    {
+      "id": "prompt-engineering-evolution",
+      "category": "研究",
+      "categoryClass": "research",
+      "headline": "プロンプトエンジニアリングの進化：システム設計が成功の鍵に",
+      "summary": "AIの出力品質を高めるには、単なる効果的な指示文の作成から、クリエイティブ性、コンテキスト、制約、明瞭さを戦略的に組み合わせたシステム設計へと、プロンプトエンジニアリングのアプローチが進化しています。",
+      "readTime": "4",
+      "timeAgo": "1日",
+      "fullContent": {
+        "introduction": "AIの進化に伴い、プロンプトエンジニアリングの重要性が高まっています。単にモデルに命令を与えるだけでなく、より高品質で信頼性の高いAI出力を得るためには、プロンプトの設計自体を「システム」として捉える必要が出てきました。The Mountain-Ear誌の記事は、この新たなアプローチの重要性を強調しています。",
+        "sections": [
+          {
+            "heading": "クリエイティブ性、コンテキスト、制約、明瞭さの組み合わせ",
+            "content": "効果的なプロンプトエンジニアリングは、単語選びの技術を超え、クリエイティブな思考、適切なコンテキストの提供、明確な制約の設定、そして曖昧さのない指示の組み合わせによって成り立ちます。これにより、AIはユーザーの意図をより正確に理解し、期待される形式と内容で応答を生成できるようになります。従来のプロンプトがしばしば失敗する原因は、このシステム設計的な視点の欠如にあると指摘されています。"
+          },
+          {
+            "heading": "プロンプトエンジニアリングからコンテキストエンジニアリングへ",
+            "content": "Prompt EngineeringとContext Engineeringの違いにも注目が集まっています。前者がモデルへの直接的な指示の技術であるのに対し、後者はモデルが情報を取得し、意思決定を下すための全体的な環境を構築することを含みます。ツール呼び出しや評価ループといった要素を統合することで、AIはより堅牢で信頼性の高いシステムとして機能するようになります。"
+          }
+        ],
+        "keyTakeaways": [
+          "AIプロンプトエンジニアリングは、システム設計としての側面が強化。",
+          "創造性、コンテキスト、制約、明瞭さを戦略的に組み合わせる。",
+          "プロンプトエンジニアリングとコンテキストエンジニアリングの違いが重要。",
+          "ツール呼び出しや評価ループの統合でAIの信頼性を向上。"
+        ],
+        "sourceUrl": "https://www.themtnear.com/premium/stacker/stories/ai-prompts-that-work-mastering-prompt-engineering-with-examples,84862"
+      }
+    }
+  ],
+  "middle": [
+    {
+      "id": "claude-code-workflow",
+      "category": "テクノロジー",
+      "categoryClass": "tech",
+      "gradient": "linear-gradient(135deg, #1e3a5f 0%, #3498db 100%)",
+      "headline": "Claude Codeのリアルなワークフロー：コマンド、コンテキスト、ツールを活用",
+      "summary": "Claude Codeを効果的に活用するためのワークフローが紹介されています。スラッシュコマンド、`CLAUDE.md`によるプロジェクトメモリ構築、ファイル参照によるタスク固有のコンテキスト追加など、実践的な活用法が解説されています。",
+      "author": "Naveed Ul Mustafa",
+      "readTime": "5",
+      "fullContent": {
+        "introduction": "AnthropicのAIコーディングツール「Claude Code」は、単なるコード生成を超えた高度な機能を提供します。Naveed Ul Mustafa氏の記事では、この強力なツールを最大限に活用するための実践的なワークフローが詳述されており、開発者が効率的かつ効果的にAIと協調して作業する方法が示されています。",
+        "sections": [
+          {
+            "heading": "スラッシュコマンドによる制御",
+            "content": "Claude Codeは、`/read`、`/write`、`/plan` といったスラッシュコマンドを制御インターフェースとして使用します。これにより、開発者はAIに特定のタスクを実行させたり、現在のプロジェクトの状況を把握させたりすることができます。これらのコマンドを組み合わせることで、複雑な開発プロセスを段階的に進めることが可能です。"
+          },
+          {
+            "heading": "CLAUDE.mdとプロジェクトメモリ",
+            "content": "`CLAUDE.md`ファイルは、プロジェクト固有のルール、ガイドライン、過去の決定事項などをAIに伝えるための「耐久性のあるプロジェクトメモリ」として機能します。これにより、AIは常に最新かつ正確なプロジェクトのコンテキストを維持し、より適切で一貫性のあるコード生成や提案を行うことができます。また、特定のファイルを `@filename` の形式で参照することで、タスクに関連する詳細なコンテキストをAIに提供し、的確なフィードバックを得られます。"
+          }
+        ],
+        "keyTakeaways": [
+          "スラッシュコマンドを活用してClaude Codeを効率的に操作。",
+          "`CLAUDE.md`でプロジェクト固有のメモリを構築し、AIにコンテキストを提供。",
+          "ファイル参照機能でタスクに合わせた詳細な情報をAIに共有。",
+          "AIとの協調作業で、計画、コーディング、レビュー、コミットのサイクルを最適化。"
+        ],
+        "sourceUrl": "https://numustafa.medium.com/claude-code-real-workflows-commands-context-tools-964ff89d981a"
+      }
+    },
+    {
+      "id": "ollama-fine-tuning",
+      "category": "AI",
+      "categoryClass": "ai",
+      "gradient": "linear-gradient(135deg, #2d5a27 0%, #4a8a3f 100%)",
+      "headline": "OllamaによるローカルLLMのファインチューニング：クラウドコストなしでドメイン適応を実現",
+      "summary": "Ollamaを使用してローカルLLMをファインチューニングする手法がMarkaicodeで解説されています。これにより、チーム固有のAPI規約やコーディングパターンに合わせたモデルを、クラウドコストをかけずに構築できます。",
+      "author": "Markaicode",
+      "readTime": "6",
+      "fullContent": {
+        "introduction": "クラウドベースのLLMサービスは便利ですが、プライバシー、コスト、特定のドメイン知識の欠如といった課題を抱えています。Markaicodeの記事では、Ollamaを活用してローカル環境でLLMをファインチューニングし、これらの課題を克服する方法が詳細に説明されています。これにより、企業や個人開発者は、自身のデータとニーズに完全に合わせたカスタムAIモデルを構築できます。",
+        "sections": [
+          {
+            "heading": "なぜローカルファインチューニングが重要か",
+            "content": "ベースとなるLLMは一般的な知識を持っていますが、特定の企業内API規約、独自のコーディングパターン、チーム特有の変数命名規則など、ドメイン固有の知識は持ち合わせていません。ローカルでのファインチューニングは、これらのギャップを埋め、モデルを特定の業務環境に最適化することを可能にします。これにより、GPT-4oのような高価なAPIに依存することなく、プライベートな環境でセキュアかつコスト効率の高いAIソリューションを実現できます。Ollamaのダウンロード数が500万件を突破し、ローカルでのモデルカスタマイズツールが充実してきていることは、このトレンドの強さを示しています。"
+          },
+          {
+            "heading": "Ollamaでのファインチューニングワークフロー",
+            "content": "Ollamaを使ったファインチューニングは、既存のModelfileに学習データセットと学習設定を追加することで行われます。Markaicodeの記事では、CLIベースのシンプルなコマンドでファインチューニングプロセスを開始し、モデルの再学習と評価を行う具体的なステップが示されています。これにより、開発者は、少量のデータでもモデルのパフォーマンスを向上させ、特定のタスクに対する精度を高めることができます。"
+          }
+        ],
+        "keyTakeaways": [
+          "OllamaでローカルLLMのファインチューニングが可能に。",
+          "クラウドコストとプライバシーの懸念を解消。",
+          "企業固有のAPI規約やコーディングパターンにモデルを適応。",
+          "ModelfileとCLIコマンドで簡単なファインチューニングワークフロー。"
+        ],
+        "sourceUrl": "https://markaicode.com/ollama-fine-tuning-workflow/"
+      }
+    },
+    {
+      "id": "llm-developer-tools",
+      "category": "テクノロジー",
+      "categoryClass": "tech",
+      "gradient": "linear-gradient(135deg, #1e3a5f 0%, #3498db 100%)",
+      "headline": "LLM開発者ツールの最新動向：AIエージェントとインフラ進化",
+      "summary": "LLM-Stats.comによると、LLM開発者ツールは推論フレームワーク（vLLM, TensorRT-LLM, Ollama）やデプロイツール、最適化技術の進化に焦点を当てています。IBMは、AIエージェントがツールコーリングを介して最新情報を取得し、ワークフローを最適化すると強調しています。",
+      "author": "LLM-Stats.com / IBM",
+      "readTime": "4",
+      "fullContent": {
+        "introduction": "大規模言語モデル（LLM）の開発と運用を支援するツールは、急速に進化を遂げています。LLM-Stats.comが報じているように、最新の動向は、vLLM、TensorRT-LLM、Ollamaといった推論フレームワークの改善、そしてデプロイツールや最適化技術の進歩に集中しています。これにより、開発者はより効率的に高性能なLLMアプリケーションを構築できるようになっています。",
+        "sections": [
+          {
+            "heading": "AIエージェントとツールコーリングの重要性",
+            "content": "IBMの分析によれば、従来のLLMが学習データに限定されるのに対し、AIエージェントはバックエンドでの「ツールコーリング」を通じて、最新情報を取得し、ワークフローを最適化し、自律的にサブタスクを作成することで、複雑な目標を達成する能力を持っています。このエージェント技術は、LLMの可能性を大きく広げ、単なるテキスト生成ツールから、より動的で知的なアシスタントへと進化させています。"
+          },
+          {
+            "heading": "OpenClawとClaude Codeの台頭",
+            "content": "`learnwithmeai.com`では、「コンテンツ作成を密かに席巻している開発者ツール」としてClaude Codeが挙げられています。これは、持続的な記憶、マルチステップの実行能力、そして開発者以外のユーザーにも拡大するClaude Codeの影響力を示唆しています。また、Peter Steinberger氏が開発したOpenClawのようなエージェントシステムも、そのオープンソース性とカスタマイズ性により、開発者コミュニティで注目を集めています。"
+          }
+        ],
+        "keyTakeaways": [
+          "LLM開発者ツールは推論フレームワーク、デプロイ、最適化技術が進化。",
+          "AIエージェントはツールコーリングでリアルタイム情報を取得し、ワークフローを最適化。",
+          "Claude Codeはコンテンツ作成ツールとしても台頭、持続的記憶と多段階実行が強み。",
+          "OpenClawはオープンソースでカスタマイズ可能なAIエージェントとして注目。"
+        ],
+        "sourceUrl": "https://llm-stats.com/ai-news"
+      }
+    }
+  ],
+  "briefs": [
+    {
+      "headline": "Claude Codeデザインワークフローの紹介",
+      "text": "YouTube動画でClaude Codeがデザインワークフローにどのように統合されるかを紹介。"
+    },
+    {
+      "headline": "CloudZeroがClaude Codeプラグインを発表",
+      "text": "AIネイティブのコストインテリジェンスをエンジニアリングワークフローに統合。"
+    },
+    {
+      "headline": "Blackbox AIレビュー",
+      "text": "AIコーディングアシスタントBlackbox AIが生産性向上に役立つかについての議論。"
+    },
+    {
+      "headline": "プロンプトエンジニアの役割",
+      "text": "AIモデルの振る舞いをプロンプト、検索戦略、ツール呼び出し、評価ループで調整する役割を定義。"
+    }
+  ],
+  "opinions": [
+    {
+      "id": "karpathy-openclaw-sci-fi",
+      "authorLabel": "X投稿：",
+      "author": "@karpathy (Andrej Karpathy)",
+      "headline": "Andrej KarpathyがOpenClawを「SFテイクオフに最も近いもの」と評価",
+      "excerpt": "元Tesla AIディレクターであるAndrej Karpathy氏が、OpenClawのエコシステムが生み出す活動を「最近見た中で最も素晴らしいSFテイクオフに近いもの」と表現し、AIエージェントの潜在能力に言及しました。",
+      "fullContent": {
+        "introduction": "AI研究の第一人者であるAndrej Karpathy氏は、OpenClawプロジェクトの急速な進展と、それが示すAIエージェントの可能性に強い印象を受けています。彼のこの発言は、AIコミュニティ内で大きな話題となり、自律型エージェント技術の未来に対する期待感を高めています。",
+        "sections": [
+          {
+            "heading": "OpenClawの革新性",
+            "content": "Karpathy氏は、OpenClawのような自律型AIエージェントが、従来のソフトウェア開発プロセスを根本から変える可能性を秘めていると考えています。エージェントが自らタスクを計画し、コードを生成し、デバッグを行う能力は、SF映画で描かれてきた未来の姿に近づいていると評価されています。"
+          }
+        ],
+        "keyTakeaways": [
+          "Andrej KarpathyがOpenClawを「SFテイクオフに最も近い」と評価。",
+          "自律型AIエージェントがソフトウェア開発の未来を変える可能性。",
+          "AIコミュニティで大きな期待を集める発言。"
+        ],
+        "sourceUrl": "https://winbuzzer.com/2026/03/03/openclaw-overtakes-react-githubs-most-starred-project-xcxwbn/"
+      }
+    },
+    {
+      "id": "steipete-openclaw-claude-code",
+      "authorLabel": "X投稿：",
+      "author": "@PeterSteinberger (Peter Steinberger)",
+      "headline": "Peter Steinberger氏開発のOpenClaw、Claude Codeと比較され注目",
+      "excerpt": "Peter Steinberger氏が開発したオープンソースのAIエージェントであるOpenClawが、AnthropicのClaude Codeと比較され、カスタマイズ性とオープン性で注目を集めていると報じられました。",
+      "fullContent": {
+        "introduction": "AIコーディングエージェントの分野では、AnthropicのClaude Codeと、Peter Steinberger氏が手掛けるOpenClawが主要な存在として認識されています。Analytics Vidhyaの記事では、これら二つのツールの特性が比較され、開発者が自身のプロジェクトに最適なAIアシスタントを選択するための情報が提供されています。",
+        "sections": [
+          {
+            "heading": "OpenClawとClaude Codeの比較",
+            "content": "Claude CodeはAnthropicによって開発された洗練された既製の体験を提供する一方、OpenClawはオープンソースであり、高いカスタマイズ性を持つことが特徴です。Peter Steinberger氏は、OpenClawを通じて、開発者がAIエージェントを自身のワークフローや特定のニーズに合わせて自由に調整できる環境を提供しています。これは、AIツールの選択肢が増え、開発者がより柔軟にAIを導入できるようになっている現状を反映しています。"
+          }
+        ],
+        "keyTakeaways": [
+          "Peter Steinberger開発のOpenClawが注目。",
+          "Claude Codeは洗練された既製体験、OpenClawは高いカスタマイズ性。",
+          "開発者はニーズに合わせて最適なAIコーディングエージェントを選択可能。"
+        ],
+        "sourceUrl": "https://www.analyticsvidhya.com/blog/2026/03/openclaw-vs-claude-code/"
+      }
+    }
+  ]
+}
