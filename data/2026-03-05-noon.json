@@ -1,0 +1,274 @@
+{
+  "date": "2026年3月5日（木曜日）",
+  "edition": "昼刊",
+  "volume": "1",
+  "tickerText": "Claude Codeが音声コマンド対応 ── Ollamaで大規模モデルを動かすコツ ── AIコーディング生産性の秘訣 ── LLM開発ツールの最前線 ── Karpathyが語るVibe Codingの課題 ── Claude Codeが音声コマンド対応",
+  "dataPanel": [
+    {
+      "label": "AI開発ツール導入率",
+      "value": "78%",
+      "sparkline": "▁▂▃▅▇█",
+      "change": "▲ 5%増加",
+      "changeClass": "up"
+    },
+    {
+      "label": "Ollamaダウンロード数",
+      "value": "500万+",
+      "sparkline": "▁▂▃▅▇█",
+      "change": "▲ 急増中",
+      "changeClass": "up"
+    },
+    {
+      "label": "AIエージェント活用度",
+      "value": "62%",
+      "sparkline": "▁▂▃▅▇█",
+      "change": "▲ 8%向上",
+      "changeClass": "up"
+    },
+    {
+      "label": "コード生成AI満足度",
+      "value": "71%",
+      "sparkline": "▁▂▃▅▇█",
+      "change": "▲ 2%改善",
+      "changeClass": "up"
+    }
+  ],
+  "hero": {
+    "id": "hero-1",
+    "category": "AI開発",
+    "categoryClass": "ai",
+    "headline": "Claude Code vs Cursor: 実行型AIとエディタ型AIの真の違い",
+    "deck": "AIコーディングツールの進化が開発ワークフローを再定義しています。AnthropicのClaude Codeはアーキテクチャレベルの問題解決に優れ、Cursorのようなエディタ型AIとは異なるアプローチで開発者の生産性を向上させます。",
+    "author": "emergent.sh",
+    "readTime": "5",
+    "readPercent": 50,
+    "readLabel": "中程度",
+    "updateTime": "1日前",
+    "fullContent": {
+      "introduction": "AI駆動型コーディングアシスタントの台頭は、開発者がソフトウェアを構築する方法を変革しています。中でも、Claude CodeとCursorは異なる哲学に基づいたツールとして注目されています。Claude Codeはより高次の推論とシステム全体の変更に焦点を当てる一方、Cursorはインライン提案やシンタックスレベルの補助に強みを発揮します。",
+      "sections": [
+        {
+          "heading": "アーキテクチャとワークフローの最適化",
+          "content": "Claude Codeは、単一のコード行ではなく、システム全体の変更シーケンスを提案することに長けています。これにより、大規模なリファクタリングや構造化された実装ワークフローにおいて、AIがより高いレベルで支援できるようになります。開発者は「次のコード行は何か？」と尋ねる代わりに、「システム全体でどのような変更が必要か？」と問いかけることができます。",
+          "steps": [],
+          "code": null,
+          "warning": null
+        },
+        {
+          "heading": "エディタ統合と実行環境",
+          "content": "CursorはIDE内部での統合に重点を置き、開発者がコードを記述するその瞬間にリアルタイムな支援を提供します。これに対し、Claude Codeはエディタの表面を超えて動作するため、問題がアーキテクチャレベルにある場合に特に適しています。AIがコードを生成し、ローカルサーバーを起動して結果を即座に確認できるといった機能は、開発プロセスを劇的に加速させます。"
+        }
+      ],
+      "keyTakeaways": [
+        "Claude Codeは高次推論とシステム全体変更に強み",
+        "Cursorはエディタ内でのリアルタイム補助が特徴",
+        "問題の性質に応じて適切なAIツールを選択することが重要"
+      ],
+      "sourceUrl": "https://emergent.sh/learn/claude-code-vs-cursor",
+      "relatedLinks": []
+    }
+  },
+  "sidebar": [
+    {
+      "id": "sidebar-1",
+      "category": "AIツール",
+      "categoryClass": "ai",
+      "headline": "Claude Codeが音声コマンドに対応、開発ワークフローを革新",
+      "summary": "AnthropicのClaude Codeが音声コマンド機能を導入し、ユーザーは「/voice」と入力するだけで音声で指示を出すことができるようになりました。これにより、コーディングプロセスがより直感的で効率的になります。",
+      "readTime": "2",
+      "timeAgo": "1日前",
+      "fullContent": {
+        "introduction": "Claude Codeの最新アップデートにより、開発者は初めて音声でAIにコードの変更やリファクタリングを指示できるようになりました。この機能は、特に複雑なコマンドを迅速に実行したい場合に威力を発揮します。",
+        "sections": [
+          {
+            "heading": "音声コマンドの活用法",
+            "content": "例えば、「認証ミドルウェアをリファクタリングして」と話しかけるだけで、Claude Codeがその要求を実行します。これにより、キーボード入力の時間を節約し、より集中して開発に取り組むことが可能になります。"
+          }
+        ],
+        "keyTakeaways": [
+          "「/voice」コマンドで音声入力開始",
+          "複雑なコーディングタスクを音声で指示可能",
+          "開発者の生産性向上に貢献"
+        ],
+        "sourceUrl": "https://www.newsbytesapp.com/news/science/anthropic-s-claude-code-gets-voice-mode-option/story"
+      }
+    },
+    {
+      "id": "sidebar-2",
+      "category": "Ollama",
+      "categoryClass": "tech",
+      "headline": "Ollamaで大規模モデル推論：コンシューマーGPUでのマルチGPUセットアップ",
+      "summary": "OllamaとマルチGPUを組み合わせることで、Llama 3.1 70Bのような大規模モデルをM2 Maxや消費者向けNVIDIAハードウェアで高速実行できることが判明しました。これにより、APIレイテンシを上回るパフォーマンスを実現します。",
+      "readTime": "4",
+      "timeAgo": "20時間前",
+      "fullContent": {
+        "introduction": "大規模言語モデルのローカル実行は、プライバシーとコスト削減の観点から注目されています。Ollamaを使ったマルチGPUセットアップは、これまで専用ハードウェアが必要だった70Bクラスのモデルを、一般的な消費者向けGPUで効率的に実行する道を開きます。",
+        "sections": [
+          {
+            "heading": "Llama 3.1 70Bのパフォーマンス",
+            "content": "M2 Max (96GB) でLlama 3.1 70Bが約12トークン/秒で動作し、長い出力ではGPT-4 APIのレイテンシを上回ることが確認されました。NVIDIAハードウェアで同等のパフォーマンスを得るには、複数のGPUを連携させる必要があります。"
+          }
+        ],
+        "keyTakeaways": [
+          "Ollamaで大規模モデルをローカル実行",
+          "マルチGPUでLlama 3.1 70Bが高速化",
+          "消費者向けハードウェアでの高性能AI活用"
+        ],
+        "sourceUrl": "https://markaicode.com/ollama-multi-gpu-setup/"
+      }
+    },
+    {
+      "id": "sidebar-3",
+      "category": "AI開発",
+      "categoryClass": "ai",
+      "headline": "AI開発に最適なIDE: ワークフローを加速する7つのツール",
+      "summary": "AI開発の生産性を最大化するには、適切なIDEの選択が不可欠です。本記事では、既存のコーディングスキルをAIアシスタンスで増幅させる7つの主要ツールを紹介し、デバッグや定型コード作成の負担を軽減する方法を探ります。",
+      "readTime": "3",
+      "timeAgo": "19時間前",
+      "fullContent": {
+        "introduction": "AI開発は急速に進化しており、開発者がより効率的に作業するためのツールが求められています。最適なIDEを選ぶことは、AIモデルのトレーニング、デバッグ、デプロイプロセスをスムーズにする上で重要な役割を果たします。",
+        "sections": [
+          {
+            "heading": "AIアシスタンスと生産性の向上",
+            "content": "AI駆動型IDEは、コード補完、エラー検出、自動リファクタリングなどの機能を通じて、開発者の作業を劇的に高速化します。これにより、開発者はより創造的なタスクに集中し、繰り返しの多い作業から解放されます。"
+          }
+        ],
+        "keyTakeaways": [
+          "適切なIDE選びがAI開発の生産性向上に直結",
+          "AIアシスタンス機能で開発プロセスを高速化",
+          "デバッグや定型コード作成の負担を軽減"
+        ],
+        "sourceUrl": "https://dev.to/iniyarajan86/best-ide-for-ai-development-7-tools-that-boost-your-workflow-2cfo"
+      }
+    }
+  ],
+  "middle": [
+    {
+      "id": "middle-1",
+      "category": "AIエージェント",
+      "categoryClass": "ai",
+      "gradient": "linear-gradient(135deg, #2d5a27 0%, #4a8a3f 100%)",
+      "headline": "AIコーディングアシスタントが抱えるパラドックス",
+      "summary": "AIコーディングアシスタントは期待されるほどの生産性向上をもたらさない場合があります。これは、仕様のギャップが最も検出されやすいフェーズをアシスタントが「食いつぶしてしまう」ためだと指摘されています。",
+      "author": "Dawn Liphardt",
+      "readTime": "4",
+      "fullContent": {
+        "introduction": "AIコーディングアシスタントは、コード生成の高速化という点で大きな可能性を秘めていますが、開発プロセス全体の生産性向上には思わぬ落とし穴があることが明らかになってきました。特に、初期の設計段階での人間による深い考察が失われるリスクが指摘されています。",
+        "sections": [
+          {
+            "heading": "仕様と実装の間のギャップ",
+            "content": "開発者が手作業でコードを記述する過程で、仕様の曖昧さや不足が明らかになることがよくあります。しかし、AIアシスタントがこのプロセスを自動化すると、これらの重要なギャップが見過ごされ、結果として品質の低いコードや後からの手戻りが発生する可能性があります。"
+          }
+        ],
+        "keyTakeaways": [
+          "AIアシスタントは仕様ギャップの検出を妨げる可能性",
+          "コード生成速度と全体的な生産性は別問題",
+          "人間による初期設計の重要性が再認識"
+        ],
+        "sourceUrl": "https://www.dawnliphardt.com/why-ai-coding-assistants-cant-escape-the-paradox/"
+      }
+    },
+    {
+      "id": "middle-2",
+      "category": "LLM開発",
+      "categoryClass": "tech",
+      "gradient": "linear-gradient(135deg, #1e3a5f 0%, #3498db 100%)",
+      "headline": "LLM開発者必見：主要GitHubリポジトリとllama.cppの最新動向",
+      "summary": "LLM開発において最も重要なプロジェクトの一つであるllama.cppが、速度改善と広範なハードウェアサポートを伴うアップデートをリリースしました。これにより、高価なGPUなしでCPU上で強力なモデルを実行する能力が向上しています。",
+      "author": "Analytics Insight",
+      "readTime": "3",
+      "fullContent": {
+        "introduction": "大規模言語モデルの民主化は、llama.cppのようなオープンソースプロジェクトによって加速されています。最新のアップデートは、開発者が日常的に使用するコンピューターで高度なAIモデルをテスト・デプロイする方法を大きく変える可能性を秘めています。",
+        "sections": [
+          {
+            "heading": "llama.cppの進化",
+            "content": "3月初旬にリリースされたllama.cppのアップデートは、主に速度と多様なハードウェアへの対応に焦点を当てています。これにより、より多くの開発者がコストをかけずにローカル環境でLLMを実験できるようになり、AI開発の障壁が低下しています。"
+          }
+        ],
+        "keyTakeaways": [
+          "llama.cppがCPUでのLLM実行能力を強化",
+          "速度とハードウェアサポートが改善",
+          "AI開発の民主化を推進"
+        ],
+        "sourceUrl": "https://www.analyticsinsight.net/artificial-intelligence/master-large-language-models-in-2026-10-must-vist-github-repositories"
+      }
+    },
+    {
+      "id": "middle-3",
+      "category": "Web開発",
+      "categoryClass": "indie",
+      "gradient": "linear-gradient(135deg, #c07000 0%, #e09020 100%)",
+      "headline": "Claude Codeでウェブサイトを構築する方法：初心者向けガイド",
+      "summary": "Claude Codeを活用することで、初心者でも簡単にウェブサイトを構築できる方法が紹介されています。単一のプロンプトからローカルサーバーを立ち上げ、生成されたサイトを直感的に変更していくワークフローは、これまでの開発常識を覆します。",
+      "author": "Oliur",
+      "readTime": "5",
+      "fullContent": {
+        "introduction": "ウェブサイト開発は、AIの進化によって大きく変貌しつつあります。特にClaude Codeは、コードを直接編集する代わりにAIに希望を伝えるだけでサイトを生成・変更できるため、プログラミング経験の少ないユーザーにとっても強力なツールとなります。",
+        "sections": [
+          {
+            "heading": "プロンプトからサイト生成まで",
+            "content": "Claude Codeに希望するウェブサイトの概要をプロンプトとして入力するだけで、AIが自動的にコードを生成し、ローカルサーバーを起動します。ユーザーは生成されたサイトをブラウザで確認しながら、AIとの対話を通じてデザインや機能を追加・修正していくことができます。"
+          }
+        ],
+        "keyTakeaways": [
+          "単一プロンプトでウェブサイトを自動生成",
+          "AIとの対話でサイトを直感的に編集",
+          "プログラミング初心者でも簡単に開発可能"
+        ],
+        "sourceUrl": "https://www.oliur.com/build-websites-with-claude-code"
+      }
+    }
+  ],
+  "briefs": [
+    {"headline": "OpenAIが医療技術スタートアップTorchを買収", "text": "OpenAIは、医療技術スタートアップTorchを約6000万ドルで買収したと報じられました。ChatGPT Health製品の強化と医療データAIの強化が目的とされています。"},
+    {"headline": "OllamaのJSON出力問題と500万ダウンロード達成", "text": "Ollamaは500万ダウンロードを達成しましたが、同時にJSON出力における幻覚問題が開発者の間で話題になっています。標準サンプリングが決定論的な構造を妨げることが原因とされています。"},
+    {"headline": "Google Geminiを支えるJAXでLLMを構築", "text": "DeepLearning.AIのコースで、Google Geminiの基盤となっているオープンソースライブラリJAXを用いて、20MパラメータのLLMを一から構築する方法が紹介されています。"},
+    {"headline": "AIエージェントの包括的ガイドが公開", "text": "AIエージェントのアーキテクチャ、ツール、実装に関する包括的なガイドがDEV Communityで公開されました。LLMに機能セットを定義して提供することでエージェントを実装するアプローチが説明されています。"}
+  ],
+  "opinions": [
+    {
+      "id": "opinion-1",
+      "authorLabel": "X投稿：",
+      "author": "@karpathy (Andrej Karpathy)",
+      "headline": "Andrej Karpathyが指摘する「Vibe Coding」とClaude Codeの文脈理解の限界",
+      "excerpt": "OpenAIの研究者Andrej Karpathy氏は、AIエージェントによる「Vibe Coding」の概念と、特にClaude Codeにおける文脈理解の課題について言及しました。文脈が不足するとAIの生成精度が低下するだけでなく、文脈が増えすぎても不正確になる可能性があると指摘しています。",
+      "fullContent": {
+        "introduction": "Andrej Karpathy氏の最近のポッドキャストインタビューでは、AIコーディングにおける「Vibe Coding」という現象と、Claude Codeを含むAIモデルがコンテキストをどのように処理するかの限界について議論されました。これは、AIを活用した開発における重要な洞察を提供します。",
+        "sections": [
+          {
+            "heading": "Vibe Codingの本質",
+            "content": "Karpathy氏は、AIエージェントが「slop」（不確実な、不安定なコード）を生成するリスクを強調し、これはコンテキスト理解の限界に起因すると説明しています。初期段階でのコンテキスト不足は明白な問題ですが、コンテキストが過度に増えることもまた、AIの理解を複雑にし、不正確な出力を招く可能性があるとのことです。"
+          }
+        ],
+        "keyTakeaways": [
+          "AIは文脈不足と過多の両方で不正確になるリスク",
+          "「Vibe Coding」はAI生成コードの品質問題を示唆",
+          "Claude Codeのコンテキスト管理に注意が必要"
+        ],
+        "sourceUrl": "https://www.36kr.com/p/3706413051146375"
+      }
+    },
+    {
+      "id": "opinion-2",
+      "authorLabel": "X投稿：",
+      "author": "@swyx (swyx)",
+      "headline": "Swyxが語るClaude Codeの文脈長制限とメモリ制約",
+      "excerpt": "AIエンジニアリングの著名なインフルエンサーswyx氏は、Claude Codeが「初誕生日」を迎える中で、コンテキスト長のスケールがメモリ制約にぶつかっているという懸念を表明しました。これは、AIコーディングエージェントの実用化における課題を示唆しています。",
+      "fullContent": {
+        "introduction": "swyx氏のコメントは、Claude Codeのような先進的なAIコーディングエージェントが直面する現実的な技術的制約に焦点を当てています。特に、複雑なプロジェクトや大規模なコードベースを扱う際に、コンテキスト長の管理が重要な課題となっています。",
+        "sections": [
+          {
+            "heading": "コンテキスト長の制約が開発に与える影響",
+            "content": "AIモデルが処理できる情報の量には限界があり、これが「メモリ制約」として現れます。swyx氏の指摘は、AIがより大規模な問題を解決しようとするとき、この制約がボトルネックとなり、開発者が期待するようなシームレスな体験を提供できない可能性があることを示唆しています。"
+          }
+        ],
+        "keyTakeaways": [
+          "Claude Codeのコンテキスト長はメモリ制約に直面",
+          "大規模プロジェクトでのAIエージェント活用に課題",
+          "AIコーディングの実用化における技術的限界"
+        ],
+        "sourceUrl": "https://www.latent.space/p/wtf2025"
+      }
+    }
+  ]
+}
